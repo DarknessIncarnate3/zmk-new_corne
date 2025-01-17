@@ -97,6 +97,16 @@
         keep-mods = <(MOD_LCTL|MOD_LGUI|MOD_LALT)>;
     };
 
+    morph_entertab: morph_entertab {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MORPH_ENTERTAB";
+        bindings = <&mt LGUI ENTER>, <&kp TAB>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LALT)>;
+        keep-mods = <(MOD_LALT)>;
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
