@@ -37,6 +37,9 @@
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
         bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
+
+        tap-ms = <1>;
+        label = "brightness";
     };
 
     scroll_encoder: scroll_encoder {
@@ -89,13 +92,13 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&to 0  &none         &none         &none         &none         &none                         &none         &none  &none  &none  &none  &none  &bt BT_CLR
-&to 4  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4           &none  &none  &none  &none  &none  &none  &none  &none  &trans
-&to 5  &none         &none         &none         &none         &none         &none           &none         &none  &none  &none  &none  &none  &none
-                                   &none         &none         &none                                       &none  &none  &none
+&to 0  &none         &none         &none         &none         &none                                             &rgb_ug RGB_SAI                                 &none  &none  &none  &none  &none  &bt BT_CLR
+&to 4  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                     &rgb_ug RGB_HUD  &rgb_ug RGB_COLOR_HSB(0,0,75)  &rgb_ug RGB_HUI  &none  &none  &none  &none  &none  &trans
+&to 5  &none         &none         &none         &none         &none         &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                                 &none  &none  &none  &none  &none  &none
+                                   &none         &none         &none                                                                                             &none  &none  &none
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rgb_encoder>;
         };
 
         layer_4 {
