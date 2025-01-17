@@ -172,10 +172,10 @@
 
         layer_5 {
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F      &kp P      &kp G                          &kp UP               &kp J        &kp L   &kp U         &kp Y    &kp SEMI  &kp BSPC
-&kp LCTRL  &kp A  &kp R  &kp S      &kp T      &kp D                &kp LEFT  &kp RET   &kp RIGHT  &kp H        &kp N   &kp E         &kp I    &kp O     &kp APOS
-&kp LSHFT  &kp Z  &kp X  &kp C      &kp V      &kp B      &trans              &kp DOWN             &kp K        &kp M   &kp COMMA     &kp DOT  &kp FSLH  &kp RSHFT
-                         &kp RSHFT  &kp SPACE  &lt 1 ESC                                           &lt 1 ENTER  &trans  &lt 2 DELETE
+&kp TAB    &kp Q  &kp W  &kp F      &kp P      &kp G                              &kp UP               &kp J        &kp L   &kp U         &kp Y    &kp SEMI  &kp BSPC
+&kp LCTRL  &kp A  &kp R  &kp S      &kp T      &kp D                    &kp LEFT  &kp RET   &kp RIGHT  &kp H        &kp N   &kp E         &kp I    &kp O     &kp APOS
+&kp LSHFT  &kp Z  &kp X  &kp C      &kp V      &kp B      &kp C_MUTE              &kp DOWN             &kp K        &kp M   &kp COMMA     &kp DOT  &kp FSLH  &kp RSHFT
+                         &lt 6 SQT  &kp SPACE  &lt 1 ESC                                               &lt 1 ENTER  &trans  &lt 2 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
