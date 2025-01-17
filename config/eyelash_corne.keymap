@@ -115,10 +115,10 @@
         layer_1 {
             display-name = "num";
             bindings = <
-&kp TAB                        &kp DOT  &kp PLUS  &kp MINUS  &kp STAR               &kp FSLH                               &kp UP               &kp GRAVE  &none      &none   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp BACKSPACE
-&mt LEFT_CONTROL MINUS         &kp N1   &kp N2    &kp N3     &kp N4                 &kp N5                       &kp LEFT  &kp RET   &kp RIGHT  &kp N6     &kp N7     &kp N8  &kp N9            &kp N0             &lt 3 SQT
-&mt LEFT_ALT NON_US_BACKSLASH  &kp N6   &kp N7    &kp N8     &kp N9                 &kp N0              &none              &kp DOWN             &kp COMMA  &none      &none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &lt 6 SEMICOLON
-                                                  &none      &mt LEFT_SHIFT ESCAPE  &mt LEFT_GUI ENTER                                          &none      &kp ENTER  &none
+&kp TAB                        &kp DOT  &kp PLUS  &kp MINUS              &kp STAR             &kp FSLH                               &kp UP               &none      &none      &none   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp BACKSPACE
+&mt LEFT_CONTROL GRAVE         &kp N1   &kp N2    &kp N3                 &kp N4               &kp N5                       &kp LEFT  &kp RET   &kp RIGHT  &kp N6     &kp N7     &kp N8  &kp N9            &kp N0             &lt 3 SQT
+&mt LEFT_ALT NON_US_BACKSLASH  &kp N6   &kp N7    &kp N8                 &kp N9               &kp N0              &none              &kp DOWN             &kp COMMA  &none      &none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &lt 6 SEMICOLON
+                                                  &mt LEFT_SHIFT ESCAPE  &morph_shiftonspace  &mt LEFT_GUI ENTER                                          &none      &kp ENTER  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
