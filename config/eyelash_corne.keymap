@@ -67,6 +67,26 @@
         keep-mods = <(MOD_LCTL)>;
     };
 
+    morph_controlonalt: morph_controlonalt {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MORPH_CONTROLONALT";
+        bindings = <&mt RALT MINUS>, <&mt LEFT_CONTROL MINUS>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LGUI|MOD_RGUI)>;
+        keep-mods = <(MOD_LGUI|MOD_RGUI)>;
+    };
+
+    morph_shiftonalt: morph_shiftonalt {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MORPH_SHIFTONALT";
+        bindings = <&mt LEFT_ALT NON_US_BACKSLASH>, <&kp LEFT_SHIFT>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LGUI)>;
+        keep-mods = <(MOD_LGUI)>;
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -74,7 +94,7 @@
             display-name = "cole";
             bindings = <
 &kp TAB                        &kp Q  &kp W  &kp F                    &kp P                 &kp G                               &kp UP                &kp J        &kp L      &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
-&morph_ctrescape               &kp A  &kp R  &kp S                    &kp T                 &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N      &kp E      &kp I    &kp O          &lt 3 SQT
+&mt LEFT_CONTROL MINUS         &kp A  &kp R  &kp S                    &kp T                 &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N      &kp E      &kp I    &kp O          &lt 3 SQT
 &mt LEFT_ALT NON_US_BACKSLASH  &kp Z  &kp X  &kp C                    &kp V                 &kp B       &kp C_MUTE              &kp DOWN              &kp K        &kp M      &kp COMMA  &kp DOT  &kp FSLH       &lt 6 GRAVE
                                              &mt LEFT_CONTROL ESCAPE  &mt LEFT_SHIFT SPACE  &morph_tab                                                &lt 3 ENTER  &kp SPACE  &lt 1 DEL
             >;
@@ -85,10 +105,10 @@
         layer_1 {
             display-name = "num";
             bindings = <
-&trans  &kp DOT  &kp PLUS  &kp MINUS  &kp STAR  &kp FSLH                                &kp UP               &kp GRAVE  &kp AMPS   &kp ASTRK  &kp LBKT  &kp RBKT  &trans
-&trans  &kp N1   &kp N2    &kp N3     &kp N4    &kp N5                        &kp LEFT  &kp RET   &kp RIGHT  &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &trans
-&trans  &kp N6   &kp N7    &kp N8     &kp N9    &kp N0              &trans              &kp DOWN             &kp COMMA  &none      &none      &none     &none     &trans
-                           &trans     &trans    &mt LEFT_GUI ENTER                                           &trans     &kp ENTER  &trans
+&kp TAB                        &kp DOT  &kp PLUS  &kp MINUS  &kp STAR               &kp FSLH                               &kp UP               &kp GRAVE  &kp AMPS   &kp ASTRK  &kp LBKT  &kp RBKT  &none
+&kp MINUS                      &kp N1   &kp N2    &kp N3     &kp N4                 &kp N5                       &kp LEFT  &kp RET   &kp RIGHT  &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &none
+&mt LEFT_ALT NON_US_BACKSLASH  &kp N6   &kp N7    &kp N8     &kp N9                 &kp N0              &none              &kp DOWN             &kp COMMA  &none      &none      &none     &none     &none
+                                                  &none      &mt LEFT_SHIFT ESCAPE  &mt LEFT_GUI ENTER                                          &none      &kp ENTER  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
