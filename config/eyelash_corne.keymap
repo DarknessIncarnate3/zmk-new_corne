@@ -87,16 +87,26 @@
         keep-mods = <(MOD_LGUI)>;
     };
 
+    morph_shiftonspace: morph_shiftonspace {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MORPH_SHIFTONSPACE";
+        bindings = <&kp SPACE>, <&mt LEFT_SHIFT SPACE>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LCTL|MOD_LGUI|MOD_LALT)>;
+        keep-mods = <(MOD_LCTL|MOD_LGUI|MOD_LALT)>;
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             display-name = "cole";
             bindings = <
-&kp TAB                        &kp Q  &kp W  &kp F                    &kp P                 &kp G                               &kp UP                &kp J        &kp L      &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
-&mt LEFT_CONTROL MINUS         &kp A  &kp R  &kp S                    &kp T                 &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N      &kp E      &kp I    &kp O          &lt 3 SQT
-&mt LEFT_ALT NON_US_BACKSLASH  &kp Z  &kp X  &kp C                    &kp V                 &kp B       &kp C_MUTE              &kp DOWN              &kp K        &kp M      &kp COMMA  &kp DOT  &kp FSLH       &lt 6 GRAVE
-                                             &mt LEFT_CONTROL ESCAPE  &mt LEFT_SHIFT SPACE  &morph_tab                                                &lt 3 ENTER  &kp SPACE  &lt 1 DEL
+&kp TAB                        &kp Q  &kp W  &kp F                  &kp P                &kp G                               &kp UP                &kp J        &kp L                &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
+&mt LEFT_CONTROL MINUS         &kp A  &kp R  &kp S                  &kp T                &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N                &kp E      &kp I    &kp O          &lt 3 SQT
+&mt LEFT_ALT NON_US_BACKSLASH  &kp Z  &kp X  &kp C                  &kp V                &kp B       &kp C_MUTE              &kp DOWN              &kp K        &kp M                &kp COMMA  &kp DOT  &kp FSLH       &lt 6 GRAVE
+                                             &mt LEFT_SHIFT ESCAPE  &morph_shiftonspace  &morph_tab                                                &lt 3 ENTER  &morph_shiftonspace  &lt 1 DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
