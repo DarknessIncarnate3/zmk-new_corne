@@ -87,7 +87,7 @@
         };
 
         layer_3 {
-            display-name = "Fn";
+            display-name = "fn";
             bindings = <
 &to 0  &none         &none         &none         &none         &none                                                  &rgb_ug RGB_SAI                                 &bl BL_TOG       &bl BL_INC       &bl BL_DEC  &none  &none  &bt BT_CLR
 &to 4  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &rgb_ug RGB_HUD  &rgb_ug RGB_COLOR_HSB(0,0,75)  &rgb_ug RGB_HUI  &none            &none            &none       &none  &none  &trans
@@ -119,14 +119,15 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            label = "game";
         };
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &kp F11  &kp F12  &trans  &trans  &trans                     &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans  &trans  &trans                                     &trans  &trans  &trans
             >;
         };
     };
