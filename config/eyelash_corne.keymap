@@ -104,7 +104,7 @@
             display-name = "cole";
             bindings = <
 &kp TAB                        &kp Q  &kp W  &kp F                  &kp P                &kp G                               &kp UP                &kp J        &kp L                &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
-&mt LEFT_CONTROL MINUS         &kp A  &kp R  &kp S                  &kp T                &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N                &kp E      &kp I    &kp O          &lt 3 SQT
+&mt RIGHT_ALT MINUS            &kp A  &kp R  &kp S                  &kp T                &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N                &kp E      &kp I    &kp O          &lt 3 SQT
 &mt LEFT_ALT NON_US_BACKSLASH  &kp Z  &kp X  &kp C                  &kp V                &kp B       &kp C_MUTE              &kp DOWN              &kp K        &kp M                &kp COMMA  &kp DOT  &kp FSLH       &lt 6 GRAVE
                                              &mt LEFT_SHIFT ESCAPE  &morph_shiftonspace  &morph_tab                                                &lt 3 ENTER  &morph_shiftonspace  &lt 1 DEL
             >;
@@ -140,12 +140,12 @@
             display-name = "fn";
             bindings = <
 &to 0  &none         &none         &none         &none         &none                                                  &rgb_ug RGB_SAI                                 &bl BL_TOG       &bl BL_INC       &bl BL_DEC  &none  &none  &bt BT_CLR
-&to 4  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &rgb_ug RGB_HUD  &rgb_ug RGB_COLOR_HSB(0,0,75)  &rgb_ug RGB_HUI  &none            &none            &none       &none  &none  &trans
+&to 4  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &rgb_ug RGB_HUD  &rgb_ug RGB_COLOR_HSB(0,0,30)  &rgb_ug RGB_HUI  &none            &none            &none       &none  &none  &trans
 &to 5  &none         &none         &out OUT_BLE  &out OUT_USB  &ext_power EP_TOG  &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                                 &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &none       &none  &none  &none
                                    &none         &none         &none                                                                                                  &to 1            &to 2            &to 0
             >;
 
-            sensor-bindings = <&rgb_encoder>;
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
         layer_4 {
