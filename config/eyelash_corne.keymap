@@ -83,7 +83,7 @@
                                              &trans          &trans           &mt LEFT_GUI ENTER                                           &to 1             &to 2           &to 0
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_FAST_FORWARD C_REWIND>;
         };
 
         layer_3 {
