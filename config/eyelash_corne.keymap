@@ -118,10 +118,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&kp TAB    &trans  &trans  &trans    &trans     &trans                       &trans          &trans  &trans  &trans  &trans  &trans  &kp BSPC
+&kp LCTRL  &trans  &trans  &trans    &trans     &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &trans  &trans  &trans    &trans     &trans     &trans            &trans          &trans  &trans  &trans  &trans  &trans  &kp BSLH
+                           &kp LALT  &kp SPACE  &lt 1 ESC                                    &trans  &trans  &trans
             >;
         };
     };
