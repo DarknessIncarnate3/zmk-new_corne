@@ -55,7 +55,7 @@
             bindings = <
 &kp TAB                        &kp Q  &kp W  &kp F                    &kp P                 &kp G                             &kp UP                &kp J        &kp L      &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
 &mt RIGHT_ALT MINUS            &kp A  &kp R  &kp S                    &kp T                 &kp D                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N      &kp E      &kp I    &kp O          &lt 3 SQT
-&mt LEFT_ALT NON_US_BACKSLASH  &kp Z  &kp X  &kp C                    &kp V                 &kp B     &kp C_MUTE              &kp DOWN              &kp K        &kp M      &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
+&mt LEFT_ALT NON_US_BACKSLASH  &kp Z  &kp X  &kp C                    &kp V                 &kp B     &kp C_MUTE              &kp DOWN              &kp K        &kp M      &kp COMMA  &kp DOT  &kp FSLH       &lt 6 GRAVE
                                              &mt LEFT_CONTROL ESCAPE  &mt LEFT_SHIFT SPACE  &kp LGUI                                                &lt 3 ENTER  &kp SPACE  &lt 1 DEL
             >;
 
