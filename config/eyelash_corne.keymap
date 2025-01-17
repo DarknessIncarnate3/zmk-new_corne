@@ -83,10 +83,10 @@
         layer_2 {
             display-name = "nav";
             bindings = <
-&trans  &none  &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &none                         &trans             &kp C_NEXT        &kp HOME        &kp PAGE_DOWN   &kp PAGE_DOWN  &kp END          &kp DEL
-&trans  &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none                 &trans  &mkp MCLK  &trans  &kp C_PLAY_PAUSE  &kp LEFT        &kp DOWN        &kp UP         &kp RIGHT        &trans
-&trans  &none  &none           &mkp MCLK       &trans           &none   &kp C_MUTE            &trans             &kp C_PREVIOUS    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &kp PRINTSCREEN
-                               &trans          &trans           &trans                                           &to 1             &to 2           &to 0
+&trans  &none  &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &none                                     &trans             &kp C_NEXT        &kp HOME        &kp PAGE_DOWN   &kp PAGE_DOWN  &kp END          &kp DEL
+&trans  &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none                             &trans  &mkp MCLK  &trans  &kp C_PLAY_PAUSE  &kp LEFT        &kp DOWN        &kp UP         &kp RIGHT        &trans
+&trans  &none  &none           &mkp MCLK       &trans           &none               &kp C_MUTE            &trans             &kp C_PREVIOUS    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &kp PRINTSCREEN
+                               &trans          &trans           &mt LEFT_GUI ENTER                                           &to 1             &to 2           &to 0
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -95,10 +95,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&to 0  &none         &none         &none         &none         &none                                                   &rgb_ug RGB_SAI                                 &bl BL_TOG       &bl BL_INC       &bl BL_DEC  &none  &none  &bt BT_CLR
-&to 4  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                           &rgb_ug RGB_HUD  &rgb_ug RGB_COLOR_HSB(0,0,75)  &rgb_ug RGB_HUI  &none            &none            &none       &none  &none  &trans
-&to 5  &none         &none         &out OUT_BLE  &out OUT_USB  &ext_power EP_TOG   &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                                 &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &none       &none  &none  &none
-                                   &none         &none         &mt LEFT_GUI ENTER                                                                                      &to 1            &to 2            &to 0
+&to 0  &none         &none         &none         &none         &none                                                  &rgb_ug RGB_SAI                                 &bl BL_TOG       &bl BL_INC       &bl BL_DEC  &none  &none  &bt BT_CLR
+&to 4  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &rgb_ug RGB_HUD  &rgb_ug RGB_COLOR_HSB(0,0,75)  &rgb_ug RGB_HUI  &none            &none            &none       &none  &none  &trans
+&to 5  &none         &none         &out OUT_BLE  &out OUT_USB  &ext_power EP_TOG  &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                                 &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &none       &none  &none  &none
+                                   &none         &none         &none                                                                                                  &to 1            &to 2            &to 0
             >;
 
             sensor-bindings = <&rgb_encoder>;
