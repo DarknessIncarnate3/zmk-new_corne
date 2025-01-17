@@ -115,7 +115,7 @@
 &kp TAB                        &kp Q             &kp W  &kp F                    &kp P                &kp G                               &kp UP                &kp J        &kp L                 &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
 &morph_controlonalt            &kp A             &kp R  &kp S                    &kp T                &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N                 &kp E      &kp I    &kp O          &lt 3 SQT
 &mt LEFT_ALT NON_US_BACKSLASH  &mt LEFT_SHIFT Z  &kp X  &kp C                    &kp V                &kp B       &kp C_MUTE              &kp DOWN              &kp K        &kp M                 &kp COMMA  &kp DOT  &kp FSLH       &lt 6 GRAVE
-                                                        &mt LEFT_CONTROL ESCAPE  &morph_shiftonspace  &morph_tab                                                &lt 3 ENTER  &mt LEFT_SHIFT SPACE  &lt 1 DEL
+                                                        &mt LEFT_CONTROL ESCAPE  &morph_shiftonspace  &morph_tab                                                &lt 2 ENTER  &mt LEFT_SHIFT SPACE  &lt 1 DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -184,10 +184,10 @@
 
         layer_6 {
             bindings = <
-&none  &kp F11  &kp F12  &none   &none   &none                    &none         &none  &none  &none  &none  &none  &none
-&none  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5            &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &none           &none         &none  &none  &none  &none  &none  &none
-                         &none   &none   &none                                  &none  &none  &none
+&none  &kp F11  &kp F12  &none   &none   &none                    &none         &kp LS(LC(LA(F11)))  &kp LS(LA(LC(F12)))  &none               &none               &none                &none
+&none  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5            &none  &none  &none  &kp LC(LA(LS(F1)))   &kp LC(LA(LS(F2)))   &kp LS(LC(LA(F3)))  &kp LS(LA(LC(F4)))  &kp LS(LA(LC(F5)))   &none
+&none  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &none           &none         &kp LS(LA(LC(F6)))   &kp LS(LA(LC(F7)))   &kp LS(LA(LC(F8)))  &kp LS(LA(LC(F9)))  &kp LS(LC(LA(F10)))  &none
+                         &none   &none   &none                                  &none                &none                &none
             >;
 
             label = "f1";
