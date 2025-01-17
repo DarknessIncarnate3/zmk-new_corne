@@ -83,10 +83,10 @@
         layer_2 {
             display-name = "nav";
             bindings = <
-&trans  &none  &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &kp C_SNAPSHOT                            &trans             &kp C_NEXT        &kp HOME        &kp PAGE_DOWN   &kp PAGE_DOWN  &kp END          &kp DEL
-&trans  &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none                             &trans  &mkp MCLK  &trans  &kp C_PLAY_PAUSE  &kp LEFT        &kp DOWN        &kp UP         &kp RIGHT        &trans
-&trans  &none  &none           &mkp MCLK       &trans           &none               &kp C_MUTE            &trans             &kp C_PREVIOUS    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &kp PRINTSCREEN
-                               &trans          &trans           &mt LEFT_GUI ENTER                                           &to 1             &to 2           &to 0
+&trans  &kp C_VOICE_COMMAND  &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &kp C_SNAPSHOT                            &trans             &kp C_NEXT        &kp HOME        &kp PAGE_DOWN   &kp PAGE_DOWN  &kp END          &kp DEL
+&trans  &none                &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none                             &trans  &mkp MCLK  &trans  &kp C_PLAY_PAUSE  &kp LEFT        &kp DOWN        &kp UP         &kp RIGHT        &trans
+&trans  &none                &none           &mkp MCLK       &trans           &none               &kp C_MUTE            &trans             &kp C_PREVIOUS    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &kp PRINTSCREEN
+                                             &trans          &trans           &mt LEFT_GUI ENTER                                           &to 1             &to 2           &to 0
             >;
 
             sensor-bindings = <&scroll_encoder>;
