@@ -45,9 +45,9 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
   - {t: LGUI, s: '$$mdi:keyboard-tab$$'}
-  - {t: '$$mdi:keyboard-return$$', h: fn}
+  - {t: '$$mdi:keyboard-return$$', h: num}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: num}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: nav}
   game:
   - $$mdi:keyboard-tab$$
   - Q
@@ -145,7 +145,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-command$$', type: held alternate}
   - {t: cole, h: toggle, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: nav, type: held alternate}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: nav}
   nav:
   - $$mdi:keyboard-tab$$
   - VOICE COMMAND
@@ -243,7 +243,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: num, h: toggle, type: held alternate}
   - {t: nav, h: toggle}
-  - {t: cole, h: toggle, type: held alternate}
+  - {t: cole, h: toggle}
   f1:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F11
@@ -292,7 +292,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   func:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
