@@ -53,7 +53,7 @@
         bindings = <&dance_num>, <&kp TAB>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LALT)>;
+        mods = <(MOD_LALT|MOD_RCTL)>;
         keep-mods = <(MOD_LALT)>;
     };
 
