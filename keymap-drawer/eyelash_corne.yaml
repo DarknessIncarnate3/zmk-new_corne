@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '&dance_dashcap', s: '-'}
+  - {t: '&dance_spacecap', s: '-'}
   - A
   - S
   - D
@@ -307,7 +307,7 @@ layers:
   - HELP
   - MENU
   - EXEC
-  - {t: '&dance_dashcap', type: held}
+  - {t: '&dance_spacecap', type: held}
   - U
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
