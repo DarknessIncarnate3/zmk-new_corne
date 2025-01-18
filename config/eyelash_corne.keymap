@@ -139,7 +139,6 @@
         bindings = <&mo>, <&dance_num>;
 
         #binding-cells = <2>;
-        retro-tap;
         tapping-term-ms = <200>;
         quick-tap-ms = <175>;
         flavor = "balanced";
