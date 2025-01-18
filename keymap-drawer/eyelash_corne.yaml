@@ -308,7 +308,7 @@ layers:
   - MENU
   - EXEC
   - {t: '&dance_dash', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - U
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:alpha-w-box$$
