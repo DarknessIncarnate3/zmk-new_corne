@@ -184,7 +184,7 @@
             display-name = "cole";
         };
 
-        layer_1 {
+        layer_num {
             display-name = "num";
             bindings = <
 &kp TAB                 &none                  &kp N7  &kp N8                 &kp N9               &kp PLUS                               &kp UP               &caps_word  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none  &kp RIGHT_BRACE    &kp BACKSPACE
@@ -194,6 +194,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+            label = "num";
         };
 
         layer_nav {
