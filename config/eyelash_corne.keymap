@@ -220,7 +220,7 @@
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
-        layer_6 {
+        layer_f1 {
             bindings = <
 &none  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &none         &kp LS(LC(LA(F11)))  &kp LS(LA(LC(F12)))  &none               &none               &none                &none
 &none  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5            &none  &none  &none  &kp LC(LA(LS(F1)))   &kp LC(LA(LS(F2)))   &kp LS(LC(LA(F3)))  &kp LS(LA(LC(F4)))  &kp LS(LA(LC(F5)))   &lt 5 SQT
