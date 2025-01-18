@@ -133,13 +133,13 @@
 
         c_bracket {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <23 43>;
+            key-positions = <23 44>;
             layers = <0>;
         };
 
         c_bracket2 {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <43 24>;
+            key-positions = <24 44>;
             layers = <0>;
         };
     };
