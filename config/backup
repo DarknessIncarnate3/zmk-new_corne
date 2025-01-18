@@ -1,1 +1,221 @@
+#include <dt-bindings/zmk/mouse.h>
+#include <input/processors.dtsi>
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/rgb.h>
 
+/*
+
+   &mmv_input_listener {
+       input-processors = <&zip_xy_scaler 2 1>;
+   };
+
+   &msc_input_listener {
+       input-processors = <&zip_xy_scaler 2 1>;
+   };
+
+ */
+
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
+#define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
+
+/ {
+    behaviors {
+    };
+
+    rgb_encoder: rgb_encoder {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
+
+        tap-ms = <1>;
+        label = "brightness";
+    };
+
+    scroll_encoder: scroll_encoder {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
+        tap-ms = <30>;
+    };
+
+    morph_tab: morph_tab {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MORPH_TAB";
+        bindings = <&kp LGUI>, <&kp TAB>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LALT)>;
+        keep-mods = <(MOD_LALT)>;
+    };
+
+    morph_ctrescape: morph_ctrescape {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MORPH_CTRESCAPE";
+        bindings = <&mt RIGHT_ALT MINUS>, <&kp ESC>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LCTL)>;
+        keep-mods = <(MOD_LCTL)>;
+    };
+
+    morph_controlonalt: morph_controlonalt {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MORPH_CONTROLONALT";
+        bindings = <&mt RALT MINUS>, <&mt LEFT_CONTROL MINUS>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LGUI|MOD_RGUI|MOD_LSFT|MOD_LALT)>;
+        keep-mods = <(MOD_LGUI|MOD_RGUI|MOD_LSFT|MOD_LALT)>;
+    };
+
+    morph_shiftonalt: morph_shiftonalt {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MORPH_SHIFTONALT";
+        bindings = <&mt LEFT_ALT NON_US_BACKSLASH>, <&kp LEFT_SHIFT>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LGUI|MOD_LCTL)>;
+        keep-mods = <(MOD_LGUI|MOD_LCTL)>;
+    };
+
+    morph_shiftonspace: morph_shiftonspace {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MORPH_SHIFTONSPACE";
+        bindings = <&kp SPACE>, <&mt LEFT_SHIFT SPACE>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LCTL|MOD_LGUI|MOD_LALT)>;
+        keep-mods = <(MOD_LCTL|MOD_LGUI|MOD_LALT)>;
+    };
+
+    morph_entertab: morph_entertab {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MORPH_ENTERTAB";
+        bindings = <&mt LGUI ENTER>, <&kp TAB>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LALT)>;
+        keep-mods = <(MOD_LALT)>;
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        testmacro {
+            bindings = <&kp LG(E)>;
+            key-positions = <23 24 25>;
+            timeout-ms = <100>;
+            layers = <6>;
+        };
+
+        alignleft {
+            bindings = <&kp LS(LG(LEFT_ARROW))>;
+            key-positions = <23 24>;
+            timeout-ms = <100>;
+            layers = <6>;
+        };
+
+        alignright {
+            bindings = <&kp LS(LG(RIGHT_ARROW))>;
+            key-positions = <24 25>;
+            timeout-ms = <100>;
+            layers = <6>;
+        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            display-name = "cole";
+            bindings = <
+&kp TAB                        &kp Q             &kp W  &kp F                    &kp P                &kp G                               &kp UP                &kp J        &kp L                 &kp U                &kp Y    &kp SEMICOLON  &kp BSPC
+&morph_controlonalt            &kp A             &kp R  &kp S                    &kp T                &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N                 &kp E                &kp I    &kp O          &lt 3 SQT
+&mt LEFT_ALT NON_US_BACKSLASH  &mt LEFT_SHIFT Z  &kp X  &kp C                    &kp V                &kp B       &kp C_MUTE              &kp DOWN              &kp K        &kp M                 &kp COMMA            &kp DOT  &kp FSLH       &lt 6 GRAVE
+                                                        &mt LEFT_CONTROL ESCAPE  &morph_shiftonspace  &morph_tab                                                &lt 2 ENTER  &mt LEFT_SHIFT SPACE  &lt 1 LC(BACKSPACE)
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+
+        layer_1 {
+            display-name = "num";
+            bindings = <
+&kp TAB                 &kp DOT  &kp PLUS  &kp MINUS              &kp STAR             &kp FSLH                               &kp UP               &caps_word  &none          &none             &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp BACKSPACE
+&mt LEFT_CONTROL GRAVE  &kp N1   &kp N2    &kp N3                 &kp N4               &kp N5                       &kp LEFT  &kp RET   &kp RIGHT  &kp N6      &kp N7         &kp N8            &kp N9            &kp N0             &lt 3 SQT
+&morph_shiftonalt       &kp N6   &kp N7    &kp N8                 &kp N9               &kp N0              &none              &kp DOWN             &kp COMMA   &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &lt 6 SEMICOLON
+                                           &mt LEFT_SHIFT ESCAPE  &morph_shiftonspace  &mt LEFT_GUI ENTER                                          &none       &kp ENTER      &lt 2 DEL
+            >;
+
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+        };
+
+        layer_2 {
+            display-name = "nav";
+            bindings = <
+&kp TAB                        &kp C_VOICE_COMMAND  &mkp RCLK       &mmv MOVE_UP             &mkp LCLK            &kp BACKSPACE                                  &mmv MOVE_UP                     &kp C_NEXT        &kp HOME        &kp PAGE_DOWN   &kp PAGE_DOWN  &kp END          &kp DEL
+&none                          &none                &mmv MOVE_LEFT  &mmv MOVE_DOWN           &mmv MOVE_RIGHT      &none                          &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &kp C_PLAY_PAUSE  &kp LEFT        &kp DOWN        &kp UP         &kp RIGHT        &none
+&mt LEFT_ALT NON_US_BACKSLASH  &kp LEFT_SHIFT       &none           &mkp MCLK                &none                &kp C_SNAPSHOT   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp C_PREVIOUS    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &kp PRINTSCREEN
+                                                                    &mt LEFT_CONTROL ESCAPE  &morph_shiftonspace  &morph_entertab                                                                 &lt 1 ENTER       &kp SPACE       &to 0
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_FAST_FORWARD C_REWIND>;
+        };
+
+        layer_3 {
+            display-name = "fn";
+            bindings = <
+&to 0  &none         &none         &none         &none         &none                                                  &rgb_ug RGB_SAI                                 &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &none  &none  &none  &bt BT_CLR
+&to 4  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &rgb_ug RGB_HUD  &rgb_ug RGB_COLOR_HSB(0,0,30)  &rgb_ug RGB_HUI  &none            &none            &none  &none  &none  &none
+&to 5  &none         &none         &out OUT_BLE  &out OUT_USB  &ext_power EP_TOG  &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                                 &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &none  &none  &none  &none
+                                   &none         &none         &none                                                                                                  &to 1            &to 2            &to 0
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+        };
+
+        layer_4 {
+            bindings = <
+&kp TAB                        &kp Q             &kp W  &kp E                    &kp R                &kp T                               &kp UP                &kp Y        &kp U                 &kp I      &kp O    &kp P     &kp BSPC
+&morph_controlonalt            &kp A             &kp S  &kp D                    &kp F                &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J                 &kp K      &kp L    &kp SEMI  &lt 3 SQT
+&mt LEFT_ALT NON_US_BACKSLASH  &mt LEFT_SHIFT Z  &kp X  &kp C                    &kp V                &kp B       &kp C_MUTE              &kp DOWN              &kp N        &kp M                 &kp COMMA  &kp DOT  &kp FSLH  &lt 6 GRAVE
+                                                        &mt LEFT_CONTROL ESCAPE  &morph_shiftonspace  &morph_tab                                                &lt 3 ENTER  &mt LEFT_SHIFT SPACE  &lt 1 DEL
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            label = "qwerty";
+            display-name = "cole";
+        };
+
+        layer_5 {
+            bindings = <
+&kp TAB    &kp Q  &kp W  &kp F      &kp P      &kp G                              &kp UP               &kp J        &kp L   &kp U         &kp Y    &kp SEMI  &kp BSPC
+&kp LCTRL  &kp A  &kp R  &kp S      &kp T      &kp D                    &kp LEFT  &kp RET   &kp RIGHT  &kp H        &kp N   &kp E         &kp I    &kp O     &kp APOS
+&kp LSHFT  &kp Z  &kp X  &kp C      &kp V      &kp B      &kp C_MUTE              &kp DOWN             &kp K        &kp M   &kp COMMA     &kp DOT  &kp FSLH  &kp RSHFT
+                         &lt 6 SQT  &kp SPACE  &lt 1 ESC                                               &lt 1 ENTER  &trans  &lt 2 DELETE
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            label = "game";
+        };
+
+        layer_6 {
+            bindings = <
+&none  &kp F11  &kp F12  &kp F13   &kp F14   &kp F15                    &none         &kp LS(LC(LA(F11)))  &kp LS(LA(LC(F12)))  &none               &none               &none                &none
+&none  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5            &none  &none  &none  &kp LC(LA(LS(F1)))   &kp LC(LA(LS(F2)))   &kp LS(LC(LA(F3)))  &kp LS(LA(LC(F4)))  &kp LS(LA(LC(F5)))   &lt 3 SQT
+&none  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &none           &none         &kp LS(LA(LC(F6)))   &kp LS(LA(LC(F7)))   &kp LS(LA(LC(F8)))  &kp LS(LA(LC(F9)))  &kp LS(LC(LA(F10)))  &none
+                         &none   &none   &none                                  &none                &none                &none
+            >;
+
+            label = "f1";
+        };
+    };
+};
