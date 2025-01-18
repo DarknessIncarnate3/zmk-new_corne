@@ -50,7 +50,7 @@
     morph_tab: morph_tab {
         compatible = "zmk,behavior-mod-morph";
         label = "MORPH_TAB";
-        bindings = <&kp LGUI>, <&kp TAB>;
+        bindings = <&dance_num>, <&kp TAB>;
 
         #binding-cells = <0>;
         mods = <(MOD_LALT)>;
@@ -124,8 +124,6 @@
 
         tapping-term-ms = <175>;
     };
-
-
 
     dance_test: dance_test {
         compatible = "zmk,behavior-tap-dance";
