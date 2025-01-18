@@ -113,7 +113,7 @@
         #binding-cells = <0>;
         bindings = <&lt 7 MINUS>, <&caps_word>;
 
-        tapping-term-ms = <90>;
+        tapping-term-ms = <120>;
     };
 
     combos {
