@@ -116,6 +116,15 @@
         tapping-term-ms = <175>;
     };
 
+    dance_num: dance_num {
+        compatible = "zmk,behavior-tap-dance";
+        label = "DANCE_NUM";
+        #binding-cells = <0>;
+        bindings = <&kp LGUI>, <&num_word>;
+
+        tapping-term-ms = <200>;
+    };
+
     dance_test: dance_test {
         compatible = "zmk,behavior-tap-dance";
         label = "DANCE_TEST";
