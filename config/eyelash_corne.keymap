@@ -188,8 +188,8 @@
             display-name = "num";
             bindings = <
 &kp TAB                 &kp MINUS              &kp N7  &kp N8                 &kp N9               &kp PLUS                               &kp UP               &caps_word  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none  &kp RIGHT_BRACE    &kp BACKSPACE
-&mt LEFT_CONTROL GRAVE  &kp SLASH              &kp N4  &kp N5                 &kp N6               &kp ASTERISK                 &kp LEFT  &kp RET   &kp RIGHT  &none       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none  &kp N0             &lt 5 SQT
-&morph_shiftonalt       &mt LEFT_SHIFT PERIOD  &kp N1  &kp N2                 &kp N3               &none               &none              &kp DOWN             &kp COMMA   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none  &kp RIGHT_BRACKET  &lt 6 SEMICOLON
+&mt LEFT_CONTROL GRAVE  &kp NUMBER_0           &kp N4  &kp N5                 &kp N6               &kp ASTERISK                 &kp LEFT  &kp RET   &kp RIGHT  &none       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none  &kp N0             &lt 5 SQT
+&morph_shiftonalt       &mt LEFT_SHIFT PERIOD  &kp N1  &kp N2                 &kp N3               &kp SLASH           &none              &kp DOWN             &kp COMMA   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none  &kp RIGHT_BRACKET  &lt 6 SEMICOLON
                                                        &mt LEFT_SHIFT ESCAPE  &morph_shiftonspace  &mt LEFT_GUI ENTER                                          &none       &kp ENTER             &lt 4 DEL
             >;
 
