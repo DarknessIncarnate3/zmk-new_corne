@@ -146,7 +146,7 @@
 &kp TAB                        &kp Q             &kp W  &kp F                    &kp P                &kp G                               &kp UP                &kp J        &kp L                 &kp U                &kp Y    &kp SEMICOLON  &kp BSPC
 &morph_controlonalt            &kp A             &kp R  &kp S                    &kp T                &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N                 &kp E                &kp I    &kp O          &lt 3 SQT
 &mt LEFT_ALT NON_US_BACKSLASH  &mt LEFT_SHIFT Z  &kp X  &kp C                    &kp V                &kp B       &kp C_MUTE              &kp DOWN              &kp K        &kp M                 &kp COMMA            &kp DOT  &kp FSLH       &lt 6 GRAVE
-                                                        &mt LEFT_CONTROL ESCAPE  &morph_shiftonspace  &morph_tab                                                &lt 2 ENTER  &mt LEFT_SHIFT SPACE  &lt 1 LC(BACKSPACE)
+                                                        &mt LEFT_CONTROL ESCAPE  &morph_shiftonspace  &morph_tab                                                &lt 1 ENTER  &mt LEFT_SHIFT SPACE  &lt 2 LC(BACKSPACE)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -181,7 +181,7 @@
             bindings = <
 &to 0  &none         &none         &none         &none         &none                                                  &rgb_ug RGB_SAI                                 &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &none  &none  &none  &bt BT_CLR
 &to 4  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &rgb_ug RGB_HUD  &rgb_ug RGB_COLOR_HSB(0,0,30)  &rgb_ug RGB_HUI  &none            &none            &none  &none  &none  &none
-&to 5  &bt BT_SEL 5         &bt BT_SEL 6         &out OUT_BLE  &out OUT_USB  &ext_power EP_TOG  &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                                 &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &none  &none  &none  &none
+&to 5  &bt BT_SEL 5  &bt BT_SEL 6  &out OUT_BLE  &out OUT_USB  &ext_power EP_TOG  &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                                 &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &none  &none  &none  &none
                                    &none         &none         &none                                                                                                  &to 1            &to 2            &to 0
             >;
 
@@ -215,10 +215,10 @@
 
         layer_6 {
             bindings = <
-&none  &kp F11  &kp F12  &kp F13   &kp F14   &kp F15                    &none         &kp LS(LC(LA(F11)))  &kp LS(LA(LC(F12)))  &none               &none               &none                &none
-&none  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5            &none  &none  &none  &kp LC(LA(LS(F1)))   &kp LC(LA(LS(F2)))   &kp LS(LC(LA(F3)))  &kp LS(LA(LC(F4)))  &kp LS(LA(LC(F5)))   &lt 3 SQT
-&none  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &none           &none         &kp LS(LA(LC(F6)))   &kp LS(LA(LC(F7)))   &kp LS(LA(LC(F8)))  &kp LS(LA(LC(F9)))  &kp LS(LC(LA(F10)))  &none
-                         &none   &none   &none                                  &none                &none                &none
+&none  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &none         &kp LS(LC(LA(F11)))  &kp LS(LA(LC(F12)))  &none               &none               &none                &none
+&none  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5            &none  &none  &none  &kp LC(LA(LS(F1)))   &kp LC(LA(LS(F2)))   &kp LS(LC(LA(F3)))  &kp LS(LA(LC(F4)))  &kp LS(LA(LC(F5)))   &lt 3 SQT
+&none  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &none           &none         &kp LS(LA(LC(F6)))   &kp LS(LA(LC(F7)))   &kp LS(LA(LC(F8)))  &kp LS(LA(LC(F9)))  &kp LS(LC(LA(F10)))  &none
+                         &none    &none    &none                                  &none                &none                &none
             >;
 
             label = "f1";
