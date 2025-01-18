@@ -1,5 +1,6 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <input/processors.dtsi>
+#include <behaviors/num_word.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
@@ -9,7 +10,6 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
-#include <behaviors/num_word.dtsi>
 
 /*
 
@@ -50,7 +50,7 @@
     morph_tab: morph_tab {
         compatible = "zmk,behavior-mod-morph";
         label = "MORPH_TAB";
-        bindings = <&kp LGUI>, <&kp TAB>;
+        bindings = <&dance_num>, <&kp TAB>;
 
         #binding-cells = <0>;
         mods = <(MOD_LALT)>;
