@@ -106,6 +106,31 @@
         keep-mods = <(MOD_LALT)>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        testmacro {
+            bindings = <&kp LG(E)>;
+            key-positions = <23 24 25>;
+            timeout-ms = <100>;
+            layers = <6>;
+        };
+
+        alignleft {
+            bindings = <&kp LS(LG(LEFT_ARROW))>;
+            key-positions = <23 24>;
+            timeout-ms = <100>;
+            layers = <6>;
+        };
+
+        alignright {
+            bindings = <&kp LS(LG(RIGHT_ARROW))>;
+            key-positions = <24 25>;
+            timeout-ms = <100>;
+            layers = <6>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
