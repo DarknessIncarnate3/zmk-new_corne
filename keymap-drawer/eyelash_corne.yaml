@@ -126,8 +126,8 @@ layers:
   - ^
   - $
   - {t: '''', h: fn, s: '"'}
-  - {t: \, h: '$$mdi:apple-keyboard-option$$', s: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ., h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: _}
+  - .
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
@@ -141,7 +141,7 @@ layers:
   - {t: ',', s: <}
   - {t: ;, h: f1, s: ':'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-command$$', type: held alternate}
   - {t: cole, h: toggle, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
