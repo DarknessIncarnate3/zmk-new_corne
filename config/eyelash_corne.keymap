@@ -190,7 +190,7 @@
 &kp TAB                 &kp GRAVE              &kp N1  &kp N2                 &kp N3               &kp ASTERISK                           &kp UP               &kp HASH       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT  &kp EXCLAMATION  &kp BACKSPACE
 &mt LEFT_CONTROL MINUS  &kp NUMBER_0           &kp N4  &kp N5                 &kp N6               &kp PLUS                     &kp LEFT  &kp RET   &kp RIGHT  &kp AT         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET    &kp DOLLAR       &lt 5 SQT
 &morph_shiftonalt       &mt LEFT_SHIFT PERIOD  &kp N7  &kp N8                 &kp N9               &kp SLASH           &none              &kp DOWN             &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL    &kp COMMA        &lt 6 SEMICOLON
-                                                       &mt LEFT_SHIFT ESCAPE  &morph_shiftonspace  &mt LEFT_GUI ENTER                                          &none          &none                 &lt 4 DEL
+                                                       &mt LEFT_SHIFT ESCAPE  &morph_shiftonspace  &mt LEFT_GUI ENTER                                          &to 0          &none                 &lt 4 DEL
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
@@ -224,7 +224,7 @@
         layer_f1 {
             bindings = <
 &none  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &none         &kp LS(LC(LA(F11)))  &kp LS(LA(LC(F12)))  &none               &none               &none                &none
-&none  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5            &none  &none  &none  &kp LC(LA(LS(F1)))   &kp LC(LA(LS(F2)))   &kp LS(LC(LA(F3)))  &kp LS(LA(LC(F4)))  &kp LS(LA(LC(F5)))   &lt 5 SQT
+&none  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5            &none  &none  &none  &kp LC(LA(LS(F1)))   &caps_word           &kp LS(LC(LA(F3)))  &kp LS(LA(LC(F4)))  &kp LS(LA(LC(F5)))   &lt 5 SQT
 &none  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &none           &none         &kp LS(LA(LC(F6)))   &kp LS(LA(LC(F7)))   &kp LS(LA(LC(F8)))  &kp LS(LA(LC(F9)))  &kp LS(LC(LA(F10)))  &none
                          &none    &none    &none                                  &none                &none                &none
             >;
