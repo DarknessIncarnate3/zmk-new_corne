@@ -307,7 +307,7 @@ layers:
   - HELP
   - MENU
   - EXEC
-  - '&dance_dash'
+  - {t: '&dance_dash', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
