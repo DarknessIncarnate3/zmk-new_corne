@@ -70,7 +70,7 @@
     morph_controlonalt: morph_controlonalt {
         compatible = "zmk,behavior-mod-morph";
         label = "MORPH_CONTROLONALT";
-        bindings = <&dance_dashcap>, <&mt LEFT_CONTROL MINUS>;
+        bindings = <&dance_spacecap>, <&mt LEFT_CONTROL MINUS>;
 
         #binding-cells = <0>;
         mods = <(MOD_LGUI|MOD_RGUI|MOD_LSFT|MOD_LALT)>;
@@ -107,11 +107,11 @@
         keep-mods = <(MOD_LALT)>;
     };
 
-    dance_dashcap: dance_dashcap {
+    dance_spacecap: dance_spacecap {
         compatible = "zmk,behavior-tap-dance";
-        label = "DANCE_DASHCAP";
+        label = "DANCE_SPACECAP";
         #binding-cells = <0>;
-        bindings = <&kp MINUS>, <&caps_word>;
+        bindings = <&kp SPACE>, <&caps_word>;
 
         tapping-term-ms = <200>;
     };
@@ -140,6 +140,17 @@
 
         #binding-cells = <2>;
         retro-tap;
+        tapping-term-ms = <200>;
+        quick-tap-ms = <175>;
+        flavor = "balanced";
+    };
+
+    hold_spacecap: hold_spacecap {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOLD_SPACECAP";
+        bindings = <&kp>, <&dance_spacecap>;
+
+        #binding-cells = <2>;
         tapping-term-ms = <200>;
         quick-tap-ms = <175>;
         flavor = "balanced";
@@ -272,10 +283,10 @@
 
         layer_func {
             bindings = <
-&none           &none       &none      &none       &none        &none                       &none         &kp K_LOCK     &kp K_FIND  &kp K_CONTEXT_MENU  &kp K_HELP  &kp K_MENU  &kp K_EXEC
-&dance_dashcap  &kp U       &none      &none       &caps_word   &none                &none  &none  &none  &none          &none       &none               &none       &none       &none
-&none           &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO  &none           &none         &none          &none       &none               &none       &none       &none
-                                       &none       &none        &none                                     &kp C_AC_SEND  &none       &none
+&none            &none       &none      &none       &none        &none                       &none         &kp K_LOCK     &kp K_FIND  &kp K_CONTEXT_MENU  &kp K_HELP  &kp K_MENU  &kp K_EXEC
+&dance_spacecap  &kp U       &none      &none       &caps_word   &none                &none  &none  &none  &none          &none       &none               &none       &none       &none
+&none            &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO  &none           &none         &none          &none       &none               &none       &none       &none
+                                        &none       &none        &none                                     &kp C_AC_SEND  &none       &none
             >;
 
             label = "func";
