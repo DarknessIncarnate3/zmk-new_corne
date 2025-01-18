@@ -125,6 +125,14 @@
         tapping-term-ms = <175>;
     };
 
+    dance_output: dance_output {
+        compatible = "zmk,behavior-tap-dance";
+        label = "DANCE_OUTPUT";
+        #binding-cells = <0>;
+        tapping-term-ms = <170>;
+        bindings = <&out OUT_BLE>, <&out OUT_USB>;
+    };
+
     combos {
         compatible = "zmk,combos";
 
