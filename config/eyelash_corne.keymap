@@ -50,7 +50,7 @@
     morph_tab: morph_tab {
         compatible = "zmk,behavior-mod-morph";
         label = "MORPH_TAB";
-        bindings = <&dance_num>, <&kp TAB>;
+        bindings = <&kp LEFT_WIN>, <&kp TAB>;
 
         #binding-cells = <0>;
         mods = <(MOD_LALT|MOD_RCTL)>;
