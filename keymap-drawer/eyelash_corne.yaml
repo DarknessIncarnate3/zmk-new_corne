@@ -44,7 +44,7 @@ layers:
   - {t: '`', h: f1, s: '~'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
-  - {t: '&dance_num', s: '$$mdi:keyboard-tab$$'}
+  - {t: LGUI, s: '$$mdi:keyboard-tab$$'}
   - {t: '$$mdi:keyboard-return$$', h: num}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: nav}
