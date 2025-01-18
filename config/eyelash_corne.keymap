@@ -252,10 +252,10 @@
 
         layer_func {
             bindings = <
-&none        &none       &none      &none       &none        &none                       &none         &kp K_LOCK  &kp K_FIND  &kp K_CONTEXT_MENU  &kp K_HELP  &kp K_MENU  &kp K_EXEC
-&dance_dash  &none       &none      &none       &caps_word   &none                &none  &none  &none  &none       &none       &none               &none       &none       &none
-&none        &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO  &none           &none         &none       &none       &none               &none       &none       &none
-                                    &none       &none        &none                                     &none       &none       &none
+&none        &none       &none      &none       &none        &none                       &none         &kp K_LOCK     &kp K_FIND  &kp K_CONTEXT_MENU  &kp K_HELP  &kp K_MENU  &kp K_EXEC
+&dance_dash  &none       &none      &none       &caps_word   &none                &none  &none  &none  &none          &none       &none               &none       &none       &none
+&none        &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO  &none           &none         &none          &none       &none               &none       &none       &none
+                                    &none       &none        &none                                     &kp C_AC_SEND  &none       &none
             >;
 
             label = "func";
