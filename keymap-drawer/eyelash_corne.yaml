@@ -227,9 +227,9 @@ layers:
   - {t: game, h: toggle}
   - {t: '$$mdi:bluetooth-connect$$', h: '5'}
   - {t: '$$mdi:bluetooth-connect$$', h: '6'}
-  - OUT BLE
-  - OUT USB
-  - EP TOG
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&dance_output'
   - RGB TOG
   - RGB SAD
   - RGB BRI
