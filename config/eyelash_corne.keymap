@@ -113,7 +113,7 @@
         #binding-cells = <0>;
         bindings = <&kp MINUS>, <&caps_word>;
 
-        tapping-term-ms = <175>;
+        tapping-term-ms = <200>;
     };
 
     dance_num: dance_num {
