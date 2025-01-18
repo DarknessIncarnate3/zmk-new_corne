@@ -111,7 +111,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "DANCE_DASH";
         #binding-cells = <0>;
-        bindings = <&lt 7 MINUS>, <&caps_word>;
+        bindings = <&kp MINUS>, <&caps_word>;
 
         tapping-term-ms = <175>;
     };
@@ -131,6 +131,16 @@
         #binding-cells = <0>;
         tapping-term-ms = <170>;
         bindings = <&out OUT_BLE>, <&out OUT_USB>;
+    };
+
+    hold_test: hold_test {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOLD_TEST";
+        bindings = <&mo>, <&dance_dash>;
+
+        #binding-cells = <2>;
+        retro-tap;
+        tapping-term-ms = <175>;
     };
 
     combos {
@@ -177,7 +187,7 @@
             display-name = "cole";
             bindings = <
 &kp TAB                        &kp Q             &kp W  &kp F                    &kp P                &kp G                               &kp UP                &kp J        &kp L                 &kp U                &kp Y    &kp SEMICOLON  &kp BSPC
-&morph_controlonalt            &kp A             &kp R  &kp S                    &kp T                &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N                 &kp E                &kp I    &kp O          &lt 5 SQT
+&hold_test 7 0                 &kp A             &kp R  &kp S                    &kp T                &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N                 &kp E                &kp I    &kp O          &lt 5 SQT
 &mt LEFT_ALT NON_US_BACKSLASH  &mt LEFT_SHIFT Z  &kp X  &kp C                    &kp V                &kp B       &kp C_MUTE              &kp DOWN              &kp K        &kp M                 &kp COMMA            &kp DOT  &kp FSLH       &lt 6 GRAVE
                                                         &mt LEFT_CONTROL ESCAPE  &morph_shiftonspace  &morph_tab                                                &lt 3 ENTER  &mt LEFT_SHIFT SPACE  &lt 4 LC(BACKSPACE)
             >;
