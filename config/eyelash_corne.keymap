@@ -113,16 +113,15 @@
         bindings = <&out OUT_BLE>, <&out OUT_USB>;
     };
 
-    hold_dashnum: hold_dashnum {
+    zhold_numword: zhold_numword {
         compatible = "zmk,behavior-hold-tap";
-        label = "HOLD_DASHNUM";
-        bindings = <&mo>, <&dance_num>;
+        label = "ZHOLD_NUMWORD";
+        bindings = <&mo>, <&caps_word>;
 
         #binding-cells = <2>;
         tapping-term-ms = <200>;
-        quick-tap-ms = <175>;
         flavor = "hold-preferred";
-        retro-tap;
+        hold-while-undecided;
     };
 
     hold_spaceshift: hold_spaceshift {
@@ -180,10 +179,10 @@
         default_layer {
             display-name = "cole";
             bindings = <
-&kp TAB                        &kp Q             &kp W  &kp F                    &kp P                &kp G                               &kp UP                &kp J        &kp L                          &kp U                &kp Y    &kp SEMICOLON  &kp BSPC
-&lt 7 MINUS                    &kp A             &kp R  &kp S                    &kp T                &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N                          &kp E                &kp I    &kp O          &lt 5 SQT
-&mt LEFT_ALT NON_US_BACKSLASH  &mt LEFT_SHIFT Z  &kp X  &kp C                    &kp V                &kp B       &kp C_MUTE              &kp DOWN              &kp K        &kp M                          &kp COMMA            &kp DOT  &kp FSLH       &lt 6 GRAVE
-                                                        &mt LEFT_CONTROL ESCAPE  &morph_shiftonspace  &morph_tab                                                &lt 3 ENTER  &hold_spaceshift LEFT_SHIFT 0  &lt 4 LC(BACKSPACE)
+&kp TAB                        &kp Q             &kp W  &kp F                    &kp P                &kp G                               &kp UP                &kp J        &kp L                          &kp U               &kp Y    &kp SEMICOLON  &kp BSPC
+&lt 7 MINUS                    &kp A             &kp R  &kp S                    &kp T                &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N                          &kp E               &kp I    &kp O          &lt 5 SQT
+&mt LEFT_ALT NON_US_BACKSLASH  &mt LEFT_SHIFT Z  &kp X  &kp C                    &kp V                &kp B       &kp C_MUTE              &kp DOWN              &kp K        &kp M                          &kp COMMA           &kp DOT  &kp FSLH       &lt 6 GRAVE
+                                                        &mt LEFT_CONTROL ESCAPE  &morph_shiftonspace  &morph_tab                                                &lt 3 ENTER  &hold_spaceshift LEFT_SHIFT 0  &zhold_numword 4 0
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
