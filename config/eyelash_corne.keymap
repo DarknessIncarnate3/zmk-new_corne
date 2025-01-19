@@ -190,7 +190,7 @@
             display-name = "cole";
             bindings = <
 &kp TAB                        &kp Q             &kp W  &kp F                    &kp P                &kp G                               &kp UP                &kp J                 &kp L                          &kp U               &kp Y    &kp SEMICOLON  &kp BSPC
-&kp D                          &kp A             &kp R  &kp S                    &kp T                &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                 &kp N                          &kp E               &kp I    &kp O          &zhold_quick 5 SQT
+&kp H                          &kp A             &kp R  &kp S                    &kp T                &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                 &kp N                          &kp E               &kp I    &kp O          &zhold_quick 5 SQT
 &mt LEFT_ALT NON_US_BACKSLASH  &mt LEFT_SHIFT Z  &kp X  &kp C                    &kp V                &kp B       &kp C_MUTE              &kp DOWN              &kp K                 &kp M                          &kp COMMA           &kp DOT  &kp FSLH       &zhold_quick 6 GRAVE
                                                         &mt LEFT_CONTROL ESCAPE  &morph_shiftonspace  &morph_tab                                                &zhold_quick 3 ENTER  &hold_spaceshift LEFT_SHIFT 0  &zhold_numword 4 0
             >;
