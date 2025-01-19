@@ -210,10 +210,10 @@ layers:
   - END
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - '&twoaxis MOVE_LEFT'
+  - '&twoaxis MOVE_UP'
+  - '&twoaxis MOVE_DOWN'
+  - '&twoaxis MOVE_RIGHT'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-scroll-wheel$$
@@ -295,10 +295,10 @@ layers:
   - {t: cole, h: toggle}
   f1:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F11
-  - F12
-  - F13
-  - F14
+  - F10
+  - F1
+  - F2
+  - F3
   - F15
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Meh+F11
@@ -308,10 +308,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F1
-  - F2
-  - F3
+  - F11
   - F4
+  - F5
+  - F6
   - F5
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -323,7 +323,7 @@ layers:
   - Meh+F5
   - {t: '''', h: fn, s: '"'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F6
+  - F12
   - F7
   - F8
   - F9
