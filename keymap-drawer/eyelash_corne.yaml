@@ -13,7 +13,7 @@ layers:
   - Y
   - {t: ;, s: ':'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '-', h: func, s: _}
+  - {t: '-', h: func, s: F4}
   - A
   - R
   - S
