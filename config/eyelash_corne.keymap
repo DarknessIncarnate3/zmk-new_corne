@@ -134,6 +134,7 @@
         quick-tap-ms = <175>;
         flavor = "hold-preferred";
         retro-tap;
+        hold-while-undecided;
     };
 
     combos {
