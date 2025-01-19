@@ -146,6 +146,15 @@
         tapping-term-ms = <200>;
     };
 
+    twoaxis: twoaxis {
+        compatible = "zmk,behavior-input-two-axis";
+        label = "TWOAXIS";
+        #binding-cells = <1>;
+        x-input-code = <10>;
+        y-input-code = <10>;
+        time-to-max-speed-ms = <0>;
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -237,10 +246,10 @@
         layer_nav {
             display-name = "nav";
             bindings = <
-&kp TAB                        &kp C_VOICE_COMMAND  &mkp RCLK       &mmv MOVE_UP             &mkp LCLK            &kp BACKSPACE                                  &mmv MOVE_UP                     &kp C_NEXT        &kp HOME        &kp PAGE_DOWN   &kp PAGE_DOWN  &kp END          &kp DEL
-&none                          &none                &mmv MOVE_LEFT  &mmv MOVE_DOWN           &mmv MOVE_RIGHT      &none                          &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &kp C_PLAY_PAUSE  &kp LEFT        &kp DOWN        &kp UP         &kp RIGHT        &kp ENTER
-&mt LEFT_ALT NON_US_BACKSLASH  &kp LEFT_SHIFT       &none           &mkp MCLK                &none                &kp C_SNAPSHOT   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp C_PREVIOUS    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &kp PRINTSCREEN
-                                                                    &mt LEFT_CONTROL ESCAPE  &morph_shiftonspace  &morph_entertab                                                                 &lt 3 ENTER       &kp SPACE       &to 0
+&kp TAB                        &kp C_VOICE_COMMAND  &mkp RCLK         &mmv MOVE_UP             &mkp LCLK            &kp BACKSPACE                                  &mmv MOVE_UP                     &kp C_NEXT        &kp HOME        &kp PAGE_DOWN   &kp PAGE_DOWN  &kp END          &kp DEL
+&none                          &twoaxis MOVE_LEFT   &twoaxis MOVE_UP  &twoaxis MOVE_DOWN       &twoaxis MOVE_RIGHT  &none                          &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &kp C_PLAY_PAUSE  &kp LEFT        &kp DOWN        &kp UP         &kp RIGHT        &kp ENTER
+&mt LEFT_ALT NON_US_BACKSLASH  &kp LEFT_SHIFT       &none             &mkp MCLK                &none                &kp C_SNAPSHOT   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp C_PREVIOUS    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &kp PRINTSCREEN
+                                                                      &mt LEFT_CONTROL ESCAPE  &morph_shiftonspace  &morph_entertab                                                                 &lt 3 ENTER       &kp SPACE       &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp C_FAST_FORWARD C_REWIND>;
@@ -261,10 +270,10 @@
         layer_f1 {
             display-name = "f1";
             bindings = <
-&none  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &none         &kp LS(LC(LA(F11)))  &kp LS(LA(LC(F12)))  &none               &none               &none                &none
-&none  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5            &none  &none  &none  &kp LC(LA(LS(F1)))   &caps_word           &kp LS(LC(LA(F3)))  &kp LS(LA(LC(F4)))  &kp LS(LA(LC(F5)))   &lt 5 SQT
-&none  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &none           &none         &kp LS(LA(LC(F6)))   &kp LS(LA(LC(F7)))   &kp LS(LA(LC(F8)))  &kp LS(LA(LC(F9)))  &kp LS(LC(LA(F10)))  &none
-                         &none    &none    &none                                  &none                &none                &none
+&none  &kp F10  &kp F1  &kp F2  &kp F3  &kp F15                  &none         &kp LS(LC(LA(F11)))  &kp LS(LA(LC(F12)))  &none               &none               &none                &none
+&none  &kp F11  &kp F4  &kp F5  &kp F6  &kp F5            &none  &none  &none  &kp LC(LA(LS(F1)))   &caps_word           &kp LS(LC(LA(F3)))  &kp LS(LA(LC(F4)))  &kp LS(LA(LC(F5)))   &lt 5 SQT
+&none  &kp F12  &kp F7  &kp F8  &kp F9  &kp F10  &none           &none         &kp LS(LA(LC(F6)))   &kp LS(LA(LC(F7)))   &kp LS(LA(LC(F8)))  &kp LS(LA(LC(F9)))  &kp LS(LC(LA(F10)))  &none
+                        &none   &none   &none                                  &none                &none                &none
             >;
         };
 
