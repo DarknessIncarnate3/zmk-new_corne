@@ -142,6 +142,7 @@
         tapping-term-ms = <200>;
         quick-tap-ms = <175>;
         flavor = "balanced";
+        retro-tap;
     };
 
     hold_spacecap: hold_spacecap {
@@ -153,6 +154,7 @@
         tapping-term-ms = <200>;
         quick-tap-ms = <175>;
         flavor = "balanced";
+        retro-tap;
     };
 
     combos {
