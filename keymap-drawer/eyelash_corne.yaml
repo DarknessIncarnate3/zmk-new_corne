@@ -142,8 +142,8 @@ layers:
   - {t: ;, h: f1, s: ':'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-return$$', h: LGUI, type: held alternate}
-  - {t: cole, h: toggle, type: held}
+  - {t: '$$mdi:keyboard-return$$', h: LGUI, type: held}
+  - {t: cole, h: toggle, type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace-reverse-outline$$', h: nav}
   nav:
@@ -286,8 +286,8 @@ layers:
   - Meh+F8
   - Meh+F9
   - Meh+F10
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
@@ -307,7 +307,7 @@ layers:
   - HELP
   - MENU
   - EXEC
-  - {t: '&dance_spacecap', type: held}
+  - '&dance_spacecap'
   - U
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
