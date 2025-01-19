@@ -3,30 +3,30 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - E
-  - R
-  - T
-  - $$mdi:arrow-up-bold$$
-  - Y
-  - U
-  - I
-  - O
+  - F
   - P
+  - G
+  - $$mdi:arrow-up-bold$$
+  - J
+  - L
+  - U
+  - Y
+  - {t: ;, s: ':'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '-', h: func, s: _}
   - A
+  - R
   - S
+  - T
   - D
-  - F
-  - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
+  - N
+  - E
+  - I
+  - O
   - {t: '''', h: fn, s: '"'}
   - {t: \, h: '$$mdi:apple-keyboard-option$$'}
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
@@ -36,7 +36,7 @@ layers:
   - B
   - $$mdi:volume-off$$
   - $$mdi:arrow-down-bold$$
-  - N
+  - K
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
@@ -46,7 +46,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
   - {t: '$$mdi:keyboard-return$$', h: num}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:alpha-w-box$$', h: nav}
   game:
   - $$mdi:keyboard-tab$$
@@ -97,6 +97,55 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: num}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace-reverse-outline$$', h: nav}
+  qwerty:
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:arrow-up-bold$$
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '-', h: func, s: _}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', h: fn, s: '"'}
+  - {t: \, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
+  - X
+  - C
+  - V
+  - B
+  - $$mdi:volume-off$$
+  - $$mdi:arrow-down-bold$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: '`', h: f1, s: '~'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
+  - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
+  - {t: '$$mdi:keyboard-return$$', h: num}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:alpha-w-box$$', h: nav}
   num:
   - $$mdi:keyboard-tab$$
   - {t: '`', s: '~'}
@@ -209,7 +258,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:bluetooth-off$$
-  - {t: cole, h: toggle}
+  - {t: qwerty, h: toggle}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -309,8 +358,8 @@ layers:
   - EXEC
   - {t: '&dance_spacecap', type: held}
   - U
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&num_word 3'
+  - '&num_word 4'
   - $$mdi:alpha-w-box$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
