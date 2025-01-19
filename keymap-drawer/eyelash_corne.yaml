@@ -299,7 +299,7 @@ layers:
   - F1
   - F2
   - F3
-  - F15
+  - F13
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Meh+F11
   - Meh+F12
@@ -312,7 +312,7 @@ layers:
   - F4
   - F5
   - F6
-  - F5
+  - F14
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -327,7 +327,7 @@ layers:
   - F7
   - F8
   - F9
-  - F10
+  - F15
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Meh+F6
