@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '&dance_spacecap', s: '-'}
+  - {t: '-', h: '&lt 7', s: _}
   - A
   - S
   - D
