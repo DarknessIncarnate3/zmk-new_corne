@@ -47,7 +47,7 @@ layers:
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
   - {t: '$$mdi:keyboard-return$$', h: num}
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:alpha-w-box$$', h: nav}
+  - {t: '&num_word 3', h: nav}
   game:
   - $$mdi:keyboard-tab$$
   - Q
@@ -145,7 +145,7 @@ layers:
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
   - {t: '$$mdi:keyboard-return$$', h: num}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:alpha-w-box$$', h: nav}
+  - {t: '&num_word', h: nav}
   num:
   - $$mdi:keyboard-tab$$
   - {t: '`', s: '~'}
