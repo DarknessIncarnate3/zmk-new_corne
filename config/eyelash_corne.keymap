@@ -190,7 +190,7 @@
             display-name = "cole";
             bindings = <
 &kp TAB                        &kp Q             &kp W  &kp F                    &kp P                &kp G                               &kp UP                &kp J                 &kp L                          &kp U               &kp Y    &kp SEMICOLON  &kp BSPC
-&zhold_quick 7 MINUS           &kp A             &kp R  &kp S                    &kp T                &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                 &kp N                          &kp E               &kp I    &kp O          &zhold_quick 5 SQT
+&kp B                          &kp A             &kp R  &kp S                    &kp T                &kp D                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                 &kp N                          &kp E               &kp I    &kp O          &zhold_quick 5 SQT
 &mt LEFT_ALT NON_US_BACKSLASH  &mt LEFT_SHIFT Z  &kp X  &kp C                    &kp V                &kp B       &kp C_MUTE              &kp DOWN              &kp K                 &kp M                          &kp COMMA           &kp DOT  &kp FSLH       &zhold_quick 6 GRAVE
                                                         &mt LEFT_CONTROL ESCAPE  &morph_shiftonspace  &morph_tab                                                &zhold_quick 3 ENTER  &hold_spaceshift LEFT_SHIFT 0  &zhold_numword 4 0
             >;
@@ -266,19 +266,16 @@
 &none  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &none           &none         &kp LS(LA(LC(F6)))   &kp LS(LA(LC(F7)))   &kp LS(LA(LC(F8)))  &kp LS(LA(LC(F9)))  &kp LS(LC(LA(F10)))  &none
                          &none    &none    &none                                  &none                &none                &none
             >;
-
-
         };
 
         layer_func {
             display-name = "func";
             bindings = <
-&none            &none       &none      &none       &none        &none                       &none         &kp K_LOCK     &kp K_FIND  &kp K_CONTEXT_MENU  &kp K_HELP  &kp K_MENU  &kp K_EXEC
-&dance_spacecap  &kp U       &num_word 3      &num_word 4       &caps_word   &none                &none  &none  &none  &none          &none       &none               &none       &none       &none
-&none            &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO  &none           &none         &none          &none       &none               &none       &none       &none
-                                        &none       &none        &none                                     &kp C_AC_SEND  &none       &none
+&none            &none       &none        &none        &none        &none                       &none         &kp K_LOCK     &kp K_FIND  &kp K_CONTEXT_MENU  &kp K_HELP  &kp K_MENU  &kp K_EXEC
+&dance_spacecap  &kp U       &num_word 3  &num_word 4  &caps_word   &none                &none  &none  &none  &none          &none       &none               &none       &none       &none
+&none            &kp K_UNDO  &kp K_CUT    &kp K_COPY   &kp K_PASTE  &kp K_REDO  &none           &none         &none          &none       &none               &none       &none       &none
+                                          &none        &none        &none                                     &kp C_AC_SEND  &none       &none
             >;
-
         };
     };
 };
