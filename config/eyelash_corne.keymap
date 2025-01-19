@@ -57,16 +57,6 @@
         keep-mods = <(MOD_LALT)>;
     };
 
-    morph_ctrescape: morph_ctrescape {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MORPH_CTRESCAPE";
-        bindings = <&mt RIGHT_ALT MINUS>, <&kp ESC>;
-
-        #binding-cells = <0>;
-        mods = <(MOD_LCTL)>;
-        keep-mods = <(MOD_LCTL)>;
-    };
-
     morph_controlonalt: morph_controlonalt {
         compatible = "zmk,behavior-mod-morph";
         label = "MORPH_CONTROLONALT";
@@ -75,16 +65,6 @@
         #binding-cells = <0>;
         mods = <(MOD_LGUI|MOD_RGUI|MOD_LSFT|MOD_LALT)>;
         keep-mods = <(MOD_LGUI|MOD_RGUI|MOD_LSFT|MOD_LALT)>;
-    };
-
-    morph_shiftonalt: morph_shiftonalt {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MORPH_SHIFTONALT";
-        bindings = <&mt LEFT_ALT NON_US_BACKSLASH>, <&kp LEFT_SHIFT>;
-
-        #binding-cells = <0>;
-        mods = <(MOD_LGUI|MOD_LCTL)>;
-        keep-mods = <(MOD_LGUI|MOD_LCTL)>;
     };
 
     morph_shiftonspace: morph_shiftonspace {
