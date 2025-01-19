@@ -564,9 +564,10 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
-<text x="0" y="24" class="key hold">&amp;lt 4</text>
-</g>
+<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:alpha-w-box"/>
+<a href="#nav">
+<text x="0" y="24" class="key hold layer-activator">nav</text>
+</a></g>
 <g class="combo combopos-0">
 <path d="M538,158 l172,-61" class="combo"/>
 <path d="M538,158 l-172,61" class="combo"/>
