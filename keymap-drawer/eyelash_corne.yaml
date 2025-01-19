@@ -27,7 +27,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', h: fn, s: '"'}
+  - {t: '''', h: '&lt 5', s: '"'}
   - {t: \, h: '$$mdi:apple-keyboard-option$$'}
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
@@ -41,13 +41,13 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '`', h: f1, s: '~'}
+  - {t: '`', h: '&lt 6', s: '~'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
-  - {t: '$$mdi:keyboard-return$$', h: num}
+  - {t: '$$mdi:keyboard-return$$', h: '&lt 3'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: nav}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '&lt 4'}
   game:
   - $$mdi:keyboard-tab$$
   - Q
@@ -76,7 +76,7 @@ layers:
   - E
   - I
   - O
-  - {t: '''', h: fn, s: '"'}
+  - {t: '''', h: '&lt 5', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -91,12 +91,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '''', h: f1, s: '"'}
+  - {t: '''', h: '&lt 6', s: '"'}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-esc$$', h: num}
-  - {t: '$$mdi:keyboard-return$$', h: num}
+  - {t: '$$mdi:keyboard-esc$$', h: '&lt 3'}
+  - {t: '$$mdi:keyboard-return$$', h: '&lt 3'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: nav}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '&lt 4'}
   num:
   - $$mdi:keyboard-tab$$
   - {t: '`', s: '~'}
@@ -142,8 +142,8 @@ layers:
   - {t: ;, h: f1, s: ':'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-return$$', h: LGUI, type: held}
-  - {t: cole, h: toggle, type: held alternate}
+  - {t: '$$mdi:keyboard-return$$', h: LGUI}
+  - {t: cole, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace-reverse-outline$$', h: nav}
   nav:
@@ -191,8 +191,8 @@ layers:
   - PRINTSCREEN
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
-  - {t: '$$mdi:keyboard-return$$', h: LGUI, s: '$$mdi:keyboard-tab$$', type: held alternate}
-  - {t: '$$mdi:keyboard-return$$', h: num, type: held alternate}
+  - {t: '$$mdi:keyboard-return$$', h: LGUI, s: '$$mdi:keyboard-tab$$'}
+  - {t: '$$mdi:keyboard-return$$', h: num}
   - $$mdi:keyboard-space$$
   - {t: cole, h: toggle, type: held}
   fn:
@@ -240,8 +240,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - {t: num, h: toggle, type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: num, h: toggle}
   - {t: nav, h: toggle}
   - {t: cole, h: toggle}
   f1:
@@ -286,11 +286,11 @@ layers:
   - Meh+F8
   - Meh+F9
   - Meh+F10
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   func:
