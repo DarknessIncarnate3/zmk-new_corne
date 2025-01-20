@@ -117,7 +117,7 @@
     zNumword: zNumword {
         compatible = "zmk,behavior-hold-tap";
         label = "ZNUMWORD";
-        bindings = <&mo>, <&num_word>;
+        bindings = <&mo>, <&zNumword>;
 
         #binding-cells = <2>;
         tapping-term-ms = <200>;
@@ -172,8 +172,9 @@
         bindings = <&mo>, <&yNumCaps>;
 
         #binding-cells = <2>;
-        hold-while-undecided;
         tapping-term-ms = <200>;
+        flavor = "balanced";
+        quick-tap-ms = <175>;
     };
 
     yBtClear: yBtClear {
