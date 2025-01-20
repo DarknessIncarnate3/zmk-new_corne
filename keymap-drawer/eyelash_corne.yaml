@@ -278,7 +278,7 @@ layers:
   - {t: '$$mdi:bluetooth-connect$$', h: '6'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&dance_output'
+  - '&yOutput'
   - RGB TOG
   - RGB SAD
   - RGB BRI
@@ -356,7 +356,7 @@ layers:
   - HELP
   - MENU
   - EXEC
-  - {t: '&dance_spacecap', type: held}
+  - {t: '&ySpacecap', type: held}
   - U
   - '&num_word 3'
   - '&num_word 4'
