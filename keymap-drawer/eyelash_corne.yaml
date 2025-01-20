@@ -317,10 +317,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Meh+F1
-  - $$mdi:alpha-w-box$$
-  - Meh+F3
-  - Meh+F4
-  - Meh+F5
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - LGUI
   - {t: '''', h: fn, s: '"'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F12
