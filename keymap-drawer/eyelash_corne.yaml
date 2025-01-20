@@ -372,11 +372,11 @@ layers:
   - LEFT META
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - AC UNDO
-  - AC CUT
-  - AC COPY
-  - AC PASTE
-  - AC REDO
+  - UNDO
+  - CUT
+  - COPY
+  - PASTE
+  - REDO
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - AL TEXT EDITOR
