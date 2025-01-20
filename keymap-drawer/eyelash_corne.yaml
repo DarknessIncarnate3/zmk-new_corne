@@ -257,7 +257,7 @@ layers:
   - '&bl BL_TOG'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:bluetooth-off$$
+  - '&yBtClear'
   - {t: qwerty, h: toggle}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
