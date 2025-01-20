@@ -160,7 +160,7 @@ layers:
   - '%'
   - '!'
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
+  - {t: '-', h: '$$mdi:apple-keyboard-option$$', s: _}
   - '0'
   - {t: '4', s: $}
   - {t: '5', s: '%'}
@@ -189,7 +189,7 @@ layers:
   - {t: '=', s: +}
   - {t: ',', s: <}
   - {t: ;, h: f1, s: ':'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: LGUI, type: held alternate}
   - {t: cole, h: toggle, type: held}
