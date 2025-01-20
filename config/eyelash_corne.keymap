@@ -242,13 +242,13 @@
         layer_nav {
             display-name = "nav";
             bindings = <
-&kp TAB                        &kp C_VOICE_COMMAND  &mkp MCLK     &mkp RCLK                &mkp LCLK        &kp BACKSPACE                                &mmv MOVE_UP                     &kp K_NEXT        &kp HOME              &kp PAGE_DOWN   &kp PAGE_DOWN  &kp END          &kp DEL
-&kp K_BACK                     &mmv MOVE_LEFT       &mmv MOVE_UP  &mmv MOVE_DOWN           &mmv MOVE_RIGHT  &kp K_FORWARD                &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &kp K_PLAY_PAUSE  &kp LEFT              &kp DOWN        &kp UP         &kp RIGHT        &kp ENTER
-&mt LEFT_ALT NON_US_BACKSLASH  &kp LEFT_SHIFT       &none         &none                    &none            &none          &kp C_MUTE                    &mmv MOVE_DOWN                   &kp K_PREV        &msc SCRL_LEFT        &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &kp PRINTSCREEN
-                                                                  &mt LEFT_CONTROL ESCAPE  &xShiftonSpace   &xEntertab                                                                    &lt 3 ENTER       &mt LEFT_SHIFT SPACE  &to 0
+&kp TAB                        &kp C_VOICE_COMMAND  &mkp MCLK     &mkp RCLK                &mkp LCLK           &kp BACKSPACE                                &mmv MOVE_UP                     &kp K_NEXT        &kp HOME              &kp PAGE_DOWN   &kp PAGE_DOWN  &kp END          &kp DEL
+&kp K_BACK                     &mmv MOVE_LEFT       &mmv MOVE_UP  &mmv MOVE_DOWN           &mmv MOVE_RIGHT     &kp K_FORWARD                &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &kp K_PLAY_PAUSE  &kp LEFT              &kp DOWN        &kp UP         &kp RIGHT        &kp ENTER
+&mt LEFT_ALT NON_US_BACKSLASH  &kp LEFT_SHIFT       &none         &kp C_REWIND             &kp C_FAST_FORWARD  &none          &kp C_MUTE                    &mmv MOVE_DOWN                   &kp K_PREV        &msc SCRL_LEFT        &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &kp PRINTSCREEN
+                                                                  &mt LEFT_CONTROL ESCAPE  &xShiftonSpace      &xEntertab                                                                    &lt 3 ENTER       &mt LEFT_SHIFT SPACE  &to 0
             >;
 
-            sensor-bindings = <&inc_dec_kp C_FAST_FORWARD C_REWIND>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_fn {
