@@ -241,6 +241,27 @@
             require-prior-idle-ms = <100>;
             layers = <0>;
         };
+
+        lbracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <37 38>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        rbracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <38 39>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        dol {
+            bindings = <&kp DOLLAR>;
+            key-positions = <26 25>;
+        };
     };
 
     keymap {
