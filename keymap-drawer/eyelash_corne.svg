@@ -580,6 +580,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="798" y="74" width="28" height="26" class="combo"/>
 <text x="812" y="87" class="combo tap">)</text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="798" y="18" width="28" height="26" class="combo"/>
+<text x="812" y="31" class="combo tap">}</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="742" y="18" width="28" height="26" class="combo"/>
+<text x="756" y="31" class="combo tap">{</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-game">
