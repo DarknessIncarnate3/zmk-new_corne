@@ -343,7 +343,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   func:
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -357,7 +357,7 @@ layers:
   - MENU
   - EXEC
   - {t: '&ySpacecap', type: held}
-  - U
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&num_word 3'
   - '&num_word 4'
   - $$mdi:alpha-w-box$$
