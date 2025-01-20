@@ -266,20 +266,20 @@
         layer_f1 {
             display-name = "f1";
             bindings = <
-&none  &kp F10  &kp F1  &kp F2  &kp F3  &kp F13                  &none         &kp LS(LC(LA(F11)))  &kp LS(LA(LC(F12)))  &none               &none               &none                &none
-&none  &kp F11  &kp F4  &kp F5  &kp F6  &kp F14           &none  &none  &none  &kp LC(LA(LS(F1)))   &kp LCTRL            &kp LSHFT           &kp LALT            &kp LGUI             &lt 5 SQT
-&none  &kp F12  &kp F7  &kp F8  &kp F9  &kp F15  &none           &none         &kp LS(LA(LC(F6)))   &kp LS(LA(LC(F7)))   &kp LS(LA(LC(F8)))  &kp LS(LA(LC(F9)))  &kp LS(LC(LA(F10)))  &none
-                        &none   &none   &none                                  &none                &none                &none
+&none  &kp F11  &kp F1  &kp F2  &kp F3  &kp F13                  &none         &none  &none      &none      &none     &none     &none
+&none  &kp F10  &kp F4  &kp F5  &kp F6  &kp F14           &none  &none  &none  &none  &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI  &lt 5 SQT
+&none  &kp F12  &kp F7  &kp F8  &kp F9  &kp F15  &none           &none         &none  &none      &none      &none     &none     &none
+                        &none   &none   &none                                  &none  &none      &none
             >;
         };
 
         layer_func {
             display-name = "func";
             bindings = <
-&none       &kp C_QUIT  &none        &kp C_MEDIA_COMPUTER  &kp C_AL_FILE_BROWSER  &yPower                          &none         &kp K_LOCK     &kp K_FIND        &kp K_CONTEXT_MENU  &kp K_HELP     &kp K_MENU       &kp DEL
-&ySpacecap  &none       &num_word 3  &num_word 4           &caps_word             &kp PRINTSCREEN           &none  &none  &none  &kp C_AL_LOCK  &kp LEFT_CONTROL  &kp LEFT_SHIFT      &kp LEFT_ALT   &kp LEFT_META    &none
-&none       &kp K_UNDO  &kp K_CUT    &kp K_COPY            &kp K_PASTE            &kp K_REDO       &none           &none         &kp C_REPEAT   &kp C_SUBTITLES   &kp C_MEDIA_GAMES   &kp C_AC_GOTO  &kp C_AC_SEARCH  &kp K_EXEC
-                                     &kp ESC               &none                  &kp ENTER                                      &kp C_AC_SEND  &kp TAB           &kp BSPC
+&none       &none  &none  &none        &none       &yPower                          &none         &none          &none             &none           &none         &none          &kp DEL
+&ySpacecap  &none  &none  &num_word 4  &caps_word  &kp PRINTSCREEN           &none  &none  &none  &none          &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_META  &none
+&none       &none  &none  &none        &none       &none            &none           &none         &none          &none             &none           &none         &none          &kp K_EXEC
+                          &kp ESC      &none       &kp ENTER                                      &kp C_AC_SEND  &kp TAB           &kp BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
