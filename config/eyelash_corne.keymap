@@ -176,9 +176,9 @@
         tapping-term-ms = <200>;
     };
 
-    new_behavior: new_behavior {
+    yBtClear: yBtClear {
         compatible = "zmk,behavior-tap-dance";
-        label = "NEW_BEHAVIOR";
+        label = "YBTCLEAR";
         #binding-cells = <0>;
         tapping-term-ms = <300>;
         bindings = <&none>, <&none>, <&bt BT_CLR>;
