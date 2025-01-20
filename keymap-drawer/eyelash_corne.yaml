@@ -47,7 +47,7 @@ layers:
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
   - {t: '$$mdi:keyboard-return$$', h: num}
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '&yNum', h: nav}
+  - {t: '&yNumCaps', h: nav}
   game:
   - $$mdi:keyboard-tab$$
   - Q
