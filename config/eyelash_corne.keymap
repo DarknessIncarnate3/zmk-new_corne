@@ -354,10 +354,10 @@
         layer_func {
             display-name = "func";
             bindings = <
-&none       &kp C_AC_EXIT  &none        &kp C_MEDIA_COMPUTER  &kp C_AL_FILE_BROWSER  &yPower                     &none         &kp K_LOCK            &kp K_FIND        &kp K_CONTEXT_MENU  &kp K_HELP     &kp K_MENU       &kp DEL
-&ySpacecap  &none          &num_word 3  &num_word 4           &caps_word             &none                &none  &none  &none  &kp C_AL_LOCK         &kp LEFT_CONTROL  &kp LEFT_SHIFT      &kp LEFT_ALT   &kp LEFT_META    &none
-&none       &kp K_UNDO     &kp K_CUT    &kp K_COPY            &kp K_PASTE            &kp K_REDO  &none           &none         &kp C_AL_TEXT_EDITOR  &kp C_SUBTITLES   &kp C_MEDIA_GAMES   &kp C_AC_GOTO  &kp C_AC_SEARCH  &kp K_EXEC
-                                        &kp ESC               &none                  &kp ENTER                                 &kp C_AC_SEND         &kp TAB           &kp BSPC
+&none       &kp C_QUIT       &none        &kp C_MEDIA_COMPUTER  &kp C_AL_FILE_BROWSER  &yPower                     &none         &kp K_LOCK            &kp K_FIND        &kp K_CONTEXT_MENU  &kp K_HELP     &kp K_MENU       &kp DEL
+&ySpacecap  &kp PRINTSCREEN  &num_word 3  &num_word 4           &caps_word             &none                &none  &none  &none  &kp C_AL_LOCK         &kp LEFT_CONTROL  &kp LEFT_SHIFT      &kp LEFT_ALT   &kp LEFT_META    &none
+&none       &kp K_UNDO       &kp K_CUT    &kp K_COPY            &kp K_PASTE            &kp K_REDO  &none           &none         &kp C_AL_TEXT_EDITOR  &kp C_SUBTITLES   &kp C_MEDIA_GAMES   &kp C_AC_GOTO  &kp C_AC_SEARCH  &kp K_EXEC
+                                          &kp ESC               &none                  &kp ENTER                                 &kp C_AC_SEND         &kp TAB           &kp BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
