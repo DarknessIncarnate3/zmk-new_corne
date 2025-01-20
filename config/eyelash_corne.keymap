@@ -101,7 +101,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "YNUM";
         #binding-cells = <0>;
-        bindings = <&kp MINUS>, <&num_word 3>;
+        bindings = <&caps_word>, <&num_word 3>;
 
         tapping-term-ms = <200>;
     };
