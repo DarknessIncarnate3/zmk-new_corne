@@ -242,7 +242,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
   - {t: '$$mdi:keyboard-return$$', h: LGUI, s: '$$mdi:keyboard-tab$$', type: held alternate}
   - {t: '$$mdi:keyboard-return$$', h: num, type: held alternate}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: cole, h: toggle, type: held}
   fn:
   - {t: cole, h: toggle}
