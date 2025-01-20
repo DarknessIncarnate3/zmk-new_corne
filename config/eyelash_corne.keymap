@@ -261,6 +261,8 @@
         dol {
             bindings = <&kp DOLLAR>;
             key-positions = <26 25>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
         };
     };
 
