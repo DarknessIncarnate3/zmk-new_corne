@@ -176,6 +176,14 @@
         tapping-term-ms = <200>;
     };
 
+    new_behavior: new_behavior {
+        compatible = "zmk,behavior-tap-dance";
+        label = "NEW_BEHAVIOR";
+        #binding-cells = <0>;
+        tapping-term-ms = <300>;
+        bindings = <&none>, <&none>, <&bt BT_CLR>;
+    };
+
     combos {
         compatible = "zmk,combos";
 
