@@ -379,7 +379,7 @@ layers:
   - REDO
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - AL TEXT EDITOR
+  - REPEAT
   - SUBTITLES
   - MEDIA GAMES
   - AC GOTO
