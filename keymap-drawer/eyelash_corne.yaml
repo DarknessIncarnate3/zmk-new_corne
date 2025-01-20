@@ -355,7 +355,7 @@ layers:
   - CONTEXT MENU
   - HELP
   - MENU
-  - EXEC
+  - $$mdi:backspace-reverse-outline$$
   - {t: '&ySpacecap', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&num_word 3'
@@ -384,7 +384,7 @@ layers:
   - MEDIA GAMES
   - AC GOTO
   - AC SEARCH
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - EXEC
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
