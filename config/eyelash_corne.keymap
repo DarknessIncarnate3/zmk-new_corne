@@ -309,9 +309,9 @@
         layer_func {
             display-name = "func";
             bindings = <
-&kp         &kp C_AC_EXIT  &kp           &kp C_MEDIA_COMPUTER  &kp C_AL_FILE_BROWSER  &yPower                    &kp       &kp K_LOCK            &kp K_FIND        &kp K_CONTEXT_MENU  &kp K_HELP    &kp K_MENU     &kp K_EXEC
-&ySpacecap  &kp            &num_word 3   &num_word 4           &caps_word             &kp                   &kp  &kp  &kp  &kp C_AL_LOCK         &kp LEFT_CONTROL  &kp LEFT_SHIFT      &kp LEFT_ALT  &kp LEFT_META  &kp
-&kp         &kp C_AC_UNDO  &kp C_AC_CUT  &kp C_AC_COPY         &kp C_AC_PASTE         &kp C_AC_REDO  &kp         &kp       &kp C_AL_TEXT_EDITOR  &kp               &kp                 &kp           &kp            &kp
+&kp         &kp C_AC_EXIT  &kp           &kp C_MEDIA_COMPUTER  &kp C_AL_FILE_BROWSER  &yPower                    &kp       &kp K_LOCK            &kp K_FIND        &kp K_CONTEXT_MENU  &kp K_HELP     &kp K_MENU       &kp K_EXEC
+&ySpacecap  &kp            &num_word 3   &num_word 4           &caps_word             &kp                   &kp  &kp  &kp  &kp C_AL_LOCK         &kp LEFT_CONTROL  &kp LEFT_SHIFT      &kp LEFT_ALT   &kp LEFT_META    &kp
+&kp         &kp C_AC_UNDO  &kp C_AC_CUT  &kp C_AC_COPY         &kp C_AC_PASTE         &kp C_AC_REDO  &kp         &kp       &kp C_AL_TEXT_EDITOR  &kp C_SUBTITLES   &kp C_MEDIA_GAMES   &kp C_AC_GOTO  &kp C_AC_SEARCH  &kp
                                          &kp ESC               &kp                    &kp ENTER                            &kp C_AC_SEND         &kp TAB           &kp BSPC
             >;
 
