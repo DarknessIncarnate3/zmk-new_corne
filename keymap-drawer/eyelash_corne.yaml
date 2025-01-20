@@ -226,10 +226,10 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: \, h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:apple-keyboard-shift$$
-  - AC BACK
-  - AC HOME
-  - AL TASK MANAGER
-  - SNAPSHOT
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PREVIOUS
