@@ -61,7 +61,7 @@
     morph_controlonalt: morph_controlonalt {
         compatible = "zmk,behavior-mod-morph";
         label = "MORPH_CONTROLONALT";
-        bindings = <&dance_spacecap>, <&mt LEFT_CONTROL MINUS>;
+        bindings = <&ySpacecap>, <&mt LEFT_CONTROL MINUS>;
 
         #binding-cells = <0>;
         mods = <(MOD_LGUI|MOD_RGUI|MOD_LSFT|MOD_LALT)>;
@@ -88,27 +88,27 @@
         keep-mods = <(MOD_LALT)>;
     };
 
-    dance_spacecap: dance_spacecap {
+    ySpacecap: ySpacecap {
         compatible = "zmk,behavior-tap-dance";
-        label = "DANCE_SPACECAP";
+        label = "YSPACECAP";
         #binding-cells = <0>;
         bindings = <&kp SPACE>, <&caps_word>;
 
         tapping-term-ms = <200>;
     };
 
-    dance_num: dance_num {
+    yNum: yNum {
         compatible = "zmk,behavior-tap-dance";
-        label = "DANCE_num";
+        label = "YNUM";
         #binding-cells = <0>;
         bindings = <&kp MINUS>, <&num_word 3>;
 
         tapping-term-ms = <200>;
     };
 
-    dance_output: dance_output {
+    yOutput: yOutput {
         compatible = "zmk,behavior-tap-dance";
-        label = "DANCE_OUTPUT";
+        label = "YOUTPUT";
         #binding-cells = <0>;
         tapping-term-ms = <300>;
         bindings = <&out OUT_BLE>, <&out OUT_USB>;
@@ -269,10 +269,10 @@
         layer_fn {
             display-name = "fn";
             bindings = <
-&to 0  &none         &none         &none         &none         &none                                              &rgb_ug RGB_SAI                                 &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &bl BL_TOG  &none       &none  &bt BT_CLR
-&to 2  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                      &rgb_ug RGB_HUD  &rgb_ug RGB_COLOR_HSB(0,0,30)  &rgb_ug RGB_HUI  &none            &bl BL_ON        &bl BL_INC  &bl BL_DEC  &none  &none
-&to 1  &bt BT_SEL 5  &bt BT_SEL 6  &none         &none         &dance_output  &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                                 &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &none       &none       &none  &none
-                                   &none         &none         &none                                                                                              &to 3            &to 4            &to 0
+&to 0  &none         &none         &none         &none         &none                                             &rgb_ug RGB_SAI                                 &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &bl BL_TOG  &none       &none  &bt BT_CLR
+&to 2  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                     &rgb_ug RGB_HUD  &rgb_ug RGB_COLOR_HSB(0,0,30)  &rgb_ug RGB_HUI  &none            &bl BL_ON        &bl BL_INC  &bl BL_DEC  &none  &none
+&to 1  &bt BT_SEL 5  &bt BT_SEL 6  &none         &none         &yOutput      &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                                 &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &none       &none       &none  &none
+                                   &none         &none         &none                                                                                             &to 3            &to 4            &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
@@ -291,10 +291,10 @@
         layer_func {
             display-name = "func";
             bindings = <
-&none            &none       &none        &none        &none        &none                       &none         &kp K_LOCK     &kp K_FIND  &kp K_CONTEXT_MENU  &kp K_HELP  &kp K_MENU  &kp K_EXEC
-&dance_spacecap  &kp U       &num_word 3  &num_word 4  &caps_word   &none                &none  &none  &none  &none          &none       &none               &none       &none       &none
-&none            &kp K_UNDO  &kp K_CUT    &kp K_COPY   &kp K_PASTE  &kp K_REDO  &none           &none         &none          &none       &none               &none       &none       &none
-                                          &none        &none        &none                                     &kp C_AC_SEND  &none       &none
+&none       &none       &none        &none        &none        &none                       &none         &kp K_LOCK     &kp K_FIND  &kp K_CONTEXT_MENU  &kp K_HELP  &kp K_MENU  &kp K_EXEC
+&ySpacecap  &kp U       &num_word 3  &num_word 4  &caps_word   &none                &none  &none  &none  &none          &none       &none               &none       &none       &none
+&none       &kp K_UNDO  &kp K_CUT    &kp K_COPY   &kp K_PASTE  &kp K_REDO  &none           &none         &none          &none       &none               &none       &none       &none
+                                     &none        &none        &none                                     &kp C_AC_SEND  &none       &none
             >;
         };
     };
