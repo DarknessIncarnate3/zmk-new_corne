@@ -58,16 +58,6 @@
         keep-mods = <(MOD_LALT)>;
     };
 
-    xControlonalt: xControlonalt {
-        compatible = "zmk,behavior-mod-morph";
-        label = "XCONTROLONALT";
-        bindings = <&ySpacecap>, <&mt LEFT_CONTROL MINUS>;
-
-        #binding-cells = <0>;
-        mods = <(MOD_LGUI|MOD_RGUI|MOD_LSFT|MOD_LALT)>;
-        keep-mods = <(MOD_LGUI|MOD_RGUI|MOD_LSFT|MOD_LALT)>;
-    };
-
     xShiftonSpace: xShiftonSpace {
         compatible = "zmk,behavior-mod-morph";
         label = "XSHIFTONSPACE";
@@ -122,19 +112,6 @@
         #binding-cells = <2>;
         tapping-term-ms = <200>;
         flavor = "hold-preferred";
-    };
-
-    zSpaceShift: zSpaceShift {
-        compatible = "zmk,behavior-hold-tap";
-        label = "ZSPACESHIFT";
-        bindings = <&kp>, <&caps_word>;
-
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        quick-tap-ms = <175>;
-        flavor = "hold-preferred";
-        retro-tap;
-        hold-while-undecided;
     };
 
     zFastLayer: zFastLayer {
