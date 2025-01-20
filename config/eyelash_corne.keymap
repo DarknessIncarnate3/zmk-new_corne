@@ -225,6 +225,22 @@
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
         };
+
+        rbrace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <9 10>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        lbrace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <9 8>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
     };
 
     keymap {
