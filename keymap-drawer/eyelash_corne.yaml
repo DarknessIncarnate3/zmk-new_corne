@@ -193,7 +193,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: LGUI, type: held alternate}
   - {t: cole, h: toggle, type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: nav}
   nav:
   - $$mdi:keyboard-tab$$
