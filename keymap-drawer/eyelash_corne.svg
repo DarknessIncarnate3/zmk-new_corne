@@ -575,16 +575,12 @@ rect.held, rect.combo.held {
 <text x="0" y="24" class="key hold layer-activator">nav</text>
 </a></g>
 <g class="combo combopos-0">
-<path d="M538,158 l172,-61" class="combo"/>
-<path d="M538,158 l-172,61" class="combo"/>
-<rect rx="6" ry="6" x="524" y="145" width="28" height="26" class="combo"/>
-<text x="538" y="158" class="combo tap">(</text>
+<rect rx="6" ry="6" x="686" y="81" width="28" height="26" class="combo"/>
+<text x="700" y="94" class="combo tap">(</text>
 </g>
 <g class="combo combopos-1">
-<path d="M566,155 l200,-65" class="combo"/>
-<path d="M566,155 l-200,65" class="combo"/>
-<rect rx="6" ry="6" x="552" y="142" width="28" height="26" class="combo"/>
-<text x="566" y="155" class="combo tap">)</text>
+<rect rx="6" ry="6" x="798" y="74" width="28" height="26" class="combo"/>
+<text x="812" y="87" class="combo tap">)</text>
 </g>
 </g>
 </g>

@@ -401,9 +401,9 @@ combos:
 - p: [24, 25]
   k: Sft+Gui+$$mdi:arrow-right-bold$$
   l: [f1]
-- p: [23, 44]
+- p: [23, 22]
   k: (
   l: [cole]
-- p: [24, 44]
+- p: [24, 25]
   k: )
   l: [cole]
