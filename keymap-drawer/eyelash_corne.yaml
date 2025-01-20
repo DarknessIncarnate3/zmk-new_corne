@@ -226,9 +226,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: \, h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:apple-keyboard-shift$$
+  - BACK
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:mouse-scroll-wheel$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - FORWARD
   - SNAPSHOT
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -343,13 +343,13 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   func:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
+  - AC EXIT
+  - ''
   - MEDIA COMPUTER
   - AL FILE BROWSER
   - '&yPower'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
   - LOCK
   - $$mdi:apple-finder$$
   - CONTEXT MENU
@@ -357,36 +357,36 @@ layers:
   - MENU
   - EXEC
   - {t: '&ySpacecap', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
   - '&num_word 3'
   - '&num_word 4'
   - $$mdi:alpha-w-box$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
+  - ''
+  - ''
+  - ''
   - $$mdi:lock$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - LEFT META
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
+  - ''
   - AC UNDO
   - AC CUT
   - AC COPY
   - AC PASTE
   - AC REDO
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
+  - ''
+  - AL TEXT EDITOR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - AC SEND
   - $$mdi:keyboard-tab$$
