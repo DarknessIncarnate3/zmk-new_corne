@@ -145,7 +145,7 @@ layers:
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
   - {t: '$$mdi:keyboard-return$$', h: num}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '&num_word', h: nav}
+  - {t: '&zNumword', h: nav}
   num:
   - $$mdi:keyboard-tab$$
   - {t: '`', s: '~'}
