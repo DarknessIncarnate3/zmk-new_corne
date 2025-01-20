@@ -282,7 +282,7 @@
                           &kp ESC      &none       &kp ENTER                                      &kp C_AC_SEND  &kp TAB           &kp BSPC
             >;
 
-            sensor-bindings = <&inc_dec_kp 0 0>;
+            sensor-bindings = <&inc_dec_kp C_FAST_FORWARD C_REWIND>;
         };
     };
 };
