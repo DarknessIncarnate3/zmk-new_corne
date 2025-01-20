@@ -291,8 +291,8 @@
         layer_func {
             display-name = "func";
             bindings = <
-&kp TAB     &none       &none        &none        &none        &yPower                     &none         &kp K_LOCK     &kp K_FIND        &kp K_CONTEXT_MENU  &kp K_HELP    &kp K_MENU     &kp K_EXEC
-&ySpacecap  &kp U       &num_word 3  &num_word 4  &caps_word   &none                &none  &none  &none  &none          &kp LEFT_CONTROL  &kp LEFT_SHIFT      &kp LEFT_ALT  &kp LEFT_META  &none
+&none       &none       &none        &none        &none        &yPower                     &none         &kp K_LOCK     &kp K_FIND        &kp K_CONTEXT_MENU  &kp K_HELP    &kp K_MENU     &kp K_EXEC
+&ySpacecap  &none       &num_word 3  &num_word 4  &caps_word   &none                &none  &none  &none  &none          &kp LEFT_CONTROL  &kp LEFT_SHIFT      &kp LEFT_ALT  &kp LEFT_META  &none
 &none       &kp K_UNDO  &kp K_CUT    &kp K_COPY   &kp K_PASTE  &kp K_REDO  &none           &none         &none          &none             &none               &none         &none          &none
                                      &kp ESC      &none        &kp ENTER                                 &kp C_AC_SEND  &kp TAB           &kp BSPC
             >;
