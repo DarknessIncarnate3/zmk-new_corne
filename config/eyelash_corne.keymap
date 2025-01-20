@@ -212,7 +212,7 @@
 
         c_bracket {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <23 22>;
+            key-positions = <23 24>;
             layers = <0>;
             require-prior-idle-ms = <100>;
             timeout-ms = <50>;
