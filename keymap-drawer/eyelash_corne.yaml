@@ -226,9 +226,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: \, h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:apple-keyboard-shift$$
-  - BACK
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - FORWARD
+  - AC BACK
+  - AC HOME
+  - AL TASK MANAGER
   - SNAPSHOT
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
