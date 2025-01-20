@@ -247,10 +247,10 @@
         layer_nav {
             display-name = "nav";
             bindings = <
-&kp TAB                        &kp C_VOICE_COMMAND  &mkp RCLK     &mkp RCLK                &mkp LCLK            &kp BACKSPACE                                  &mmv MOVE_UP                     &kp C_NEXT        &kp HOME        &kp PAGE_DOWN   &kp PAGE_DOWN  &kp END          &kp DEL
-&none                          &mmv MOVE_LEFT       &mmv MOVE_UP  &mmv MOVE_DOWN           &mmv MOVE_RIGHT      &none                          &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &kp C_PLAY_PAUSE  &kp LEFT        &kp DOWN        &kp UP         &kp RIGHT        &kp ENTER
-&mt LEFT_ALT NON_US_BACKSLASH  &kp LEFT_SHIFT       &none         &mkp MCLK                &none                &kp C_SNAPSHOT   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp C_PREVIOUS    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &kp PRINTSCREEN
-                                                                  &mt LEFT_CONTROL ESCAPE  &morph_shiftonspace  &morph_entertab                                                                 &lt 3 ENTER       &kp SPACE       &to 0
+&kp TAB                        &kp C_VOICE_COMMAND  &mkp RCLK     &mkp RCLK                &mkp LCLK            &kp BACKSPACE                                  &mmv MOVE_UP                     &kp C_NEXT        &kp HOME              &kp PAGE_DOWN   &kp PAGE_DOWN  &kp END          &kp DEL
+&none                          &mmv MOVE_LEFT       &mmv MOVE_UP  &mmv MOVE_DOWN           &mmv MOVE_RIGHT      &none                          &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &kp C_PLAY_PAUSE  &kp LEFT              &kp DOWN        &kp UP         &kp RIGHT        &kp ENTER
+&mt LEFT_ALT NON_US_BACKSLASH  &kp LEFT_SHIFT       &none         &mkp MCLK                &none                &kp C_SNAPSHOT   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp C_PREVIOUS    &msc SCRL_LEFT        &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &kp PRINTSCREEN
+                                                                  &mt LEFT_CONTROL ESCAPE  &morph_shiftonspace  &morph_entertab                                                                 &lt 3 ENTER       &mt LEFT_SHIFT SPACE  &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp C_FAST_FORWARD C_REWIND>;
