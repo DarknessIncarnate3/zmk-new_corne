@@ -252,7 +252,7 @@ layers:
   - '&studio_unlock'
   - '&yPower'
   - RGB SAI
-  - '&yOff'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&yOff'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
