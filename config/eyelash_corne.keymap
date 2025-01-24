@@ -186,7 +186,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "YBACKLIGHT";
         #binding-cells = <0>;
-        bindings = <&bl BL_OFF>, <&bl BL_ON>;
+        bindings = <&bl BL_ON>, <&bl BL_OFF>;
     };
 
     combos { compatible = "zmk,combos"; };
