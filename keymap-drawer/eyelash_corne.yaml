@@ -268,7 +268,7 @@ layers:
   - RGB COLOR HSB(0,0,30)
   - RGB HUI
   - '&yBacklight'
-  - '&bl BL_ON'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&bl BL_INC'
   - '&bl BL_DEC'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
