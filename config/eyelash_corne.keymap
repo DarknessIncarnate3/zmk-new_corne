@@ -258,7 +258,7 @@
             display-name = "fn";
             bindings = <
 &to 0  &none         &none         &none         &studio_unlock  &yPower                                           &rgb_ug RGB_SAI                                 &yOff            &yOff            &none            &none            &none            &yBtClear
-&to 2  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4                     &rgb_ug RGB_HUD  &rgb_ug RGB_COLOR_HSB(0,0,30)  &rgb_ug RGB_HUI  &yBacklight      &bl BL_ON        &bl BL_INC       &bl BL_DEC       &none            &none
+&to 2  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4                     &rgb_ug RGB_HUD  &rgb_ug RGB_COLOR_HSB(0,0,30)  &rgb_ug RGB_HUI  &yBacklight      &none            &bl BL_INC       &bl BL_DEC       &none            &none
 &to 1  &bt BT_SEL 5  &bt BT_SEL 6  &none         &none           &yOutput      &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                                 &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &none
                                    &none         &none           &none                                                                                             &to 3            &to 4            &to 0
             >;
