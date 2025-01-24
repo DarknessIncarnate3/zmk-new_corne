@@ -173,6 +173,15 @@
         hold-while-undecided;
     };
 
+    yOff: yOff {
+        compatible = "zmk,behavior-tap-dance";
+        label = "YOFF";
+        #binding-cells = <0>;
+        bindings = <&none>, <&soft_off>;
+
+        tapping-term-ms = <300>;
+    };
+
     combos { compatible = "zmk,combos"; };
 
     keymap {
