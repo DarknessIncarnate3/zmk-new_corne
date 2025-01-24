@@ -111,7 +111,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '-', h: func, s: _}
+  - {t: '-', h: func, s: F4}
   - A
   - S
   - D
@@ -145,7 +145,7 @@ layers:
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
   - {t: '$$mdi:keyboard-return$$', h: num}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '&zNumword', h: nav}
+  - {t: '&yNumCaps', h: nav}
   num:
   - $$mdi:keyboard-tab$$
   - {t: '`', s: '~'}
