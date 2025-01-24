@@ -252,9 +252,9 @@ layers:
   - '&studio_unlock'
   - '&yPower'
   - RGB SAI
-  - RGB EFR
-  - RGB EFF
-  - '&bl BL_TOG'
+  - '&yOff'
+  - '&yOff'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&yBtClear'
@@ -267,7 +267,7 @@ layers:
   - RGB HUD
   - RGB COLOR HSB(0,0,30)
   - RGB HUI
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&yBacklight'
   - '&bl BL_ON'
   - '&bl BL_INC'
   - '&bl BL_DEC'
@@ -282,10 +282,10 @@ layers:
   - RGB TOG
   - RGB SAD
   - RGB BRI
+  - RGB EFR
   - RGB BRD
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB BRI
+  - RGB EFF
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
