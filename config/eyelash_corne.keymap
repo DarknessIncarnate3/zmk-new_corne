@@ -61,7 +61,7 @@
     xShiftonSpace: xShiftonSpace {
         compatible = "zmk,behavior-mod-morph";
         label = "XSHIFTONSPACE";
-        bindings = <&kp SPACE>, <&mt LEFT_SHIFT SPACE>;
+        bindings = <&kp SPACE>, <&zFast_Mod LEFT_SHIFT SPACE>;
 
         #binding-cells = <0>;
         mods = <(MOD_LCTL|MOD_LGUI|MOD_LALT)>;
@@ -71,7 +71,7 @@
     xEntertab: xEntertab {
         compatible = "zmk,behavior-mod-morph";
         label = "XENTERTAB";
-        bindings = <&mt LGUI ENTER>, <&kp TAB>;
+        bindings = <&zFast_Mod LGUI ENTER>, <&kp TAB>;
 
         #binding-cells = <0>;
         mods = <(MOD_LALT)>;
