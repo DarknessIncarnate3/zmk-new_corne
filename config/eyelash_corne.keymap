@@ -125,7 +125,7 @@
     xF4: xF4 {
         compatible = "zmk,behavior-mod-morph";
         label = "XF4";
-        bindings = <&zFastLayer 7 MINUS>, <&kp F4>;
+        bindings = <&zFast_Mod LEFT_SHIFT MINUS>, <&kp F4>;
 
         #binding-cells = <0>;
         mods = <(MOD_LALT)>;
