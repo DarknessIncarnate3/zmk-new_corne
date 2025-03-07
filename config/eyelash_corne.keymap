@@ -8,8 +8,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 /*
@@ -209,8 +207,8 @@
             display-name = "cole";
             bindings = <
 &kp TAB                               &kp Q             &kp W  &kp F                           &kp P           &kp G                          &kp UP                &kp J                &kp L                        &kp U               &kp Y    &kp SEMICOLON  &kp BSPC
-&xF4                                  &kp A             &kp R  &kp S                           &kp T           &kp D                &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                &kp N                        &kp E               &kp I    &kp O          &zFastLayer 5 SQT
-&zFast_Mod LEFT_ALT NON_US_BACKSLASH  &mt LEFT_SHIFT Z  &kp X  &kp C                           &kp V           &kp B  &kp C_MUTE              &kp DOWN              &kp K                &kp M                        &kp COMMA           &kp DOT  &kp FSLH       &zFastLayer 6 GRAVE
+&xF4                                  &kp A             &kp R  &kp S                           &kp T           &kp D                &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                &kp N                        &kp E               &kp I    &kp O          &lt 6 SQT
+&zFast_Mod LEFT_ALT NON_US_BACKSLASH  &mt LEFT_SHIFT Z  &kp X  &kp C                           &kp V           &kp B  &kp C_MUTE              &kp DOWN              &kp K                &kp M                        &kp COMMA           &kp DOT  &kp FSLH       &lt 5 GRAVE
                                                                &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace  &xTab                                                &zFastLayer 3 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zyNumCapsWord 4 0
             >;
 
