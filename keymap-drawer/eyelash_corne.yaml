@@ -154,11 +154,11 @@ layers:
   - {t: '3', s: '#'}
   - '*'
   - $$mdi:arrow-up-bold$$
-  - '#'
+  - '!'
   - '{'
   - '}'
   - '%'
-  - '!'
+  - '@'
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '-', h: '$$mdi:apple-keyboard-option$$', s: _}
   - '0'
@@ -169,7 +169,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - '@'
+  - '#'
   - (
   - )
   - ^
