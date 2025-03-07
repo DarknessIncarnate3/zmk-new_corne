@@ -13,7 +13,7 @@ layers:
   - Y
   - {t: ;, s: ':'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '-', h: func, s: F4}
+  - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: F4}
   - A
   - R
   - S
@@ -111,7 +111,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '-', h: func, s: F4}
+  - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: F4}
   - A
   - S
   - D
@@ -356,7 +356,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '&ySpacecap', type: held}
+  - '&ySpacecap'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&num_word 4'
