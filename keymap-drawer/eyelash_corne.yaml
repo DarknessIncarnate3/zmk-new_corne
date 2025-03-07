@@ -125,7 +125,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', h: fn, s: '"'}
+  - {t: '''', h: f1, s: '"'}
   - {t: \, h: '$$mdi:apple-keyboard-option$$'}
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
@@ -139,7 +139,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '`', h: f1, s: '~'}
+  - {t: '`', h: fn, s: '~'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
