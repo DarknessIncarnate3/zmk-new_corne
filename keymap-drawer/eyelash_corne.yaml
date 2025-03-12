@@ -486,6 +486,6 @@ layers:
   - $$mdi:keyboard-esc$$
   - '&key_repeat'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&num_word 4'
   - {t: '$$mdi:alpha-w-box$$', type: held}
