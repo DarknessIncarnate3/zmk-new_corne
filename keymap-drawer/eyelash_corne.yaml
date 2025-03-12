@@ -246,10 +246,10 @@ layers:
   - {t: cole, h: toggle, type: held}
   fn:
   - {t: cole, h: toggle}
+  - {t: numpad, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB SAI
   - '&yPower'
