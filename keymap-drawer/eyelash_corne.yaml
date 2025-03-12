@@ -276,8 +276,8 @@ layers:
   - {t: \, h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: 'Gui+$$mdi:keyboard-return$$', type: enter}
-  - {t: 'Gui+$$mdi:backspace$$', type: backspace}
+  - Gui+BACK
+  - Gui+FORWARD
   - '&num_word 4'
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -312,7 +312,7 @@ layers:
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:bluetooth-connect$$', h: '5'}
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB HUD
   - '&yColour'
   - RGB HUI
