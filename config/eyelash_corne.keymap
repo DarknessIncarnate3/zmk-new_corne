@@ -301,10 +301,10 @@
 
         layer_8 {
             bindings = <
-&trans  &kp COMMA  &kp N1  &kp N2   &kp N3     &kp LC(X)                    &trans          &trans  &kp TAB    &trans    &trans  &trans     &trans
-&trans  &kp N0     &kp N4  &kp N5   &kp N6     &kp LC(C)            &trans  &trans  &trans  &trans  &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT  &trans
-&trans  &kp DOT    &kp N7  &kp N8   &kp N9     &kp LC(V)  &trans            &trans          &trans  &trans     &trans    &trans  &trans     &trans
-                           &kp ESC  &kp SPACE  &kp ENTER                                    &trans  &kp LSHFT  &trans
+&trans  &kp COMMA  &kp N1  &kp N2                          &kp N3     &kp LC(X)                    &trans          &trans               &kp TAB    &trans    &trans  &trans     &trans
+&trans  &kp N0     &kp N4  &kp N5                          &kp N6     &kp LC(C)            &trans  &trans  &trans  &trans               &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT  &trans
+&trans  &kp DOT    &kp N7  &kp N8                          &kp N9     &kp LC(V)  &trans            &trans          &trans               &trans     &trans    &trans  &trans     &trans
+                           &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE  &kp ENTER                                    &zFastLayer 0 ENTER  &kp LSHFT  &trans
             >;
         };
     };
