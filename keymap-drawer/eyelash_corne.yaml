@@ -258,7 +258,7 @@ layers:
   - PgDn
   - END
   - $$mdi:backspace-reverse-outline$$
-  - BACK
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
