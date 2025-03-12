@@ -247,9 +247,9 @@ layers:
   fn:
   - {t: cole, h: toggle}
   - {t: numpad, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB SAI
   - '&yPower'
@@ -260,9 +260,9 @@ layers:
   - '&yBtClear'
   - {t: qwerty, h: toggle}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - RGB HUD
   - '&yColour'
@@ -275,9 +275,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: game, h: toggle}
   - {t: '$$mdi:bluetooth-connect$$', h: '5'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '6'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
   - '&yOutput'
   - RGB TOG
   - RGB SAD
