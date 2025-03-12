@@ -208,6 +208,16 @@
         hold-while-undecided;
     };
 
+    z2layer: z2layer {
+        compatible = "zmk,behavior-hold-tap";
+        label = "Z2LAYER";
+        bindings = <&mo>, <&to>;
+
+        #binding-cells = <2>;
+        hold-while-undecided;
+        tapping-term-ms = <200>;
+    };
+
     combos { compatible = "zmk,combos"; };
 
     keymap {
@@ -252,10 +262,10 @@
         layer_num {
             display-name = "num";
             bindings = <
-&kp TAB         &kp COMMA  &kp N1  &kp N2                          &kp N3     &kp LC(X)                                &kp UP               &kp ASTERISK         &kp TAB    &kp PAGE_DOWN  &kp PAGE_DOWN  &kp DELETE  &kp BACKSPACE
-&kp LEFT_SHIFT  &kp N0     &kp N4  &kp N5                          &kp N6     &kp LC(C)                      &kp LEFT  &none     &kp RIGHT  &kp PLUS             &kp LEFT   &kp DOWN       &kp UP         &kp RIGHT   &kp SINGLE_QUOTE
-&kp LEFT_ALT    &kp DOT    &kp N7  &kp N8                          &kp N9     &kp LC(V)             &none              &kp DOWN             &kp MINUS            &none      &kp END        &kp HOME       &kp SLASH   &zFastLayer 6 TILDE
-                                   &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE  &zFastLayer 10 ENTER                                          &zFastLayer 4 ENTER  &kp LSHFT  &to 0
+&kp TAB         &kp COMMA  &kp N1  &kp N2                          &kp N3     &kp LC(X)                         &kp UP               &kp ASTERISK         &kp TAB    &kp PAGE_DOWN  &kp PAGE_DOWN  &kp DELETE  &kp BACKSPACE
+&kp LEFT_SHIFT  &kp N0     &kp N4  &kp N5                          &kp N6     &kp LC(C)               &kp LEFT  &none     &kp RIGHT  &kp PLUS             &kp LEFT   &kp DOWN       &kp UP         &kp RIGHT   &kp SINGLE_QUOTE
+&kp LEFT_ALT    &kp DOT    &kp N7  &kp N8                          &kp N9     &kp LC(V)      &none              &kp DOWN             &kp MINUS            &none      &kp END        &kp HOME       &kp SLASH   &zFastLayer 6 TILDE
+                                   &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE  &z2layer 10 0                                          &zFastLayer 4 ENTER  &kp LSHFT  &to 0
             >;
 
             label = "num";
