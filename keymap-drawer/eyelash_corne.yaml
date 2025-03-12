@@ -148,53 +148,53 @@ layers:
   - {t: '&yNumCaps', h: nav}
   num:
   - $$mdi:keyboard-tab$$
-  - {t: ',', s: <}
+  - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - Ctl+X
-  - $$mdi:arrow-up-bold$$
   - '*'
-  - $$mdi:keyboard-tab$$
-  - PgDn
-  - PgDn
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:arrow-up-bold$$
+  - '!'
+  - '{'
+  - '}'
+  - '%'
+  - '@'
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '0', s: )}
+  - {t: '-', h: '$$mdi:apple-keyboard-option$$', s: _}
+  - '0'
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - Ctl+C
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-right-bold$$
   - +
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-option$$
-  - {t: ., s: '>'}
+  - '#'
+  - (
+  - )
+  - ^
+  - $
+  - {t: '''', h: fn, s: '"'}
+  - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: _}
+  - .
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - Ctl+V
+  - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
-  - {t: '-', s: _}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - END
-  - HOME
-  - {t: /, s: '?'}
-  - {t: '~', h: fn}
+  - '&'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: '=', s: +}
+  - {t: ',', s: <}
+  - {t: ;, h: f1, s: ':'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: cole, type: held alternate}
-  - {t: '$$mdi:keyboard-return$$', h: num, type: held}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', h: LGUI, type: held alternate}
+  - {t: cole, h: toggle, type: held}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: nav}
   nav:
   - $$mdi:keyboard-tab$$
   - VOICE COMMAND
