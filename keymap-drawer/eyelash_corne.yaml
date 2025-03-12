@@ -337,7 +337,7 @@ layers:
   - RGB EFF
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: num, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: func, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: sym, h: toggle, type: held alternate}
   - {t: nav, h: toggle}
@@ -437,7 +437,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - AC SEND
+  - {t: cole, h: toggle}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   ql:
