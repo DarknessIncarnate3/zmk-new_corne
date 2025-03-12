@@ -311,18 +311,18 @@
 
         layer_numpad {
             bindings = <
-&none  &kp COMMA  &kp N1  &kp N2                          &kp N3     &kp LC(X)                               &kp UP               &kp ASTERISK         &kp TAB    &kp PAGE_DOWN  &kp PAGE_DOWN  &kp DELETE  &kp BACKSPACE
-&none  &kp N0     &kp N4  &kp N5                          &kp N6     &kp LC(C)                     &kp LEFT  &none     &kp RIGHT  &kp PLUS             &kp LEFT   &kp DOWN       &kp UP         &kp RIGHT   &kp SINGLE_QUOTE
-&none  &kp DOT    &kp N7  &kp N8                          &kp N9     &kp LC(V)            &none              &kp DOWN             &kp MINUS            &none      &kp END        &kp HOME       &kp SLASH   &zFastLayer 5 TILDE
-                          &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE  &zFastLayer 0 ENTER                                          &zFastLayer 3 ENTER  &kp LSHFT  &none
+&kp TAB         &kp COMMA  &kp N1  &kp N2                          &kp N3     &kp LC(X)                               &kp UP               &kp ASTERISK         &kp TAB    &kp PAGE_DOWN  &kp PAGE_DOWN  &kp DELETE  &kp BACKSPACE
+&kp LEFT_SHIFT  &kp N0     &kp N4  &kp N5                          &kp N6     &kp LC(C)                     &kp LEFT  &none     &kp RIGHT  &kp PLUS             &kp LEFT   &kp DOWN       &kp UP         &kp RIGHT   &kp SINGLE_QUOTE
+&kp LEFT_ALT    &kp DOT    &kp N7  &kp N8                          &kp N9     &kp LC(V)            &none              &kp DOWN             &kp MINUS            &none      &kp END        &kp HOME       &kp SLASH   &zFastLayer 5 TILDE
+                                   &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE  &zFastLayer 0 ENTER                                          &zFastLayer 3 ENTER  &kp LSHFT  &none
             >;
         };
 
         layer_ql {
             bindings = <
-&none  &none  &none  &none        &none        &none                  &none         &none  &none  &none       &none  &none  &none
-&none  &none  &none  &none        &none        &none           &none  &none  &none  &none  &none  &none       &none  &none  &none
-&none  &none  &none  &none        &none        &none  &none           &none         &none  &none  &none       &none  &none  &none
+&none  &none  &none  &none  &none        &none                  &none         &none        &none  &none       &none  &none  &none
+&none  &none  &none  &none  &none        &none           &none  &none  &none  &none        &none  &none       &none  &none  &none
+&none  &none  &none  &none  &none        &none  &none           &none         &none        &none  &none       &none  &none  &none
                      &none  &key_repeat  &none                                &num_word 4  &none  &caps_word
             >;
         };
