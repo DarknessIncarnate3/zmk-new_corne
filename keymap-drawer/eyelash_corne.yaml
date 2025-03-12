@@ -45,7 +45,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
-  - {t: '$$mdi:keyboard-return$$', h: num}
+  - {t: '$$mdi:keyboard-return$$', h: sym}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ql, h: nav}
   game:
@@ -93,8 +93,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '''', h: f1, s: '"'}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-esc$$', h: num}
-  - {t: '$$mdi:keyboard-return$$', h: num}
+  - {t: '$$mdi:keyboard-esc$$', h: sym}
+  - {t: '$$mdi:keyboard-return$$', h: sym}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace-reverse-outline$$', h: nav}
   qwerty:
@@ -143,10 +143,59 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
-  - {t: '$$mdi:keyboard-return$$', h: num}
+  - {t: '$$mdi:keyboard-return$$', h: sym}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '&yNumCaps', h: nav}
   num:
+  - $$mdi:keyboard-tab$$
+  - {t: ',', s: <}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - Ctl+X
+  - $$mdi:arrow-up-bold$$
+  - '*'
+  - $$mdi:keyboard-tab$$
+  - PgDn
+  - PgDn
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '0', s: )}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - Ctl+C
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-right-bold$$
+  - +
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-option$$
+  - {t: ., s: '>'}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - Ctl+V
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-down-bold$$
+  - {t: '-', s: _}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - END
+  - HOME
+  - {t: /, s: '?'}
+  - {t: '~', h: fn}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', h: cole}
+  - {t: '$$mdi:keyboard-return$$', h: sym}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  sym:
   - $$mdi:keyboard-tab$$
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
@@ -241,7 +290,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
   - {t: '$$mdi:keyboard-return$$', h: LGUI, s: '$$mdi:keyboard-tab$$', type: held alternate}
-  - {t: '$$mdi:keyboard-return$$', h: num, type: held alternate}
+  - {t: '$$mdi:keyboard-return$$', h: sym, type: held alternate}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: cole, h: toggle, type: held}
   fn:
@@ -290,7 +339,7 @@ layers:
   - {t: num, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - {t: num, h: toggle, type: held alternate}
+  - {t: sym, h: toggle, type: held alternate}
   - {t: nav, h: toggle}
   - {t: cole, h: toggle}
   f1:
@@ -440,3 +489,52 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&num_word 4'
   - {t: '$$mdi:alpha-w-box$$', type: held}
+  tcole:
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - F
+  - P
+  - G
+  - $$mdi:arrow-up-bold$$
+  - J
+  - L
+  - U
+  - Y
+  - {t: ;, s: ':'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: F4}
+  - A
+  - R
+  - S
+  - T
+  - D
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - H
+  - N
+  - E
+  - I
+  - O
+  - {t: '''', h: f1, s: '"'}
+  - {t: \, h: '$$mdi:apple-keyboard-option$$'}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - $$mdi:volume-off$$
+  - $$mdi:arrow-down-bold$$
+  - K
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: '`', h: fn, s: '~'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
+  - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
+  - {t: '$$mdi:keyboard-return$$', h: sym}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: ql, h: nav}
