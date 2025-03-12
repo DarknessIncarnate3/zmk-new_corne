@@ -316,6 +316,8 @@
 &kp LEFT_ALT    &kp DOT    &kp N7  &kp N8                          &kp N9     &kp LC(V)            &none              &kp DOWN             &kp MINUS            &none      &kp END        &kp HOME       &kp SLASH   &zFastLayer 5 TILDE
                                    &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE  &zFastLayer 0 ENTER                                          &zFastLayer 3 ENTER  &kp LSHFT  &none
             >;
+
+            label = "num";
         };
 
         layer_ql {
