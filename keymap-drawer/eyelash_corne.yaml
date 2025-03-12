@@ -191,10 +191,10 @@ layers:
   - {t: '~', h: fn}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: cole}
+  - {t: '$$mdi:keyboard-return$$', h: tcole}
   - {t: '$$mdi:keyboard-return$$', h: sym}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: cole, h: toggle}
   sym:
   - $$mdi:keyboard-tab$$
   - {t: '`', s: '~'}
@@ -534,7 +534,7 @@ layers:
   - {t: '`', h: fn, s: '~'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
-  - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
+  - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$', type: held}
   - {t: '$$mdi:keyboard-return$$', h: sym}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ql, h: nav}
