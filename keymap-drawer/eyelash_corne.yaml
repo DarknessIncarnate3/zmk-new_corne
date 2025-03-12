@@ -191,7 +191,7 @@ layers:
   - {t: '~', h: fn}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: tcole}
+  - {t: cole, h: tcole}
   - {t: '$$mdi:keyboard-return$$', h: sym}
   - $$mdi:apple-keyboard-shift$$
   - {t: cole, h: toggle}
