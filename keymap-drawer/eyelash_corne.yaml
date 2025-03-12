@@ -391,7 +391,7 @@ layers:
   - AC SEND
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  '8':
+  numpad:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ',', s: <}
   - {t: '1', s: '!'}
@@ -403,7 +403,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - PgDn
   - PgDn
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
@@ -419,7 +419,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ., s: '>'}
   - {t: '7', s: '&'}
@@ -433,7 +433,7 @@ layers:
   - END
   - HOME
   - {t: /, s: '?'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '~', h: fn}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: num}
