@@ -246,7 +246,7 @@ layers:
   - {t: cole, h: toggle, type: held}
   fn:
   - {t: cole, h: toggle}
-  - {t: numpad, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -287,7 +287,7 @@ layers:
   - RGB BRI
   - RGB EFF
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: numpad, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: num, h: toggle, type: held alternate}
