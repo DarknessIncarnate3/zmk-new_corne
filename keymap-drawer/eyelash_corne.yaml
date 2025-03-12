@@ -398,7 +398,7 @@ layers:
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - Ctl+X
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-up-bold$$
   - '*'
   - $$mdi:keyboard-tab$$
   - PgDn
@@ -411,9 +411,9 @@ layers:
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - Ctl+C
+  - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-right-bold$$
   - +
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -427,7 +427,7 @@ layers:
   - {t: '9', s: (}
   - Ctl+V
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-down-bold$$
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - END
@@ -436,7 +436,7 @@ layers:
   - {t: '~', h: fn}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: num}
   - {t: '$$mdi:keyboard-return$$', h: cole}
+  - {t: '$$mdi:keyboard-return$$', h: num}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
