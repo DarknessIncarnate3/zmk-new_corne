@@ -392,7 +392,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   numpad:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-tab$$
   - {t: ',', s: <}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -405,7 +405,7 @@ layers:
   - PgDn
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '0', s: )}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
@@ -420,7 +420,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '''', s: '"'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-option$$
   - {t: ., s: '>'}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
