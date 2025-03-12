@@ -320,10 +320,10 @@
 
         layer_ql {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans      &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &caps_word
+&none  &none  &none  &none  &none        &none                  &none         &none  &none  &none       &none  &none  &none
+&none  &none  &none  &none  &none        &none           &none  &none  &none  &none  &none  &none       &none  &none  &none
+&none  &none  &none  &none  &none        &none  &none           &none         &none  &none  &none       &none  &none  &none
+                     &none  &key_repeat  &none                                &none  &none  &caps_word
             >;
         };
     };
