@@ -307,5 +307,14 @@
                            &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE  &zFastLayer 0 ENTER                                           &zFastLayer 3 ENTER  &kp LSHFT  &trans
             >;
         };
+
+        layer_ql {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans      &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans      &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &caps_word
+            >;
+        };
     };
 };
