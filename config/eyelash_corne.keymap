@@ -323,7 +323,7 @@
 &none  &none  &none  &none  &none        &none                  &none         &none  &none  &none       &none  &none  &none
 &none  &none  &none  &none  &none        &none           &none  &none  &none  &none  &none  &none       &none  &none  &none
 &none  &none  &none  &none  &none        &none  &none           &none         &none  &none  &none       &none  &none  &none
-                     &kp A  &key_repeat  &none                                &none  &none  &caps_word
+                     &num_word 4  &key_repeat  &none                                &none  &none  &caps_word
             >;
         };
     };
