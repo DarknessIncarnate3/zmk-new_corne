@@ -485,7 +485,7 @@ layers:
   - {t: '~', h: fn}
   - $$mdi:keyboard-esc$$
   - '&key_repeat'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:alpha-w-box$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&num_word 4'
   - {t: '$$mdi:alpha-w-box$$', type: held}
