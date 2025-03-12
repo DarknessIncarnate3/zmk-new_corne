@@ -194,7 +194,7 @@ layers:
   - {t: cole, h: tcole}
   - {t: '$$mdi:keyboard-return$$', h: sym}
   - $$mdi:apple-keyboard-shift$$
-  - {t: tcole, h: cole}
+  - {t: cole, h: tcole}
   sym:
   - $$mdi:keyboard-tab$$
   - {t: '`', s: '~'}
@@ -537,4 +537,4 @@ layers:
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$', type: held}
   - {t: '$$mdi:keyboard-return$$', h: sym}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ql, h: nav}
+  - {t: ql, h: nav, type: held alternate}
