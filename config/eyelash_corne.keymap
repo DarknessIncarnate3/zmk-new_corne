@@ -84,30 +84,12 @@
         tapping-term-ms = <200>;
     };
 
-    yNumCaps: yNumCaps {
-        compatible = "zmk,behavior-tap-dance";
-        label = "YNUMCAPS";
-        #binding-cells = <0>;
-        bindings = <&caps_word>, <&kp A>;
-
-        tapping-term-ms = <200>;
-    };
-
     yOutput: yOutput {
         compatible = "zmk,behavior-tap-dance";
         label = "YOUTPUT";
         #binding-cells = <0>;
         tapping-term-ms = <300>;
         bindings = <&out OUT_BLE>, <&out OUT_USB>;
-    };
-
-    zNumword: zNumword {
-        compatible = "zmk,behavior-hold-tap";
-        label = "ZNUMWORD";
-        bindings = <&mo>;
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        flavor = "hold-preferred";
     };
 
     zFastLayer: zFastLayer {
@@ -137,17 +119,6 @@
         bindings = <&ext_power EP_ON>, <&ext_power EP_OFF>;
 
         tapping-term-ms = <300>;
-    };
-
-    zyNumCapsWord: zyNumCapsWord {
-        compatible = "zmk,behavior-hold-tap";
-        label = "ZYNUMCAPSWORD";
-        bindings = <&mo>;
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        flavor = "hold-preferred";
-        quick-tap-ms = <175>;
-        hold-while-undecided;
     };
 
     yBtClear: yBtClear {
@@ -247,10 +218,10 @@
         layer_qwerty {
             display-name = "qwerty";
             bindings = <
-&kp TAB                               &kp Q  &kp W  &kp E                           &kp R           &kp T                          &kp UP                &kp Y                &kp U                        &kp I               &kp O    &kp P     &kp BSPC
-&xF4                                  &kp A  &kp S  &kp D                           &kp F           &kp G                &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                &kp J                        &kp K               &kp L    &kp SEMI  &lt 7 SQT
-&zFast_Mod LEFT_ALT NON_US_BACKSLASH  &kp Z  &kp X  &kp C                           &kp V           &kp B  &kp C_MUTE              &kp DOWN              &kp N                &kp M                        &kp COMMA           &kp DOT  &kp FSLH  &lt 6 GRAVE
-                                                    &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace  &xTab                                                &zFastLayer 4 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zyNumCapsWord 5 0
+&kp TAB                               &kp Q  &kp W  &kp E                           &kp R           &kp T                          &kp UP                &kp Y                &kp U                        &kp I      &kp O    &kp P     &kp BSPC
+&xF4                                  &kp A  &kp S  &kp D                           &kp F           &kp G                &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                &kp J                        &kp K      &kp L    &kp SEMI  &lt 7 SQT
+&zFast_Mod LEFT_ALT NON_US_BACKSLASH  &kp Z  &kp X  &kp C                           &kp V           &kp B  &kp C_MUTE              &kp DOWN              &kp N                &kp M                        &kp COMMA  &kp DOT  &kp FSLH  &lt 6 GRAVE
+                                                    &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace  &xTab                                                &zFastLayer 4 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
