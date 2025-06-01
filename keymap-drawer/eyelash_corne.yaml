@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_corne}
 layers:
   cole:
   - $$mdi:keyboard-tab$$
@@ -145,7 +146,7 @@ layers:
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
   - {t: '$$mdi:keyboard-return$$', h: sym}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '&yNumCaps', h: nav}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   num:
   - $$mdi:keyboard-tab$$
   - {t: ',', s: <}
@@ -278,7 +279,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+BACK
   - Gui+FORWARD
-  - '&num_word 4'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PREV
@@ -487,7 +488,7 @@ layers:
   - '&key_repeat'
   - $$mdi:alpha-w-box$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '&num_word 4'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:alpha-w-box$$', type: held}
   tcole:
   - $$mdi:keyboard-tab$$
