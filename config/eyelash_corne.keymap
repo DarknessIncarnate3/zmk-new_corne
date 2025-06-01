@@ -89,7 +89,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "YNUMCAPS";
         #binding-cells = <0>;
-        bindings = <&caps_word>, <&num_word 3>;
+        bindings = <&caps_word>, <&kp A>;
 
         tapping-term-ms = <200>;
     };
@@ -105,8 +105,7 @@
     zNumword: zNumword {
         compatible = "zmk,behavior-hold-tap";
         label = "ZNUMWORD";
-        bindings = <&mo>, <&zNumword>;
-
+        bindings = <&mo>;
         #binding-cells = <2>;
         tapping-term-ms = <200>;
         flavor = "hold-preferred";
@@ -144,8 +143,7 @@
     zyNumCapsWord: zyNumCapsWord {
         compatible = "zmk,behavior-hold-tap";
         label = "ZYNUMCAPSWORD";
-        bindings = <&mo>, <&yNumCaps>;
-
+        bindings = <&mo>;
         #binding-cells = <2>;
         tapping-term-ms = <200>;
         flavor = "hold-preferred";
@@ -288,7 +286,7 @@
             bindings = <
 &kp TAB                               &kp C_VOICE_COMMAND  &mkp MCLK     &mkp RCLK                       &mkp LCLK          &kp BACKSPACE                                &mmv MOVE_UP                     &kp K_NEXT        &kp HOME                     &kp PAGE_DOWN   &kp PAGE_DOWN  &kp END          &kp DEL
 &kp LEFT_SHIFT                        &mmv MOVE_LEFT       &mmv MOVE_UP  &mmv MOVE_DOWN                  &mmv MOVE_RIGHT    &caps_word                   &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &kp K_PLAY_PAUSE  &kp LEFT                     &kp DOWN        &kp UP         &kp RIGHT        &kp ENTER
-&zFast_Mod LEFT_ALT NON_US_BACKSLASH  &kp LEFT_SHIFT       &none         &kp LG(K_BACK)                  &kp LG(K_FORWARD)  &num_word 4    &kp C_MUTE                    &mmv MOVE_DOWN                   &kp K_PREV        &msc SCRL_LEFT               &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &kp PRINTSCREEN
+&zFast_Mod LEFT_ALT NON_US_BACKSLASH  &kp LEFT_SHIFT       &none         &kp LG(K_BACK)                  &kp LG(K_FORWARD)  &none          &kp C_MUTE                    &mmv MOVE_DOWN                   &kp K_PREV        &msc SCRL_LEFT               &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &kp PRINTSCREEN
                                                                          &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace     &xEntertab                                                                    &lt 4 ENTER       &zFast_Mod LEFT_SHIFT SPACE  &to 0
             >;
 
@@ -334,10 +332,10 @@
         layer_ql {
             display-name = "ql";
             bindings = <
-&none                 &none  &none  &none       &none        &none                       &none         &none      &none        &none       &none  &none  &none
-&none                 &none  &none  &none       &none        &none                &none  &none  &none  &none      &none        &none       &none  &none  &kp SINGLE_QUOTE
-&kp NON_US_BACKSLASH  &none  &none  &none       &none        &none       &none           &none         &none      &none        &none       &none  &none  &zFastLayer 6 TILDE
-                                    &kp ESCAPE  &key_repeat  &caps_word                                &kp ENTER  &num_word 4  &caps_word
+&none                 &none  &none  &none       &none        &none                       &none         &none      &none  &none       &none  &none  &none
+&none                 &none  &none  &none       &none        &none                &none  &none  &none  &none      &none  &none       &none  &none  &kp SINGLE_QUOTE
+&kp NON_US_BACKSLASH  &none  &none  &none       &none        &none       &none           &none         &none      &none  &none       &none  &none  &zFastLayer 6 TILDE
+                                    &kp ESCAPE  &key_repeat  &caps_word                                &kp ENTER  &none  &caps_word
             >;
         };
 
