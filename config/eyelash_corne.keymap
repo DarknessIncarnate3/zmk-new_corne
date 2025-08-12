@@ -287,10 +287,10 @@
 
         repeat {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &kp Q  &kp W  &kp F   &kp P      &kp G                        &trans          &kp J    &kp L   &kp U      &kp Y    &kp SEMI  &trans
+&trans  &kp A  &kp R  &kp S   &kp T      &kp D                &trans  &trans  &trans  &kp H    &kp N   &kp E      &kp I    &kp O     &trans
+&trans  &kp Z  &kp X  &kp C   &kp V      &kp B      &trans            &trans          &kp K    &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
+                      &trans  &kp SPACE  &kp SPACE                                    &kp RET  &trans  &trans
             >;
         };
 
