@@ -33,7 +33,7 @@ layers:
   - {t: Z, h: repeat}
   - X
   - C
-  - V
+  - {t: V, h: num}
   - B
   - $$mdi:volume-off$$
   - $$mdi:arrow-down-bold$$
@@ -180,7 +180,7 @@ layers:
   - {t: ., s: '>'}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - {t: '9', s: (, type: held}
   - Ctl+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
@@ -278,7 +278,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+BACK
-  - Gui+FORWARD
+  - {t: Gui+FORWARD, type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -376,7 +376,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: fn, h: toggle}
   - {t: f1, h: toggle}
-  - {t: func, h: toggle}
+  - {t: func, h: toggle, type: held alternate}
   - '&yOutput'
   - RGB TOG
   - RGB SAD
@@ -523,7 +523,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -572,7 +572,7 @@ layers:
   - Z
   - X
   - C
-  - V
+  - {t: V, type: held}
   - B
   - $$mdi:volume-off$$
   - $$mdi:arrow-down-bold$$
