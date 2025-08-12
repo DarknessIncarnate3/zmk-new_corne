@@ -386,11 +386,11 @@ layers:
   - RGB BRI
   - RGB EFF
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: num, h: toggle}
-  - {t: func, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - {t: sym, h: toggle, type: held alternate}
-  - {t: mouse, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: cole, h: toggle}
   f1:
   - $$mdi:alpha-w-box$$
