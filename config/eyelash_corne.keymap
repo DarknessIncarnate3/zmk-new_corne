@@ -217,7 +217,7 @@
             display-name = "cole";
             bindings = <
 &kp TAB                        &kp Q                     &kp W                 &kp F                           &kp P                 &kp G                          &kp UP                &kp J                &kp L                        &kp U                   &kp Y                 &zHomeLayer 10 SEMICOLON  &kp BSPC
-&xF4                           &zHomeMod LEFT_CONTROL A  &zHomeMod LEFT_ALT R  &zHomeMod LEFT_SHIFT S          &zHomeMod LEFT_GUI T  &kp D                &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                &zHomeMod LEFT_GUI N         &zHomeMod LEFT_SHIFT E  &zHomeMod LEFT_ALT I  &zHomeMod LEFT_CONTROL O  &lt 8 SQT
+&zFastLayer 12 MINUS           &zHomeMod LEFT_CONTROL A  &zHomeMod LEFT_ALT R  &zHomeMod LEFT_SHIFT S          &zHomeMod LEFT_GUI T  &kp D                &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                &zHomeMod LEFT_GUI N         &zHomeMod LEFT_SHIFT E  &zHomeMod LEFT_ALT I  &zHomeMod LEFT_CONTROL O  &lt 8 SQT
 &mt LEFT_ALT NON_US_BACKSLASH  &zHomeLayer 6 Z           &kp X                 &kp C                           &zHomeLayer 3 V       &kp B  &kp C_MUTE              &kp DOWN              &kp K                &kp M                        &kp COMMA               &kp DOT               &zHomeLayer 6 SLASH       &lt 7 GRAVE
                                                                                &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace        &xTab                                                &zFastLayer 5 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &stickylayer 5 10
             >;
@@ -350,6 +350,15 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+
+        layer_12 {
+            bindings = <
+&none  &none                     &none                 &none  &none  &kp F4                  &none         &none  &none  &none  &none  &none  &none
+&none  &zHomeMod LEFT_CONTROL S  &zHomeMod LEFT_ALT A  &none  &none  &none            &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none                     &none                 &none  &none  &none   &none           &none         &none  &none  &none  &none  &none  &none
+                                                       &none  &none  &none                                 &none  &none  &none
+            >;
         };
     };
 };
