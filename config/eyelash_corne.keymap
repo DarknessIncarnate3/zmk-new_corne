@@ -46,26 +46,26 @@
     };
 
     zHomeMod: zHomeMod {
-            compatible = "zmk,behavior-hold-tap";
-            label = "ZHOMEMOD";
-            bindings = <&kp>, <&kp>;
+        compatible = "zmk,behavior-hold-tap";
+        label = "ZHOMEMOD";
+        bindings = <&kp>, <&kp>;
 
-            #binding-cells = <2>;
-            tapping-term-ms = <250>;
-            quick-tap-ms = <200>;
-            flavor = "tap-preferred";
-        };
+        #binding-cells = <2>;
+        tapping-term-ms = <250>;
+        quick-tap-ms = <200>;
+        flavor = "tap-preferred";
+    };
 
-        zHomeLayer: zHomeLayer {
-            compatible = "zmk,behavior-hold-tap";
-            label = "ZHOMELAYER";
-            bindings = <&mo>, <&kp>;
+    zHomeLayer: zHomeLayer {
+        compatible = "zmk,behavior-hold-tap";
+        label = "ZHOMELAYER";
+        bindings = <&mo>, <&kp>;
 
-            #binding-cells = <2>;
-            tapping-term-ms = <250>;
-            quick-tap-ms = <200>;
-            flavor = "tap-preferred";
-        };
+        #binding-cells = <2>;
+        tapping-term-ms = <250>;
+        quick-tap-ms = <200>;
+        flavor = "tap-preferred";
+    };
 
     xTab: xTab {
         compatible = "zmk,behavior-mod-morph";
@@ -216,9 +216,9 @@
         default_layer {
             display-name = "cole";
             bindings = <
-&kp TAB                        &kp Q  &kp W  &kp F                           &kp P           &kp G                          &kp UP                &kp J                &kp L                        &kp U             &kp Y    &kp SEMICOLON  &kp BSPC
-&xF4                           &kp A  &kp R  &kp S                           &kp T           &kp D                &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                &kp N                        &kp E             &kp I    &kp O          &lt 7 SQT
-&mt LEFT_ALT NON_US_BACKSLASH  &kp Z  &kp X  &kp C                           &kp V           &kp B  &kp C_MUTE              &kp DOWN              &kp K                &kp M                        &kp COMMA         &kp DOT  &kp FSLH       &lt 6 GRAVE
+&kp TAB                        &kp Q  &kp W  &kp F                           &kp P           &kp G                          &kp UP                &kp J                &kp L                        &kp U                   &kp Y                 &kp SEMICOLON             &kp BSPC
+&xF4                           &kp A  &kp R  &kp S                           &kp T           &kp D                &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                &zHomeMod LEFT_GUI N         &zHomeMod LEFT_SHIFT E  &zHomeMod LEFT_ALT I  &zHomeMod LEFT_CONTROL O  &lt 7 SQT
+&mt LEFT_ALT NON_US_BACKSLASH  &kp Z  &kp X  &kp C                           &kp V           &kp B  &kp C_MUTE              &kp DOWN              &kp K                &kp M                        &kp COMMA               &kp DOT               &kp FSLH                  &lt 6 GRAVE
                                              &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace  &xTab                                                &zFastLayer 4 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &stickylayer 5 9
             >;
 
