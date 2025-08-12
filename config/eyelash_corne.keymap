@@ -309,7 +309,7 @@
         layer_f1 {
             display-name = "f1";
             bindings = <
-&caps_word  &kp F11  &kp F1  &kp F2   &kp F3  &kp F13                            &kp DELETE                &none  &none      &none      &none     &none     &none
+&caps_word  &kp F11  &kp F1  &kp F2   &kp F3  &kp F3                             &kp DELETE                &none  &none      &none      &none     &none     &none
 &none       &kp F10  &kp F4  &kp F5   &kp F6  &kp F14             &kp BACKSPACE  &none        &key_repeat  &none  &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI  &zFastLayer 7 SQT
 &none       &kp F12  &kp F7  &kp F8   &kp F9  &kp F15    &none                   &kp K_PASTE               &none  &none      &none      &none     &none     &none
                              &kp ESC  &mo 8   &kp ENTER                                                    &to 0  &none      &to 8
