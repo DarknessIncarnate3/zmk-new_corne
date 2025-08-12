@@ -273,7 +273,7 @@
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
-        layer_nav {
+        layer_mouse {
             display-name = "nav";
             bindings = <
 &kp TAB                               &kp C_VOICE_COMMAND  &mkp MCLK     &mkp RCLK                       &mkp LCLK          &kp BACKSPACE                                &mmv MOVE_UP                     &none             &kp HOME                     &kp PG_UP       &kp PAGE_DOWN  &kp END           &kp DEL
