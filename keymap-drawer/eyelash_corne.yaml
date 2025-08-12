@@ -175,7 +175,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '''', s: '"'}
+  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-option$$
   - {t: ., s: '>'}
   - {t: '7', s: '&'}
