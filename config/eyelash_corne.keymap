@@ -219,7 +219,7 @@
 &kp TAB                        &kp Q                     &kp W                 &kp F                           &kp P                 &kp G                          &kp UP                &kp J                &kp L                        &kp U                   &kp Y                 &zHomeLayer 9 SEMICOLON   &kp BSPC
 &xF4                           &zHomeMod LEFT_CONTROL A  &zHomeMod LEFT_ALT R  &zHomeMod LEFT_SHIFT S          &zHomeMod LEFT_GUI T  &kp D                &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                &zHomeMod LEFT_GUI N         &zHomeMod LEFT_SHIFT E  &zHomeMod LEFT_ALT I  &zHomeMod LEFT_CONTROL O  &lt 7 SQT
 &mt LEFT_ALT NON_US_BACKSLASH  &zHomeLayer 11 Z          &kp X                 &kp C                           &kp V                 &kp B  &kp C_MUTE              &kp DOWN              &kp K                &kp M                        &kp COMMA               &kp DOT               &zHomeLayer 11 SLASH      &lt 6 GRAVE
-                                                                               &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace        &xTab                                                &zFastLayer 4 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &stickylayer 5 9
+                                                                               &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace        &xTab                                                &zFastLayer 5 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &stickylayer 5 9
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -252,10 +252,10 @@
         layer_num {
             display-name = "num";
             bindings = <
-&kp TAB         &kp COMMA  &kp N1  &kp N2                          &kp N3     &kp LC(X)                         &kp UP               &kp ASTERISK         &kp TAB    &kp PAGE_DOWN  &kp PAGE_DOWN  &kp DELETE  &kp BACKSPACE
-&kp LEFT_SHIFT  &kp N0     &kp N4  &kp N5                          &kp N6     &kp LC(C)               &kp LEFT  &none     &kp RIGHT  &kp PLUS             &kp LEFT   &kp DOWN       &kp UP         &kp RIGHT   &kp SINGLE_QUOTE
-&kp LEFT_ALT    &kp DOT    &kp N7  &kp N8                          &kp N9     &kp LC(V)      &none              &kp DOWN             &kp MINUS            &none      &kp END        &kp HOME       &kp SLASH   &zFastLayer 6 TILDE
-                                   &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE  &z2layer 10 0                                          &zFastLayer 4 ENTER  &kp LSHFT  &z2layer 10 0
+&kp TAB         &kp COMMA  &kp N1  &kp N2                          &kp N3     &kp LC(X)                         &kp UP               &kp ASTERISK         &kp HOME        &kp PAGE_DOWN   &kp PAGE_DOWN  &kp END          &kp BACKSPACE
+&kp LEFT_SHIFT  &kp N0     &kp N4  &kp N5                          &kp N6     &kp LC(C)               &kp LEFT  &none     &kp RIGHT  &kp PLUS             &kp LEFT        &kp DOWN        &kp UP         &kp RIGHT        &kp SINGLE_QUOTE
+&kp LEFT_ALT    &kp DOT    &kp N7  &kp N8                          &kp N9     &kp LC(V)      &none              &kp DOWN             &kp MINUS            &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &zFastLayer 6 TILDE
+                                   &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE  &z2layer 10 0                                          &zFastLayer 4 ENTER  &kp LSHFT       &z2layer 10 0
             >;
 
             label = "num";
