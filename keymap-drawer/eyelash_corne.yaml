@@ -2,7 +2,7 @@ layout: {zmk_keyboard: eyelash_corne}
 layers:
   cole:
   - $$mdi:keyboard-tab$$
-  - Q
+  - {t: Q, h: '12'}
   - W
   - F
   - P
@@ -590,7 +590,7 @@ layers:
   - {t: ql, h: mouse, type: held alternate}
   '12':
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -602,7 +602,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-tab-reverse$$
