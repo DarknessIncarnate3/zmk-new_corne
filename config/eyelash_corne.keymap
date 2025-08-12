@@ -321,10 +321,10 @@
         layer_func {
             display-name = "func";
             bindings = <
-&none       &none  &none  &none    &none  &none                               &kp UP               &none  &none             &none           &none         &none          &kp DEL
-&ySpacecap  &none  &none  &none    &none  &kp PRINTSCREEN           &kp LEFT  &none     &kp RIGHT  &none  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_META  &zFastLayer 7 SQT
-&none       &none  &none  &none    &none  &none            &none              &kp DOWN             &none  &none             &none           &key_repeat   &none          &none
-                          &kp ESC  &none  &kp ENTER                                                &to 0  &kp TAB           &kp BSPC
+&none  &none  &none  &none    &none  &none                               &kp UP               &none  &none             &none           &none         &none          &kp DEL
+&none  &none  &none  &none    &none  &kp PRINTSCREEN           &kp LEFT  &none     &kp RIGHT  &none  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_META  &zFastLayer 7 SQT
+&none  &none  &none  &none    &none  &none            &none              &kp DOWN             &none  &none             &none           &key_repeat   &none          &none
+                     &kp ESC  &none  &kp ENTER                                                &to 0  &kp TAB           &kp BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp C_FAST_FORWARD C_REWIND>;
