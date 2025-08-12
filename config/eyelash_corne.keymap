@@ -240,10 +240,10 @@
         layer_qwerty {
             display-name = "qwerty";
             bindings = <
-&kp TAB                               &kp Q  &kp W  &kp E                           &kp R           &kp T                          &kp UP                &kp Y                &kp U                        &kp I      &kp O    &kp P     &kp BSPC
-&xF4                                  &kp A  &kp S  &kp D                           &kp F           &kp G                &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                &kp J                        &kp K      &kp L    &kp SEMI  &lt 8 SQT
-&zFast_Mod LEFT_ALT NON_US_BACKSLASH  &kp Z  &kp X  &kp C                           &kp V           &kp B  &kp C_MUTE              &kp DOWN              &kp N                &kp M                        &kp COMMA  &kp DOT  &kp FSLH  &lt 7 GRAVE
-                                                    &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace  &xTab                                                &zFastLayer 4 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &none
+&kp TAB    &kp Q  &kp W  &kp E              &kp R      &kp T                                      &kp UP               &kp Y                &kp U   &kp I                 &kp O    &kp P     &kp BSPC
+&kp LCTRL  &kp A  &kp S  &kp D              &kp F      &kp G                            &kp LEFT  &kp RET   &kp RIGHT  &kp H                &kp J   &kp K                 &kp L    &kp SEMI  &lt 7 SQT
+&kp LSHFT  &kp Z  &kp X  &kp C              &kp V      &kp B              &kp C_MUTE              &kp DOWN             &kp N                &kp M   &kp COMMA             &kp DOT  &kp FSLH  &kp RSHFT
+                         &zFastLayer 8 SQT  &kp SPACE  &zFastLayer 4 ESC                                               &zFastLayer 4 ENTER  &trans  &zFastLayer 5 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -297,7 +297,7 @@
         layer_fn {
             display-name = "fn";
             bindings = <
-&bt BT_SEL 0  &none  &to 1  &to 2  &to 3  &bt BT_SEL 3                                      &rgb_ug RGB_SAI                   &yPower          &yOff            &none            &none            &none            &yBtClear
+&bt BT_SEL 0  &none  &to 1  &to 0  &to 3  &bt BT_SEL 3                                      &rgb_ug RGB_SAI                   &yPower          &yOff            &none            &none            &none            &yBtClear
 &bt BT_SEL 1  &to 0  &to 4  &to 5  &to 6  &bt BT_SEL 4                     &rgb_ug RGB_HUD  &yColour         &rgb_ug RGB_HUI  &yBacklight      &none            &bl BL_INC       &bl BL_DEC       &none            &none
 &bt BT_SEL 2  &none  &to 7  &to 8  &to 9  &yOutput      &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                   &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &none
                             &to 3  &to 9  &none                                                                               &to 4            &to 5            &to 0
