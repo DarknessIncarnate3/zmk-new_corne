@@ -354,10 +354,10 @@
 
         layer_12 {
             bindings = <
-&none  &none                     &none                 &none        &none    &kp F4                  &none         &none  &none  &none  &none  &none  &none
-&none  &zHomeMod LEFT_CONTROL S  &zHomeMod LEFT_ALT A  &kp LS(TAB)  &kp TAB  &none            &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none                     &none                 &none        &none    &none   &none           &none         &none  &none  &none  &none  &none  &none
-                                                       &none        &none    &none                                 &none  &none  &none
+&none  &none         &none  &none        &none    &kp F4                  &none         &none  &none  &none  &none  &none  &none
+&none  &kp LEFT_ALT  &none  &kp LS(TAB)  &kp TAB  &none            &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none         &none  &none        &none    &none   &none           &none         &none  &none  &none  &none  &none  &none
+                            &none        &none    &none                                 &none  &none  &none
             >;
         };
     };
