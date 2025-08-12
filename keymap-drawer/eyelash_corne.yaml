@@ -46,7 +46,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
   - {t: LEFT WIN, s: '$$mdi:keyboard-tab$$'}
-  - {t: '$$mdi:keyboard-return$$', h: sym}
+  - {t: '$$mdi:keyboard-return$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ql, h: nav}
   game:
@@ -156,10 +156,10 @@ layers:
   - Ctl+X
   - $$mdi:arrow-up-bold$$
   - '*'
-  - $$mdi:keyboard-tab$$
+  - HOME
   - PgDn
   - PgDn
-  - $$mdi:backspace-reverse-outline$$
+  - END
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - {t: '0', s: )}
@@ -185,10 +185,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
   - {t: '-', s: _}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - END
-  - HOME
-  - {t: /, s: '?'}
+  - $$mdi:pan-left$$
+  - $$mdi:pan-down$$
+  - $$mdi:pan-up$$
+  - $$mdi:pan-right$$
   - {t: '~', h: fn}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-space$$
@@ -241,8 +241,8 @@ layers:
   - {t: ;, h: f1, s: ':'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-return$$', h: LGUI, type: held alternate}
-  - {t: cole, h: toggle, type: held}
+  - {t: '$$mdi:keyboard-return$$', h: LGUI, type: held}
+  - {t: cole, h: toggle, type: held alternate}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: nav}
   nav:
@@ -291,9 +291,9 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-space$$'}
   - {t: '$$mdi:keyboard-return$$', h: LGUI, s: '$$mdi:keyboard-tab$$', type: held alternate}
-  - {t: '$$mdi:keyboard-return$$', h: sym, type: held alternate}
+  - {t: '$$mdi:keyboard-return$$', h: sym, type: held}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: cole, h: toggle, type: held}
+  - {t: cole, h: toggle, type: held alternate}
   fn:
   - {t: cole, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
