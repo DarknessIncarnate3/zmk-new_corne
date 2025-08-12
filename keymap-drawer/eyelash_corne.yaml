@@ -159,7 +159,7 @@ layers:
   - HOME
   - PgDn
   - PgDn
-  - END
+  - {t: END, h: ql}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - {t: '0', s: )}
