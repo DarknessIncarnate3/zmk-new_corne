@@ -265,10 +265,10 @@
         layer_num {
             display-name = "num";
             bindings = <
-&kp TAB         &kp COMMA  &kp N1  &kp N2                          &kp N3               &kp LC(X)                               &kp UP               &kp ASTERISK  &kp HOME   &kp PAGE_DOWN  &kp PAGE_DOWN  &zHomeLayer 10 END  &kp BACKSPACE
-&kp LEFT_SHIFT  &kp N0     &kp N4  &kp N5                          &kp N6               &kp LC(C)                     &kp LEFT  &none     &kp RIGHT  &kp PLUS      &kp LEFT   &kp DOWN       &kp UP         &kp RIGHT           &kp SLASH
-&kp LEFT_ALT    &kp DOT    &kp N7  &kp N8                          &kp N9               &kp LC(V)            &none              &kp DOWN             &kp MINUS     &none      &none          &to 3          &kp SPACE           &zFastLayer 7 TILDE
-                                   &zFast_Mod LEFT_CONTROL ESCAPE  &zSlowLayer 4 SPACE  &zFastLayer 5 ENTER                                          &to 0         &kp LSHFT  &kp LEFT_META
+&kp TAB         &kp COMMA  &kp N1  &kp N2                          &kp N3               &kp LC(X)                               &kp UP               &kp ASTERISK  &kp HOME                &kp PAGE_DOWN  &kp PAGE_DOWN  &zHomeLayer 10 END  &kp BACKSPACE
+&kp LEFT_SHIFT  &kp N0     &kp N4  &kp N5                          &kp N6               &kp LC(C)                     &kp LEFT  &none     &kp RIGHT  &kp PLUS      &kp LEFT                &kp DOWN       &kp UP         &kp RIGHT           &kp SLASH
+&kp LEFT_ALT    &kp DOT    &kp N7  &kp N8                          &kp N9               &kp LC(V)            &none              &kp DOWN             &kp MINUS     &none                   &none          &to 3          &kp SPACE           &zFastLayer 7 TILDE
+                                   &zFast_Mod LEFT_CONTROL ESCAPE  &zSlowLayer 4 SPACE  &zFastLayer 5 ENTER                                          &to 0         &zFast_Mod LSHFT SPACE  &kp LEFT_META
             >;
 
             label = "num";
