@@ -556,7 +556,7 @@
             bindings = <
 &kp ESCAPE      &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &kp E      &kp Q                      &none         &kp R      &kp HOME        &kp PG_UP  &kp PG_DN  &kp END     &kp PRINTSCREEN
 &kp LA(PERIOD)  &kp LS(TAB)       &kp LS(S)       &none    &kp TAB    &kp W               &none  &none  &none  &kp PLUS   &kp LEFT        &kp DOWN   &kp UP     &kp RIGHT   &kp PAUSE_BREAK
-&none           &kp P             &kp LC(D)       &kp V    &kp D      &kp L      &none           &none         &kp MINUS  &kp R           &kp V      &kp X      &kp LC(F4)  &mo 9
+&none           &kp P             &kp LC(D)       &none    &kp D      &kp L      &none           &none         &kp MINUS  &kp R           &kp V      &kp X      &kp LC(F4)  &mo 9
                                                   &kp ESC  &kp SPACE  &kp ENTER                                &kp RET    &kp LEFT_SHIFT  &none
             >;
         };
