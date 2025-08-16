@@ -289,10 +289,10 @@
         layer_mouse {
             display-name = "mouse";
             bindings = <
-&kp TAB                               &kp C_VOICE_COMMAND  &mkp MCLK     &mkp RCLK                       &mkp LCLK          &kp LC(X)                                &mmv MOVE_UP                     &none        &kp HOME                     &kp PG_UP       &kp PAGE_DOWN  &kp END          &kp DEL
-&kp LEFT_SHIFT                        &mmv MOVE_LEFT       &mmv MOVE_UP  &mmv MOVE_DOWN                  &mmv MOVE_RIGHT    &kp LC(C)                &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &none        &mmv MOVE_LEFT               &mmv MOVE_DOWN  &mmv MOVE_UP   &mmv MOVE_RIGHT  &kp ENTER
-&zFast_Mod LEFT_ALT NON_US_BACKSLASH  &kp LEFT_SHIFT       &none         &kp LG(K_BACK)                  &kp LG(K_FORWARD)  &kp LC(V)  &kp C_MUTE                    &mmv MOVE_DOWN                   &none        &msc SCRL_LEFT               &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &mo 7
-                                                                         &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace     &none                                                                     &lt 4 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &to 0
+&kp TAB                               &kp C_VOICE_COMMAND  &mkp MCLK  &mkp RCLK                       &mkp LCLK          &kp LC(X)                                &mmv MOVE_UP                     &none        &kp HOME                     &kp PG_UP       &kp PAGE_DOWN  &kp END          &kp DEL
+&kp LEFT_SHIFT                        &kp LCTRL            &kp LALT   &kp LSHFT                       &kp LGUI           &kp LC(C)                &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &none        &mmv MOVE_LEFT               &mmv MOVE_DOWN  &mmv MOVE_UP   &mmv MOVE_RIGHT  &kp ENTER
+&zFast_Mod LEFT_ALT NON_US_BACKSLASH  &kp LEFT_SHIFT       &none      &kp LG(K_BACK)                  &kp LG(K_FORWARD)  &kp LC(V)  &kp C_MUTE                    &mmv MOVE_DOWN                   &none        &msc SCRL_LEFT               &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &mo 7
+                                                                      &zFast_Mod LEFT_CONTROL ESCAPE  &xShiftonSpace     &none                                                                     &lt 4 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &to 0
             >;
 
             sensor-bindings = <&scroll_encoder>;
