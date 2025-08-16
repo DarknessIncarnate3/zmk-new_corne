@@ -257,6 +257,37 @@
             require-prior-idle-ms = <80>;
             layers = <5 6>;
         };
+
+        num_control {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <15 14>;
+            slow-release;
+            layers = <5 6>;
+        };
+
+        paren_open {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <8 9>;
+            layers = <5 0 4>;
+            timeout-ms = <140>;
+            require-prior-idle-ms = <80>;
+        };
+
+        paren_close {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <9 10>;
+            layers = <5 0 4>;
+            timeout-ms = <140>;
+            require-prior-idle-ms = <80>;
+        };
+
+        quote_all {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <10 8>;
+            layers = <5 0 4>;
+            timeout-ms = <140>;
+            require-prior-idle-ms = <80>;
+        };
     };
 
     keymap {
