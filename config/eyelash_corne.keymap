@@ -544,10 +544,10 @@
         layer_w {
             label = "w";
             bindings = <
-&none    &kp LS(ESCAPE)  &none  &kp Z        &kp Y      &kp W                      &kp W         &kp T    &kp HOME  &kp PG_UP  &kp PG_DN  &kp END    &none
-&kp DEL  &kp LEFT_SHIFT  &none  &kp LS(TAB)  &kp TAB    &kp W               &kp W  &kp W  &kp W  &kp W    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none
-&none    &none           &none  &kp W        &kp N      &kp N      &none           &none         &none    &kp C     &kp V      &none      &kp A      &mo 9
-                                &kp ESC      &kp SPACE  &kp ENTER                                &kp RET  &none     &none
+&none        &kp LS(ESCAPE)  &none  &kp Z        &kp Y      &kp W                      &kp W         &kp T    &kp HOME  &kp PG_UP  &kp PG_DN  &kp END    &none
+&kp LA(DEL)  &kp LEFT_SHIFT  &none  &kp LS(TAB)  &kp TAB    &kp W               &kp W  &kp W  &kp W  &kp W    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none
+&none        &none           &none  &kp W        &kp LS(N)  &kp N      &none           &none         &none    &kp C     &kp V      &none      &kp A      &mo 9
+                                    &kp ESC      &kp SPACE  &kp ENTER                                &kp RET  &none     &none
             >;
         };
     };
