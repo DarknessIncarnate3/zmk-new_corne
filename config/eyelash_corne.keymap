@@ -550,5 +550,15 @@
                                        &kp ESC      &kp SPACE  &kp ENTER                                &kp RET        &none     &none
             >;
         };
+
+        layer_14 {
+            label = "f";
+            bindings = <
+&kp LS(ESCAPE)  &kp LEFT_SHIFT  &none  &kp Z        &kp Y      &kp Q                      &none         &kp T          &kp HOME  &kp PG_UP  &kp PG_DN  &kp END    &none
+&kp LA(DEL)     &kp A           &none  &kp LS(TAB)  &kp TAB    &kp W               &none  &none  &none  &kp BACKSPACE  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none
+&none           &none           &none  &kp P        &kp LS(N)  &kp N      &none           &none         &none          &kp C     &kp V      &kp X      &kp A      &mo 9
+                                       &kp ESC      &kp SPACE  &kp ENTER                                &kp RET        &none     &none
+            >;
+        };
     };
 };
