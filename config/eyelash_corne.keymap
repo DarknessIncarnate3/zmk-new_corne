@@ -337,7 +337,7 @@
             label = "NEW_MACRO";
         };
 
-        lm: lm {
+       lm: lm {
     compatible = "zmk,behavior-macro-two-param";
     wait-ms = <0>;
     tap-ms = <0>;
