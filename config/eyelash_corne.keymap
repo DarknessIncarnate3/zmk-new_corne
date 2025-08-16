@@ -222,9 +222,9 @@
         flavor = "tap-preferred";
     };
 
-    zHome_AltLayer: zHome_AltLayer {
+    zHome_alt: zHome_alt {
         compatible = "zmk,behavior-hold-tap";
-        label = "ZHOME_ALTLAYER";
+        label = "ZHOME_ALT";
         bindings = <&alt_modlayer>, <&kp>;
 
         #binding-cells = <2>;
@@ -234,9 +234,21 @@
         require-prior-idle-ms = <100>;
     };
 
-    zHome_CtrlLayer: zHome_CtrlLayer {
+    zHome_ctrl: zHome_ctrl {
         compatible = "zmk,behavior-hold-tap";
-        label = "ZHOME_CTRLLAYER";
+        label = "ZHOME_CTRL";
+        bindings = <&ctrl_modlayer>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <250>;
+        quick-tap-ms = <200>;
+        flavor = "tap-preferred";
+        require-prior-idle-ms = <100>;
+    };
+
+    zHome_gui: zHome_gui {
+        compatible = "zmk,behavior-hold-tap";
+        label = "ZHOME_GUI";
         bindings = <&gui_modlayer>, <&kp>;
 
         #binding-cells = <2>;
@@ -411,7 +423,7 @@
         default_layer {
             display-name = "cole";
             bindings = <
-&kp TAB                        &zHome_CtrlLayer 11 Q     &zHome_CtrlLayer 0 W  &kp F                      &zHomeLayer 10 P      &kp G                                          &to 0         &kp J                &kp L                        &kp U                   &kp Y                 &zHomeLayer 12 SEMICOLON  &kp BSPC
+&kp TAB                        &zHome_ctrl 11 Q          &zHome_ctrl 0 W       &kp F                      &zHomeLayer 10 P      &kp G                                          &to 0         &kp J                &kp L                        &kp U                   &kp Y                 &zHomeLayer 12 SEMICOLON  &kp BSPC
 &kp MINUS                      &zHomeMod LEFT_CONTROL A  &zHomeMod LEFT_ALT R  &zHomeMod LEFT_SHIFT S     &zHomeMod LEFT_GUI T  &kp D                                   &to 5  &none  &to 4  &kp H                &zHomeMod LEFT_GUI N         &zHomeMod LEFT_SHIFT E  &zHomeMod LEFT_ALT I  &zHomeMod LEFT_CONTROL O  &lt 10 SQT
 &mt LEFT_ALT NON_US_BACKSLASH  &zHomeLayer 8 Z           &zHomeLayer 6 X       &kp C                      &zHomeLayer 5 V       &kp B                          &to 3           &to 6         &kp K                &kp M                        &kp COMMA               &kp DOT               &zHomeLayer 8 SLASH       &lt 9 GRAVE
                                                                                &zFast_Mod LEFT_SHIFT F13  &kp SPACE             &zHomeMod LEFT_CONTROL ESCAPE                                &zFastLayer 5 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &stickylayer 6 6
