@@ -242,7 +242,7 @@
             display-name = "game";
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp F              &kp P      &kp G                                      &kp UP               &kp J                &kp L   &kp U                 &kp Y    &kp SEMI  &kp BSPC
-&kp LCTRL  &kp A  &kp R  &kp S              &kp T      &kp D                            &kp LEFT  &kp RET   &kp RIGHT  &kp H                &kp N   &kp E                 &kp I    &kp O     &lt 7 SQT
+&kp LCTRL  &kp A  &kp R  &kp S              &kp T      &kp D                            &kp LEFT  &kp RET   &kp RIGHT  &kp H                &kp N   &kp E                 &kp I    &kp O     &lt 8 SQT
 &kp LSHFT  &kp Z  &kp X  &kp C              &kp V      &kp B              &kp C_MUTE              &kp DOWN             &kp K                &kp M   &kp COMMA             &kp DOT  &kp FSLH  &mo 7
                          &zFastLayer 8 SQT  &kp SPACE  &zFastLayer 4 ESC                                               &zFastLayer 4 ENTER  &trans  &zFastLayer 5 DELETE
             >;
