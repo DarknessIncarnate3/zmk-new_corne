@@ -221,7 +221,18 @@
         flavor = "tap-preferred";
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <23 24>;
+            require-prior-idle-ms = <80>;
+            timeout-ms = <130>;
+            slow-release;
+            layers = <6>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
