@@ -54,6 +54,7 @@
         tapping-term-ms = <250>;
         quick-tap-ms = <200>;
         flavor = "tap-preferred";
+        require-prior-idle-ms = <100>;
     };
 
     zHomeLayer: zHomeLayer {
@@ -65,6 +66,7 @@
         tapping-term-ms = <250>;
         quick-tap-ms = <200>;
         flavor = "tap-preferred";
+        require-prior-idle-ms = <100>;
     };
 
     xTab: xTab {
