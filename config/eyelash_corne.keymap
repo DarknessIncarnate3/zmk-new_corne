@@ -284,7 +284,7 @@
                                  &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE  &none                                                 &kp ENTER        &kp LEFT_SHIFT        &to 0
             >;
 
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
 
         layer_mouse {
