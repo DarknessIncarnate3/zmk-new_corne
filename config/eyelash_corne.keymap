@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
-#include <dt-bindings/input/input-processors.dtsi>
 
 /*
 
@@ -293,15 +292,8 @@
         };
     };
 
-    input_processors {
-        socd_left_right: socd_left_right {
-            compatible = "he,input-processor-socd";
-            priority-mode = "last-key";  // Options: "last-key", "first-key", "deeper-key", "direction"
-            bindings = <
-                &kp LEFT  // Left movement key (e.g., A or LEFT arrow)
-                &kp RIGHT // Right movement key (e.g., D or RIGHT arrow)
-            >;
-        };
+ &msc {
+        socd = "priority-last"; // Options: "none", "priority-last", "priority-first"
     };
 
     keymap {
