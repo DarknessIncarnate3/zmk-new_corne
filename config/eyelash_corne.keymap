@@ -544,7 +544,7 @@
         layer_w {
             label = "w";
             bindings = <
-&none  &none           &none  &kp W        &kp D      &kp Q                      &none         &kp P    &kp HOME  &kp PG_UP  &kp PG_DN  &kp END    &none
+&none  &kp LS(ESCAPE)  &none  &kp W        &kp D      &kp Q                      &none         &kp P    &kp HOME  &kp PG_UP  &kp PG_DN  &kp END    &none
 &none  &kp LEFT_SHIFT  &none  &kp LS(TAB)  &kp TAB    &none               &none  &none  &none  &none    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none
 &none  &none           &none  &none        &none      &none      &none           &none         &none    &none     &none      &none      &kp A      &mo 9
                               &kp ESC      &kp SPACE  &kp ENTER                                &kp RET  &none     &none
