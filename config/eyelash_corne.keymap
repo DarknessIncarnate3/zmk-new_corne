@@ -253,34 +253,34 @@
         quote {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <23 24>;
-            require-prior-idle-ms = <80>;
-            timeout-ms = <130>;
+            require-prior-idle-ms = <10>;
+            timeout-ms = <50>;
             layers = <6>;
         };
 
         single_quote {
             bindings = <&kp SQT>;
             key-positions = <24 25>;
-            timeout-ms = <140>;
-            require-prior-idle-ms = <80>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <10>;
             layers = <6>;
         };
 
         num_gui {
             bindings = <&kp LEFT_GUI>;
             key-positions = <17 16>;
-            timeout-ms = <140>;
+            timeout-ms = <50>;
             slow-release;
-            require-prior-idle-ms = <80>;
+            require-prior-idle-ms = <10>;
             layers = <6 5>;
         };
 
         num_shift {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <16 15>;
-            timeout-ms = <140>;
+            timeout-ms = <50>;
             slow-release;
-            require-prior-idle-ms = <80>;
+            require-prior-idle-ms = <10>;
             layers = <5 6>;
         };
 
@@ -289,30 +289,32 @@
             key-positions = <15 14>;
             slow-release;
             layers = <5 6>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <10>;
         };
 
         paren_open {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <8 9>;
             layers = <5 0 4>;
-            timeout-ms = <140>;
-            require-prior-idle-ms = <80>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <10>;
         };
 
         paren_close {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <9 10>;
             layers = <5 0 4>;
-            timeout-ms = <140>;
-            require-prior-idle-ms = <80>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <10>;
         };
 
         quote_all {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <10 8>;
             layers = <5 0 4>;
-            timeout-ms = <140>;
-            require-prior-idle-ms = <80>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <10>;
         };
     };
 
