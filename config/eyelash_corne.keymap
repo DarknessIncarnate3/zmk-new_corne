@@ -591,5 +591,16 @@
                                                   &kp ESC  &kp SPACE  &kp ENTER                                &kp RET    &kp LEFT_SHIFT  &none
             >;
         };
+
+        layer_15 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans     &trans                    &trans          &trans  &trans     &trans    &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans     &trans            &trans  &trans  &trans  &trans  &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans     &trans  &trans            &trans          &trans  &trans     &trans    &trans  &trans     &trans
+                        &trans  &kp SPACE  &trans                                    &trans  &kp SPACE  &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
     };
 };
