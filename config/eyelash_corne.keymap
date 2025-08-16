@@ -554,10 +554,10 @@
         layer_gui {
             label = "gui";
             bindings = <
-&kp ESCAPE   &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &kp E      &kp Q                      &none         &kp T          &kp HOME  &kp PG_UP  &kp PG_DN  &kp END    &none
-&kp LA(DEL)  &kp LS(TAB)       &none           &none    &kp TAB    &kp W               &none  &none  &none  &kp BACKSPACE  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none
-&none        &none             &none           &kp P    &kp LS(N)  &kp N      &none           &none         &none          &kp C     &kp V      &kp X      &kp A      &mo 9
-                                               &kp ESC  &kp SPACE  &kp ENTER                                &kp RET        &none     &none
+&kp ESCAPE   &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &kp E      &kp Q                      &none         &kp R      &kp HOME  &kp PG_UP  &kp PG_DN  &kp END    &none
+&kp LA(DEL)  &kp LS(TAB)       &none           &none    &kp TAB    &kp W               &none  &none  &none  &kp PLUS   &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none
+&none        &none             &none           &kp P    &kp LS(N)  &kp N      &none           &none         &kp MINUS  &kp C     &kp V      &kp X      &kp A      &mo 9
+                                               &kp ESC  &kp SPACE  &kp ENTER                                &kp RET    &none     &none
             >;
         };
     };
