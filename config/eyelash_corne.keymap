@@ -229,7 +229,6 @@
             key-positions = <23 24>;
             require-prior-idle-ms = <80>;
             timeout-ms = <130>;
-            slow-release;
             layers = <6>;
         };
 
@@ -238,8 +237,25 @@
             key-positions = <24 25>;
             timeout-ms = <140>;
             require-prior-idle-ms = <80>;
-            slow-release;
             layers = <6>;
+        };
+
+        num_gui {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <17 16>;
+            timeout-ms = <140>;
+            slow-release;
+            require-prior-idle-ms = <80>;
+            layers = <6 5>;
+        };
+
+        num_shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <16 15>;
+            timeout-ms = <140>;
+            slow-release;
+            require-prior-idle-ms = <80>;
+            layers = <5 6>;
         };
     };
 
