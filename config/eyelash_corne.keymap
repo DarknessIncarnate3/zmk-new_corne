@@ -221,6 +221,10 @@
         flavor = "tap-preferred";
     };
 
+    &msc {
+        socd = "priority-last"; // Options: "none", "priority-last", "priority-first"
+    };
+
     combos {
         compatible = "zmk,combos";
 
