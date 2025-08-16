@@ -32,6 +32,7 @@
             compatible = "zmk,behavior-mouse-move";
             socd = "priority-last";  // Add this line
             #binding-cells = <1>;
+ };
     };
 
     rgb_encoder: rgb_encoder {
