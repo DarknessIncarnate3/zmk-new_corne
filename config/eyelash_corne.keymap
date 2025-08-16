@@ -292,9 +292,6 @@
         };
     };
 
- &msc {
-        socd = "priority-last"; // Options: "none", "priority-last", "priority-first"
-    };
 
     keymap {
         compatible = "zmk,keymap";
