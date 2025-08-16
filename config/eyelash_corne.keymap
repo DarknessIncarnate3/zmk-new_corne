@@ -221,6 +221,32 @@
         flavor = "tap-preferred";
     };
 
+    mouseright: mouseright {
+        compatible = "zmk,behavior-hold-tap";
+        label = "MOUSERIGHT";
+        bindings = <&mmv>;
+        #binding-cells = <2>;
+        tapping-term-ms = <100>;
+        quick-tap-ms = <100>;
+        require-prior-idle-ms = <50>;
+        hold-trigger-on-release;
+        flavor = "tap-preferred";
+        hold-trigger-key-positions = <23>;
+    };
+
+    mouseleft: mouseleft {
+        compatible = "zmk,behavior-hold-tap";
+        label = "MOUSELEFT";
+        bindings = <&mmv>;
+        #binding-cells = <2>;
+        tapping-term-ms = <100>;
+        quick-tap-ms = <100>;
+        require-prior-idle-ms = <50>;
+        hold-trigger-on-release;
+        flavor = "tap-preferred";
+        hold-trigger-key-positions = <26>;
+    };
+
     combos {
         compatible = "zmk,combos";
 
