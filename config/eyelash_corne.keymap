@@ -221,7 +221,74 @@
         flavor = "tap-preferred";
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <23 24>;
+            require-prior-idle-ms = <80>;
+            timeout-ms = <130>;
+            layers = <6>;
+        };
+
+        single_quote {
+            bindings = <&kp SQT>;
+            key-positions = <24 25>;
+            timeout-ms = <140>;
+            require-prior-idle-ms = <80>;
+            layers = <6>;
+        };
+
+        num_gui {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <17 16>;
+            timeout-ms = <140>;
+            slow-release;
+            require-prior-idle-ms = <80>;
+            layers = <6 5>;
+        };
+
+        num_shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <16 15>;
+            timeout-ms = <140>;
+            slow-release;
+            require-prior-idle-ms = <80>;
+            layers = <5 6>;
+        };
+
+        num_control {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <15 14>;
+            slow-release;
+            layers = <5 6>;
+        };
+
+        paren_open {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <8 9>;
+            layers = <5 0 4>;
+            timeout-ms = <140>;
+            require-prior-idle-ms = <80>;
+        };
+
+        paren_close {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <9 10>;
+            layers = <5 0 4>;
+            timeout-ms = <140>;
+            require-prior-idle-ms = <80>;
+        };
+
+        quote_all {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <10 8>;
+            layers = <5 0 4>;
+            timeout-ms = <140>;
+            require-prior-idle-ms = <80>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -303,10 +370,10 @@
         layer_sym {
             display-name = "sym";
             bindings = <
-&kp TAB            &kp PERCENT  &kp MINUS       &kp LESS_THAN                   &kp GREATER_THAN     &kp PLUS                     &to 0         &kp PIPE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp SEMICOLON  &none
-&kp DOUBLE_QUOTES  &kp CARET    &kp DOLLAR      &kp LEFT_BRACKET                &kp RIGHT_BRACKET    &kp AT_SIGN           &to 5  &none  &to 4  &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL  &kp ASTERISK   &kp SINGLE_QUOTE
-&none              &kp POUND    &kp UNDERSCORE  &kp AMPERSAND                   &kp BACKSLASH        &kp GRAVE    &none           &to 6         &kp TILDE        &kp SLASH             &kp COMMA              &kp DOT    &kp QUESTION   &mo 7
-                                                &zFast_Mod LEFT_CONTROL ESCAPE  &zFastLayer 5 SPACE  &key_repeat                                &kp ENTER        &kp LEFT_SHIFT        &to 0
+&kp TAB            &kp PERCENT  &kp MINUS       &kp LESS_THAN                   &kp GREATER_THAN     &kp PLUS                   &to 0         &kp PIPE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp SEMICOLON  &kp
+&kp DOUBLE_QUOTES  &kp CARET    &kp DOLLAR      &kp LEFT_BRACKET                &kp RIGHT_BRACKET    &kp AT_SIGN         &to 5  &kp    &to 4  &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL  &kp ASTERISK   &kp SINGLE_QUOTE
+&kp                &kp POUND    &kp UNDERSCORE  &kp AMPERSAND                   &kp BACKSLASH        &kp GRAVE    &kp           &to 6         &kp TILDE        &kp SLASH             &kp COMMA              &kp DOT    &kp QUESTION   &mo 7
+                                                &zFast_Mod LEFT_CONTROL ESCAPE  &zFastLayer 5 SPACE  &key_repeat                              &kp ENTER        &kp LEFT_SHIFT        &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
