@@ -307,6 +307,14 @@
             require-prior-idle-ms = <5>;
             layers = <5 0 4>;
         };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <17 16>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4>;
+        };
     };
 
     keymap {
