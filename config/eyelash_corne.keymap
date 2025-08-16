@@ -364,7 +364,7 @@
         };
 
         layer_entry {
-            label = "num";
+            label = "entry";
             display-name = "entry";
             bindings = <
 &kp TAB         &kp COMMA  &kp N1  &kp N2                          &kp N3     &kp LC(X)                               &kp UP               &kp ASTERISK   &kp HOME        &kp PAGE_DOWN   &kp PAGE_DOWN  &zHomeLayer 10 END  &kp BACKSPACE
