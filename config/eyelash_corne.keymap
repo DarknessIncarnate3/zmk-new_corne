@@ -303,10 +303,10 @@
         layer_sym {
             display-name = "sym";
             bindings = <
-&kp TAB  &kp        &kp MINUS   &kp LESS_THAN                   &kp GREATER_THAN   &kp                        &to 0         &kp        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp SEMICOLON  &kp
-&kp      &kp CARET  &kp DOLLAR  &kp LEFT_BRACKET                &kp RIGHT_BRACKET  &kp                 &to 5  &kp    &to 4  &kp        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL  &kp ASTERISK   &kp SINGLE_QUOTE
-&kp      &kp        &kp         &kp                             &kp                &kp          &kp           &to 6         &kp        &kp                   &kp COMMA              &kp DOT    &kp FSLH       &mo 7
-                                &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE          &key_repeat                              &kp ENTER  &kp LEFT_SHIFT        &to 0
+&kp TAB  &kp        &kp MINUS       &kp LESS_THAN                   &kp GREATER_THAN   &kp                        &to 0         &kp        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp SEMICOLON  &kp
+&kp      &kp CARET  &kp DOLLAR      &kp LEFT_BRACKET                &kp RIGHT_BRACKET  &kp                 &to 5  &kp    &to 4  &kp        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL  &kp ASTERISK   &kp SINGLE_QUOTE
+&kp      &kp        &kp UNDERSCORE  &kp                             &kp                &kp          &kp           &to 6         &kp        &kp                   &kp COMMA              &kp DOT    &kp FSLH       &mo 7
+                                    &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE          &key_repeat                              &kp ENTER  &kp LEFT_SHIFT        &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
