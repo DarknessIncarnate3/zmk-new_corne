@@ -231,7 +231,7 @@
             bindings = <
 &kp TAB                        &zHomeLayer 11 Q          &kp W                 &kp F                   &zHomeLayer 10 P      &kp G                                          &to 0         &kp J                &kp L                        &kp U                   &kp Y                 &zHomeLayer 3 SEMICOLON   &kp BSPC
 &kp MINUS                      &zHomeMod LEFT_CONTROL A  &zHomeMod LEFT_ALT R  &zHomeMod LEFT_SHIFT S  &zHomeMod LEFT_GUI T  &kp D                                   &to 5  &none  &to 4  &kp H                &zHomeMod LEFT_GUI N         &zHomeMod LEFT_SHIFT E  &zHomeMod LEFT_ALT I  &zHomeMod LEFT_CONTROL O  &lt 10 SQT
-&mt QUESTION NON_US_BACKSLASH  &zHomeLayer 8 Z           &zHomeLayer 6 X       &kp C                   &zHomeLayer 5 V       &kp B                          &to 3           &to 6         &kp K                &kp M                        &kp COMMA               &kp DOT               &zHomeLayer 8 SLASH       &lt 9 GRAVE
+&mt LEFT_ALT NON_US_BACKSLASH  &zHomeLayer 8 Z           &zHomeLayer 6 X       &kp C                   &zHomeLayer 5 V       &kp B                          &to 3           &to 6         &kp K                &kp M                        &kp COMMA               &kp DOT               &zHomeLayer 8 SLASH       &lt 9 GRAVE
                                                                                &kp LEFT_SHIFT          &kp SPACE             &zHomeMod LEFT_CONTROL ESCAPE                                &zFastLayer 5 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &stickylayer 6 6
             >;
 
@@ -280,7 +280,7 @@
             bindings = <
 &kp TAB                        &kp Q  &kp W  &kp F      &kp P      &kp G                                               &to 0         &kp J                &kp L                        &kp U             &kp Y    &kp SEMICOLON  &kp BSPC
 &kp MINUS                      &kp A  &kp R  &kp S      &kp T      &kp D                                        &to 5  &none  &to 4  &kp H                &kp N                        &kp E             &kp I    &kp O          &lt 10 SQT
-&mt QUESTION NON_US_BACKSLASH  &kp Z  &kp X  &kp C      &kp V      &kp B                          &kp C_MUTE           &to 6         &kp K                &kp M                        &kp COMMA         &kp DOT  &kp FSLH       &lt 9 GRAVE
+&mt LEFT_ALT NON_US_BACKSLASH  &kp Z  &kp X  &kp C      &kp V      &kp B                          &kp C_MUTE           &to 6         &kp K                &kp M                        &kp COMMA         &kp DOT  &kp FSLH       &lt 9 GRAVE
                                              &kp LSHFT  &kp SPACE  &zHomeMod LEFT_CONTROL ESCAPE                                     &zFastLayer 5 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &stickylayer 6 6
             >;
 
