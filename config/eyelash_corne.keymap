@@ -241,10 +241,10 @@
         layer_game {
             display-name = "game";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F              &kp P      &kp G                                      &kp UP               &kp J                &kp L                        &kp U                    &kp Y    &kp SEMI  &kp BSPC
-&kp LCTRL  &kp A  &kp R  &kp S              &kp T      &kp D                            &kp LEFT  &kp RET   &kp RIGHT  &kp H                &kp N                        &kp E                    &kp I    &kp O     &lt 8 SQT
-&kp LSHFT  &kp Z  &kp X  &kp C              &kp V      &kp B              &kp C_MUTE              &kp DOWN             &kp K                &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &mo 7
-                         &zFastLayer 8 SQT  &kp SPACE  &zFastLayer 4 ESC                                               &zFastLayer 3 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 4 BACKSPACE
+&kp TAB    &kp Q  &kp W  &kp F              &kp P      &kp G                                      &kp UP               &kp J                 &kp L                        &kp U                    &kp Y    &kp SEMI  &kp BSPC
+&kp LCTRL  &kp A  &kp R  &kp S              &kp T      &kp D                            &kp LEFT  &kp RET   &kp RIGHT  &kp H                 &kp N                        &kp E                    &kp I    &kp O     &lt 8 SQT
+&kp LSHFT  &kp Z  &kp X  &kp C              &kp V      &kp B              &kp C_MUTE              &kp DOWN             &kp K                 &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &mo 7
+                         &zFastLayer 8 SQT  &kp SPACE  &zFastLayer 3 ESC                                               &zFastLayer 11 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 4 BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -253,10 +253,10 @@
         layer_qwerty {
             display-name = "qwerty";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E              &kp R      &kp T                                      &kp UP               &kp Y                &kp U                        &kp I                    &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D              &kp F      &kp G                            &kp LEFT  &kp RET   &kp RIGHT  &kp H                &kp J                        &kp K                    &kp L    &kp SEMI  &lt 8 SQT
-&kp LSHFT  &kp Z  &kp X  &kp C              &kp V      &kp B              &kp C_MUTE              &kp DOWN             &kp N                &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &mo 7
-                         &zFastLayer 8 SQT  &kp SPACE  &zFastLayer 4 ESC                                               &zFastLayer 3 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 4 BACKSPACE
+&kp TAB    &kp Q  &kp W  &kp E              &kp R      &kp T                                      &kp UP               &kp Y                 &kp U                        &kp I                    &kp O    &kp P     &kp BSPC
+&kp LCTRL  &kp A  &kp S  &kp D              &kp F      &kp G                            &kp LEFT  &kp RET   &kp RIGHT  &kp H                 &kp J                        &kp K                    &kp L    &kp SEMI  &lt 8 SQT
+&kp LSHFT  &kp Z  &kp X  &kp C              &kp V      &kp B              &kp C_MUTE              &kp DOWN             &kp N                 &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &mo 7
+                         &zFastLayer 8 SQT  &kp SPACE  &zFastLayer 4 ESC                                               &zFastLayer 11 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 4 BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
