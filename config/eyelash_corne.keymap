@@ -221,34 +221,6 @@
         flavor = "tap-preferred";
     };
 
-    mouseright: mouseright {
-        compatible = "zmk,behavior-hold-tap";
-        label = "MOUSERIGHT";
-        bindings = <&mmv>, <&none>;
-
-        #binding-cells = <2>;
-        tapping-term-ms = <100>;
-        quick-tap-ms = <100>;
-        require-prior-idle-ms = <50>;
-        hold-trigger-on-release;
-        flavor = "tap-preferred";
-        hold-trigger-key-positions = <23>;
-    };
-
-    mouseleft: mouseleft {
-        compatible = "zmk,behavior-hold-tap";
-        label = "MOUSELEFT";
-        bindings = <&mmv>, <&none>;
-
-        #binding-cells = <2>;
-        tapping-term-ms = <100>;
-        quick-tap-ms = <100>;
-        require-prior-idle-ms = <50>;
-        hold-trigger-on-release;
-        flavor = "tap-preferred";
-        hold-trigger-key-positions = <26>;
-    };
-
     combos {
         compatible = "zmk,combos";
 
@@ -412,10 +384,10 @@
         layer_mouse {
             display-name = "mouse";
             bindings = <
-&kp TAB  &none      &mkp MCLK  &mkp RCLK       &mkp LCLK          &kp LC(X)                                &mmv MOVE_UP                     &kp DELETE  &kp HOME              &kp PG_UP       &kp PAGE_DOWN  &kp END                 &kp DEL
-&none    &kp LCTRL  &kp LALT   &kp LSHFT       &kp LGUI           &kp LC(C)                &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &kp SPACE   &mouseleft MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP   &mouseright MOVE_RIGHT  &kp ENTER
-&none    &none      &none      &kp LG(K_BACK)  &kp LG(K_FORWARD)  &kp LC(V)  &kp C_MUTE                    &mmv MOVE_DOWN                   &none       &msc SCRL_LEFT        &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT         &mo 9
-                               &none           &none              &none                                                                     &none       &none                 &to 0
+&kp TAB  &none      &mkp MCLK  &mkp RCLK       &mkp LCLK          &kp LC(X)                                &mmv MOVE_UP                     &kp DELETE  &kp HOME        &kp PG_UP       &kp PAGE_DOWN  &kp END          &kp DEL
+&none    &kp LCTRL  &kp LALT   &kp LSHFT       &kp LGUI           &kp LC(C)                &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &kp SPACE   &none           &mmv MOVE_DOWN  &mmv MOVE_UP   &none            &kp ENTER
+&none    &none      &none      &kp LG(K_BACK)  &kp LG(K_FORWARD)  &kp LC(V)  &kp C_MUTE                    &mmv MOVE_DOWN                   &none       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &mo 9
+                               &none           &none              &none                                                                     &none       &none           &to 0
             >;
 
             sensor-bindings = <&scroll_encoder>;
