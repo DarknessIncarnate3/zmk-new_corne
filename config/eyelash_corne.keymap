@@ -372,6 +372,8 @@
 &kp LEFT_ALT    &kp DOT    &kp N7  &kp N8    &kp N9                          &kp LC(V)  &none              &kp DOWN             &kp MINUS      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT     &zFastLayer 7 TILDE
                                    &kp LEFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp RIGHT                                          &z2layer 11 0  &kp LSHFT       &none
             >;
+
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
         };
     };
 };
