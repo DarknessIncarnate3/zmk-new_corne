@@ -303,10 +303,10 @@
         layer_sym {
             display-name = "sym";
             bindings = <
-&kp TAB  &none  &none  &kp LESS_THAN                   &kp GREATER_THAN   &none                  &to 0         &none      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp SEMICOLON  &none
-&none    &none  &none  &kp LEFT_BRACKET                &kp RIGHT_BRACKET  &none           &to 5  &none  &to 4  &none      &kp LEFT_BRACE        &kp RIGHT_BRACE        &none      &none          &kp SINGLE_QUOTE
-&none    &none  &none  &none                           &none              &none  &none           &to 6         &none      &kp LEFT_BRACKET      &kp COMMA              &kp DOT    &kp FSLH       &mo 7
-                       &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE          &none                                &kp ENTER  &kp LEFT_SHIFT        &to 0
+&kp TAB  &kp  &kp  &kp LESS_THAN                   &kp GREATER_THAN   &kp                        &to 0         &kp        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp SEMICOLON  &kp
+&kp      &kp  &kp  &kp LEFT_BRACKET                &kp RIGHT_BRACKET  &kp                 &to 5  &kp    &to 4  &kp        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp        &kp            &kp SINGLE_QUOTE
+&kp      &kp  &kp  &kp                             &kp                &kp          &kp           &to 6         &kp        &kp                   &kp COMMA              &kp DOT    &kp FSLH       &mo 7
+                   &zFast_Mod LEFT_CONTROL ESCAPE  &kp SPACE          &key_repeat                              &kp ENTER  &kp LEFT_SHIFT        &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
