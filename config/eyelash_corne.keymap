@@ -594,10 +594,10 @@
 
         layer_media {
             bindings = <
-&none  &none  &none  &none  &none      &none                  &none         &none             &kp C_PREVIOUS  &kp K_NEXT  &none   &none      &none
-&none  &none  &none  &none  &none      &none           &none  &none  &none  &none             &kp LEFT        &kp DOWN    &kp UP  &kp RIGHT  &none
-&none  &none  &none  &none  &none      &none  &none           &none         &none             &none           &none       &none   &none      &none
-                     &none  &kp SPACE  &none                                &kp C_PLAY_PAUSE  &kp SPACE       &none
+&kp  &kp           &kp             &kp         &kp                 &kp              &kp       &kp               &kp C_PREVIOUS  &kp K_NEXT  &kp     &kp        &kp
+&kp  &kp C_REWIND  &kp C_PREVIOUS  &kp C_NEXT  &kp C_FAST_FORWARD  &kp         &kp  &kp  &kp  &kp               &kp LEFT        &kp DOWN    &kp UP  &kp RIGHT  &kp
+&kp  &kp           &kp             &kp         &kp                 &kp  &kp         &kp       &kp               &kp             &kp         &kp     &kp        &kp
+                                   &kp         &kp SPACE           &kp                        &kp C_PLAY_PAUSE  &kp SPACE       &kp
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
