@@ -423,7 +423,7 @@
         default_layer {
             display-name = "cole";
             bindings = <
-&kp TAB                        &zHome_ctrl 11 Q          &zHome_ctrl 0 W       &kp F                      &zHomeLayer 10 P      &kp G                                          &to 0         &kp J                &kp L                        &kp U                   &kp Y                 &zHomeLayer 12 SEMICOLON  &kp BSPC
+&kp TAB                        &zHome_alt 0 Q            &zHome_ctrl 0 W       &zHome_gui 0 F             &zHomeLayer 10 P      &kp G                                          &to 0         &kp J                &kp L                        &kp U                   &kp Y                 &zHomeLayer 12 SEMICOLON  &kp BSPC
 &kp MINUS                      &zHomeMod LEFT_CONTROL A  &zHomeMod LEFT_ALT R  &zHomeMod LEFT_SHIFT S     &zHomeMod LEFT_GUI T  &kp D                                   &to 5  &none  &to 4  &kp H                &zHomeMod LEFT_GUI N         &zHomeMod LEFT_SHIFT E  &zHomeMod LEFT_ALT I  &zHomeMod LEFT_CONTROL O  &lt 10 SQT
 &mt LEFT_ALT NON_US_BACKSLASH  &zHomeLayer 8 Z           &zHomeLayer 6 X       &kp C                      &zHomeLayer 5 V       &kp B                          &to 3           &to 6         &kp K                &kp M                        &kp COMMA               &kp DOT               &zHomeLayer 8 SLASH       &lt 9 GRAVE
                                                                                &zFast_Mod LEFT_SHIFT F13  &kp SPACE             &zHomeMod LEFT_CONTROL ESCAPE                                &zFastLayer 5 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &stickylayer 6 6
