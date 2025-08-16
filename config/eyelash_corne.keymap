@@ -272,6 +272,7 @@
             >;
 
             label = "num";
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
         };
 
         layer_sym {
