@@ -280,7 +280,7 @@
             bindings = <
 &kp TAB                        &kp Q  &kp W  &kp F      &kp P      &kp G                                               &to 0         &kp J                &kp L                        &kp U             &kp Y    &kp SEMICOLON  &kp BSPC
 &kp MINUS                      &kp A  &kp R  &kp S      &kp T      &kp D                                        &to 5  &none  &to 4  &kp H                &kp N                        &kp E             &kp I    &kp O          &lt 10 SQT
-&mt LEFT_ALT NON_US_BACKSLASH  &kp Z  &kp X  &kp C      &kp V      &kp B                          &kp C_MUTE           &to 6         &kp K                &kp M                        &kp COMMA         &kp DOT  &kp FSLH       &lt 9 GRAVE
+&mt QUESTION NON_US_BACKSLASH  &kp Z  &kp X  &kp C      &kp V      &kp B                          &kp C_MUTE           &to 6         &kp K                &kp M                        &kp COMMA         &kp DOT  &kp FSLH       &lt 9 GRAVE
                                              &kp LSHFT  &kp SPACE  &zHomeMod LEFT_CONTROL ESCAPE                                     &zFastLayer 5 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &stickylayer 6 6
             >;
 
