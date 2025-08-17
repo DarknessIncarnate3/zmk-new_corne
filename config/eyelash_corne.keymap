@@ -593,6 +593,7 @@
         };
 
         layer_media {
+            label = "media";
             bindings = <
 &kp C_QUIT  &kp C_RED_BUTTON  &kp C_BLUE_BUTTON  &kp C_GREEN  &kp C_YELLOW_BUTTON  &kp C_MUTE                               &kp UP                &none             &kp P      &kp N     &none   &none      &none
 &to 0       &kp C_REWIND      &kp C_PREVIOUS     &kp C_NEXT   &kp C_FAST_FORWARD   &kp C_SUBTITLES                &kp LEFT  &kp ENTER  &kp RIGHT  &none             &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT  &none
