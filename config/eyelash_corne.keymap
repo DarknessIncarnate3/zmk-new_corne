@@ -55,7 +55,7 @@
         tapping-term-ms = <250>;
         quick-tap-ms = <200>;
         flavor = "tap-preferred";
-        require-prior-idle-ms = <100>;
+        require-prior-idle-ms = <130>;
     };
 
     zHomeLayer: zHomeLayer {
@@ -67,7 +67,7 @@
         tapping-term-ms = <250>;
         quick-tap-ms = <200>;
         flavor = "tap-preferred";
-        require-prior-idle-ms = <100>;
+        require-prior-idle-ms = <130>;
     };
 
     xTab: xTab {
@@ -231,7 +231,7 @@
         tapping-term-ms = <250>;
         quick-tap-ms = <200>;
         flavor = "tap-preferred";
-        require-prior-idle-ms = <100>;
+        require-prior-idle-ms = <130>;
     };
 
     zHome_ctrl: zHome_ctrl {
@@ -243,7 +243,7 @@
         tapping-term-ms = <250>;
         quick-tap-ms = <200>;
         flavor = "tap-preferred";
-        require-prior-idle-ms = <100>;
+        require-prior-idle-ms = <130>;
     };
 
     zHome_gui: zHome_gui {
@@ -255,7 +255,7 @@
         tapping-term-ms = <250>;
         quick-tap-ms = <200>;
         flavor = "tap-preferred";
-        require-prior-idle-ms = <100>;
+        require-prior-idle-ms = <130>;
     };
 
     combos {
