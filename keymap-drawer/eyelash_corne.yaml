@@ -833,3 +833,6 @@ combos:
 - p: [37, 39]
   k: '%'
   l: [num, cole, tcole]
+- p: [39, 38]
+  k: $
+  l: [num, cole, tcole]
