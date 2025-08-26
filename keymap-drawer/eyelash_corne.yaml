@@ -356,7 +356,7 @@ layers:
   - PG UP
   - PgDn
   - END
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:apple-keyboard-option$$', type: held}
