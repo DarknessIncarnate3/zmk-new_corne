@@ -191,8 +191,8 @@ layers:
   - END
   - {t: '~', h: fn}
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', h: tcole}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: sym}
