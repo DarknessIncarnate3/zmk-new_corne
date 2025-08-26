@@ -818,3 +818,12 @@ combos:
 - p: [17, 16]
   k: {t: '=', s: +}
   l: [num, cole, tcole]
+- p: [37, 38]
+  k: '@'
+  l: [num, cole, tcole]
+- p: [7, 8]
+  k: $$mdi:apple-keyboard-command$$
+  l: [num, cole, tcole]
+- p: [5, 4]
+  k: $$mdi:apple-keyboard-command$$
+  l: [num, cole, tcole]
