@@ -14,7 +14,7 @@ layers:
   - Y
   - {t: ;, h: ql, s: ':'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '-', h: fn, s: _}
+  - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: _}
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
@@ -455,7 +455,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&yBtClear'
-  - {h: '2', s: '$$mdi:bluetooth-connect$$', type: held}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: cole, h: toggle}
   - {t: tcole, h: toggle}
   - {t: num, h: toggle}
@@ -483,7 +483,7 @@ layers:
   - RGB BRD
   - RGB BRI
   - {t: RGB EFF, type: held alternate}
-  - {t: fn, type: held alternate}
+  - {t: fn, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
