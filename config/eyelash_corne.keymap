@@ -460,9 +460,9 @@
             label = "entry";
             display-name = "entry";
             bindings = <
-&kp TAB         &kp COMMA  &kp N1  &kp N2    &kp N3                          &kp LC(X)                              &mmv MOVE_Y(-400)                    &kp ASTERISK         &kp TAB    &kp RET              &kp ESC    &kp BSPC   &kp DEL
-&kp LEFT_SHIFT  &kp N0     &kp N4  &kp N5    &kp N6                          &kp LC(C)           &mmv MOVE_X(-400)  &none              &mmv MOVE_X(400)  &kp PLUS             &kp LEFT   &kp DOWN             &kp UP     &kp RIGHT  &kp SLASH
-&kp LEFT_ALT    &kp DOT    &kp N7  &kp N8    &kp N9                          &kp LC(V)  &to 0                       &mmv MOVE_Y(400)                     &kp MINUS            &kp HOME   &kp PG_UP            &kp PG_DN  &kp END    &zFastLayer 9 TILDE
+&kp TAB         &kp COMMA  &kp N1  &kp N2    &kp N3                          &kp LC(X)                              &mmv MOVE_Y(-400)                    &kp ASTERISK         &kp TAB    &kp RET              &kp ESC    &kp DELETE  &kp BACKSPACE
+&kp LEFT_SHIFT  &kp N0     &kp N4  &kp N5    &kp N6                          &kp LC(C)           &mmv MOVE_X(-400)  &none              &mmv MOVE_X(400)  &kp PLUS             &kp LEFT   &kp DOWN             &kp UP     &kp RIGHT   &kp SLASH
+&kp LEFT_ALT    &kp DOT    &kp N7  &kp N8    &kp N9                          &kp LC(V)  &to 0                       &mmv MOVE_Y(400)                     &kp MINUS            &kp HOME   &kp PG_UP            &kp PG_DN  &kp END     &zFastLayer 9 TILDE
                                    &kp LEFT  &zFast_Mod LEFT_CONTROL ESCAPE  &kp RIGHT                                                                   &zFastLayer 4 ENTER  &kp SPACE  &zFastLayer 6 ENTER
             >;
 
@@ -497,7 +497,7 @@
         layer_sym {
             display-name = "sym";
             bindings = <
-&kp TAB            &kp PERCENT  &kp MINUS       &kp LESS_THAN                   &kp GREATER_THAN     &kp PLUS                     &to 0         &kp PIPE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp SEMICOLON  &none
+&kp TAB            &kp PERCENT  &kp MINUS       &kp LESS_THAN                   &kp GREATER_THAN     &kp PLUS                     &to 0         &kp PIPE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp SEMICOLON  &kp DELETE
 &kp DOUBLE_QUOTES  &kp CARET    &kp DOLLAR      &kp LEFT_BRACKET                &kp RIGHT_BRACKET    &kp AT_SIGN           &to 5  &none  &to 4  &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL  &kp ASTERISK   &kp SINGLE_QUOTE
 &none              &kp POUND    &kp UNDERSCORE  &kp AMPERSAND                   &kp BACKSLASH        &kp GRAVE    &none           &to 6         &kp TILDE        &kp SLASH             &kp COMMA              &kp DOT    &kp QUESTION   &mo 7
                                                 &zFast_Mod LEFT_CONTROL ESCAPE  &zFastLayer 5 SPACE  &key_repeat                                &kp ENTER        &kp LEFT_SHIFT        &to 0
