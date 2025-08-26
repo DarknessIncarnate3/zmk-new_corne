@@ -399,7 +399,7 @@ layers:
   - F
   - P
   - G
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: cole, h: toggle}
   - J
   - L
   - U
@@ -412,9 +412,9 @@ layers:
   - S
   - T
   - D
+  - {t: num, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: tcole, h: toggle}
   - H
   - N
   - E
@@ -428,7 +428,7 @@ layers:
   - V
   - B
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: sym, h: toggle}
   - K
   - M
   - {t: ',', s: <}
