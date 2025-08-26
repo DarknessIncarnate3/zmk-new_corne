@@ -351,6 +351,32 @@
             require-prior-idle-ms = <5>;
             layers = <5 0 4>;
         };
+
+        at {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <37 38>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4>;
+        };
+
+        meta {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <7 8>;
+            timeout-ms = <30>;
+            slow-release;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4>;
+        };
+
+        meta2 {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <5 4>;
+            timeout-ms = <30>;
+            slow-release;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4>;
+        };
     };
 
     macros {
