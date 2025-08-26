@@ -630,7 +630,7 @@
             bindings = <
 &kp TAB            &kp PERCENT  &kp MINUS       &kp LESS_THAN                   &kp GREATER_THAN     &kp PLUS                     &to 0         &kp PIPE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp SEMICOLON  &kp DELETE
 &kp DOUBLE_QUOTES  &kp CARET    &kp DOLLAR      &kp LEFT_BRACKET                &kp RIGHT_BRACKET    &kp AT_SIGN           &to 5  &none  &to 4  &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL  &kp ASTERISK   &kp SINGLE_QUOTE
-&none              &kp POUND    &kp UNDERSCORE  &kp AMPERSAND                   &kp BACKSLASH        &kp GRAVE    &none           &to 6         &kp TILDE        &kp SLASH             &kp COMMA              &kp DOT    &kp QUESTION   &mo 7
+&none              &kp POUND    &kp UNDERSCORE  &kp AMPERSAND                   &kp BACKSLASH        &kp GRAVE    &none           &to 6         &kp TILDE        &kp SLASH             &kp COMMA              &kp DOT    &kp QUESTION   &mo 9
                                                 &zFast_Mod LEFT_CONTROL ESCAPE  &zFastLayer 5 SPACE  &key_repeat                                &kp ENTER        &kp LEFT_SHIFT        &to 0
             >;
 
