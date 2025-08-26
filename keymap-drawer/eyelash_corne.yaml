@@ -159,8 +159,8 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - {t: '0', s: )}
   - {t: '4', s: $}
@@ -307,7 +307,7 @@ layers:
   - )
   - ':'
   - {t: ;, s: ':'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:backspace-reverse-outline$$
   - '"'
   - ^
   - {t: $, type: held alternate}
