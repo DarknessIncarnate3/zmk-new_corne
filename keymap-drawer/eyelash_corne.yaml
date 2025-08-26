@@ -785,54 +785,39 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: cole, h: toggle}
 combos:
-- p: [23, 24]
-  k: '"'
-  l: [sym]
-- p: [24, 25]
-  k: {t: '''', s: '"'}
-  l: [sym]
-- p: [17, 16]
-  k: $$mdi:apple-keyboard-command$$
-  l: [sym, num]
-- p: [16, 15]
-  k: $$mdi:apple-keyboard-shift$$
-  l: [num, sym]
-- p: [15, 14]
-  k: $$mdi:apple-keyboard-control$$
-  l: [num, sym]
 - p: [8, 9]
   k: (
-  l: [num, cole, tcole]
+  l: [num, cole, tcole, entry]
 - p: [9, 10]
   k: )
-  l: [num, cole, tcole]
+  l: [num, cole, tcole, entry]
 - p: [10, 8]
   k: '"'
-  l: [num, cole, tcole]
+  l: [num, cole, tcole, entry]
 - p: [23, 24]
   k: '{'
-  l: [num, cole, tcole]
+  l: [num, cole, tcole, entry]
 - p: [24, 25]
   k: '}'
-  l: [num, cole, tcole]
+  l: [num, cole, tcole, entry]
 - p: [32, 31]
   k: {t: '=', s: +}
-  l: [num, cole, tcole]
+  l: [num, cole, tcole, entry]
 - p: [37, 39]
   k: '@'
-  l: [num, cole, tcole]
+  l: [num, cole, tcole, entry]
 - p: [7, 8]
   k: $$mdi:apple-keyboard-command$$
-  l: [num, cole, tcole]
+  l: [num, cole, tcole, entry]
 - p: [5, 4]
   k: $$mdi:apple-keyboard-command$$
-  l: [num, cole, tcole]
+  l: [num, cole, tcole, entry]
 - p: [23, 25, 24]
   k: '#'
-  l: [num, cole, tcole]
+  l: [num, cole, tcole, entry]
 - p: [37, 39, 38]
   k: '%'
-  l: [num, cole, tcole]
+  l: [num, cole, tcole, entry]
 - p: [23, 25]
   k: $
   l: [num, cole, tcole]
