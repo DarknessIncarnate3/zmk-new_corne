@@ -827,3 +827,9 @@ combos:
 - p: [5, 4]
   k: $$mdi:apple-keyboard-command$$
   l: [num, cole, tcole]
+- p: [23, 25]
+  k: '#'
+  l: [num, cole, tcole]
+- p: [37, 39]
+  k: '%'
+  l: [num, cole, tcole]
