@@ -836,3 +836,21 @@ combos:
 - p: [39, 38]
   k: $
   l: [num, cole, tcole]
+- p: [17, 15]
+  k: '*'
+  l: [num, cole, tcole, entry]
+- p: [2, 4]
+  k: +
+  l: [num, cole, tcole, entry]
+- p: [30, 32]
+  k: {t: '-', s: _}
+  l: [num, cole, tcole, entry]
+- p: [30, 31]
+  k: {t: /, s: '?'}
+  l: [num, cole, tcole, entry]
+- p: [3, 4]
+  k: '>'
+  l: [num, cole, tcole, entry]
+- p: [3, 2]
+  k: <
+  l: [num, cole, tcole, entry]
