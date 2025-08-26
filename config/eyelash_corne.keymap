@@ -465,6 +465,14 @@
             require-prior-idle-ms = <5>;
             layers = <5 0 4 3>;
         };
+
+        and {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <26 25>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
     };
 
     macros {
