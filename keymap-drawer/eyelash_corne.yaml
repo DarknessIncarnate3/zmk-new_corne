@@ -860,3 +860,6 @@ combos:
 - p: [16, 15]
   k: {t: '[', s: '{'}
   l: [num, cole, tcole, entry]
+- p: [26, 25]
+  k: '&'
+  l: [num, cole, tcole, entry]
