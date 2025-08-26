@@ -497,7 +497,7 @@ layers:
   - F2
   - {t: F3, type: held}
   - F3
-  - $$mdi:backspace-reverse-outline$$
+  - {t: cole, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -510,9 +510,9 @@ layers:
   - F5
   - F6
   - F5
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: num, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&key_repeat'
+  - {t: tcole, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
@@ -526,7 +526,7 @@ layers:
   - F9
   - F15
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - PASTE
+  - {t: sym, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
