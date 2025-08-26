@@ -401,6 +401,54 @@
             require-prior-idle-ms = <5>;
             layers = <5 0 4>;
         };
+
+        star {
+            bindings = <&kp STAR>;
+            key-positions = <17 15>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <2 4>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <30 32>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        divide {
+            bindings = <&kp SLASH>;
+            key-positions = <30 31>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        greater {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <3 4>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        less {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <3 2>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
     };
 
     macros {
