@@ -815,7 +815,7 @@ combos:
 - p: [24, 25]
   k: '}'
   l: [num, cole, tcole]
-- p: [17, 16]
+- p: [32, 31]
   k: {t: '=', s: +}
   l: [num, cole, tcole]
 - p: [37, 39]
@@ -853,4 +853,10 @@ combos:
   l: [num, cole, tcole, entry]
 - p: [3, 2]
   k: <
+  l: [num, cole, tcole, entry]
+- p: [17, 16]
+  k: {t: ']', s: '}'}
+  l: [num, cole, tcole, entry]
+- p: [16, 15]
+  k: {t: '[', s: '{'}
   l: [num, cole, tcole, entry]
