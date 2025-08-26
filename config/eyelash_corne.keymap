@@ -354,7 +354,7 @@
 
         at {
             bindings = <&kp AT_SIGN>;
-            key-positions = <37 38>;
+            key-positions = <37 39>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
             layers = <5 0 4>;
@@ -380,7 +380,7 @@
 
         hash {
             bindings = <&kp HASH>;
-            key-positions = <23 25>;
+            key-positions = <23 25 24>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
             layers = <5 0 4>;
@@ -388,7 +388,7 @@
 
         percentage {
             bindings = <&kp PERCENT>;
-            key-positions = <37 39>;
+            key-positions = <37 39 38>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
             layers = <5 0 4>;
@@ -396,7 +396,7 @@
 
         dollar {
             bindings = <&kp DOLLAR>;
-            key-positions = <39 38>;
+            key-positions = <23 25>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
             layers = <5 0 4>;
