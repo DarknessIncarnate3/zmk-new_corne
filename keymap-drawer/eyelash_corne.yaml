@@ -30,18 +30,18 @@ layers:
   - {t: O, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '''', h: f1, s: '"'}
   - {t: \, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: Z, h: repeat}
+  - {t: Z, h: cole}
   - {t: X, h: sym}
   - C
   - {t: V, h: num}
   - B
-  - {t: entry, h: toggle}
+  - {t: cole, h: toggle}
   - {t: sym, h: toggle}
   - K
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: repeat, s: '?'}
+  - {t: /, h: cole, s: '?'}
   - {t: '`', h: fn, s: '~'}
   - {t: F13, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:keyboard-space$$
@@ -97,56 +97,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: sym}
   - {t: '$$mdi:keyboard-return$$', h: num}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', h: fn}
-  entry:
-  - $$mdi:keyboard-tab$$
-  - {t: ',', s: <}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - Ctl+X
-  - '&mmv MOVE_Y(-400)'
-  - '*'
-  - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-esc$$
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '0', s: )}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - Ctl+C
-  - '&mmv MOVE_X(-400)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mmv MOVE_X(400)'
-  - +
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-option$$
-  - {t: ., s: '>'}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - Ctl+V
-  - {t: cole, h: toggle}
-  - '&mmv MOVE_Y(400)'
-  - {t: '-', s: _}
-  - HOME
-  - PG UP
-  - PG DN
-  - END
-  - {t: '~', h: fn}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-return$$', h: cole}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: sym}
+  - {t: '$$mdi:backspace$$', h: ctl}
   num:
   - $$mdi:keyboard-tab$$
   - {t: ',', s: <}
@@ -159,7 +110,7 @@ layers:
   - HOME
   - PgDn
   - PgUp
-  - {t: END, h: entry}
+  - {t: END, h: cole}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '0', s: )}
@@ -245,153 +196,55 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  mouse:
-  - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - $$mdi:mouse-left-click-outline$$
-  - Ctl+X
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - $$mdi:backspace-reverse-outline$$
-  - HOME
-  - PG UP
-  - PgDn
-  - END
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
-  - LGUI
-  - Ctl+C
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-scroll-wheel$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+BACK
-  - Gui+FORWARD
-  - Ctl+V
-  - $$mdi:volume-off$$
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:pan-left$$
-  - $$mdi:pan-down$$
-  - $$mdi:pan-up$$
-  - $$mdi:pan-right$$
-  - fn
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: cole, h: toggle}
-  repeat:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Q
-  - W
-  - F
-  - P
-  - G
-  - {t: cole, h: toggle}
-  - J
-  - L
-  - U
-  - Y
-  - {t: ;, s: ':'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - A
-  - R
-  - S
-  - T
-  - D
-  - {t: num, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: cole, h: toggle}
-  - H
-  - N
-  - E
-  - I
-  - O
-  - {t: '''', s: '"'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Z, type: held}
-  - X
-  - C
-  - V
-  - B
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: sym, h: toggle}
-  - K
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?', type: held alternate}
-  - fn
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   fn:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+A
-  - Ctl+X
-  - Ctl+V
-  - Ctl+C
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {t: f1, h: toggle}
+  - {t: cole, h: toggle}
+  - {t: qwerty, h: toggle}
+  - {t: cole, h: toggle}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - RGB SAI
+  - '&yPower'
+  - '&yOff'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:apple-keyboard-shift$$', type: held alternate}
-  - {t: '$$mdi:apple-keyboard-option$$', type: held alternate}
-  - LGUI
+  - '&yBtClear'
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {t: cole, h: toggle}
+  - {t: cole, h: toggle, type: held alternate}
+  - {t: num, h: toggle, type: held alternate}
+  - {t: sym, h: toggle}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - RGB HUD
+  - '&yColour'
+  - RGB HUI
+  - '&yBacklight'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '&bl BL_INC', type: held alternate}
+  - {t: '&bl BL_DEC', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - LGUI
-  - {t: '$$mdi:apple-keyboard-option$$', type: held alternate}
-  - {t: '$$mdi:apple-keyboard-shift$$', type: held alternate}
-  - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Ctl+Z, type: held alternate}
-  - {t: Ctl+R, type: held alternate}
-  - $$mdi:keyboard-tab-reverse$$
-  - {t: '$$mdi:keyboard-tab$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: cole, h: toggle}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {t: cole, h: toggle}
+  - {t: cole, h: toggle, type: held alternate}
+  - {t: cole, h: toggle}
+  - {t: fn, h: toggle, type: held alternate}
+  - '&yOutput'
+  - RGB TOG
+  - RGB SAD
+  - RGB BRI
+  - RGB EFR
+  - RGB BRD
+  - RGB BRI
+  - RGB EFF
+  - {t: fn, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: cole, h: toggle, type: held alternate}
   f1:
   - $$mdi:alpha-w-box$$
   - F11
@@ -588,85 +441,134 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  ctl:
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+A
+  - Ctl+X
+  - Ctl+V
+  - Ctl+C
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - LGUI
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - LGUI
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+Z
+  - Ctl+R
+  - $$mdi:keyboard-tab-reverse$$
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
 combos:
 - p: [8, 9]
   k: (
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [9, 10]
   k: )
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [10, 8]
   k: '"'
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [23, 24]
   k: '{'
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [24, 25]
   k: '}'
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [32, 31]
   k: {t: '=', s: +}
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [37, 39]
   k: '@'
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [7, 8]
   k: $$mdi:apple-keyboard-command$$
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [5, 4]
   k: $$mdi:apple-keyboard-command$$
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [23, 25, 24]
   k: '#'
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [37, 39, 38]
   k: '%'
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [23, 25]
   k: $
   l: [num, cole]
 - p: [17, 15]
   k: '*'
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [2, 4]
   k: +
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [30, 32]
   k: {t: '-', s: _}
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [30, 31]
   k: {t: /, s: '?'}
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [3, 4]
   k: '>'
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [3, 2]
   k: <
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [17, 16]
   k: {t: ']', s: '}'}
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [16, 15]
   k: {t: '[', s: '{'}
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [26, 25]
   k: '&'
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [1, 2]
   k: ^
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [14, 15]
   k: '~'
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [22, 23]
   k: $$mdi:apple-keyboard-shift$$
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [18, 17]
   k: $$mdi:apple-keyboard-shift$$
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [36, 37]
   k: $$mdi:apple-keyboard-option$$
-  l: [num, cole, entry]
+  l: [num, cole]
 - p: [33, 32]
   k: $$mdi:apple-keyboard-option$$
-  l: [num, cole, entry]
+  l: [num, cole]
