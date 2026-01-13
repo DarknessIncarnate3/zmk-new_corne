@@ -1,54 +1,5 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  cole:
-  - $$mdi:keyboard-tab$$
-  - {t: Q, h: '&alt_modlayer'}
-  - {t: W, h: '&ctrl_modlayer'}
-  - {t: F, h: '&gui_modlayer'}
-  - {t: P, h: cole}
-  - G
-  - {t: cole, h: toggle}
-  - J
-  - L
-  - U
-  - Y
-  - {t: ;, h: cole, s: ':'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: _}
-  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: R, h: num}
-  - {t: S, h: sym}
-  - {t: T, h: '$$mdi:apple-keyboard-command$$'}
-  - D
-  - {t: num, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: cole, h: toggle}
-  - H
-  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: E, h: sym}
-  - {t: I, h: num}
-  - {t: O, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '''', h: cole, s: '"'}
-  - {t: \, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: Z, h: cole}
-  - {t: X, h: sym}
-  - C
-  - {t: V, h: num}
-  - B
-  - {t: cole, h: toggle}
-  - {t: sym, h: toggle}
-  - K
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, h: cole, s: '?'}
-  - {t: '`', h: fn, s: '~'}
-  - {t: F13, h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-return$$', h: num}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: sym, h: sym}
   qwerty:
   - $$mdi:keyboard-tab$$
   - Q
@@ -110,28 +61,28 @@ layers:
   - HOME
   - PgDn
   - PgUp
-  - {t: END, h: cole}
+  - {t: END, h: qwerty}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '0', s: )}
-  - {t: '4', s: $, type: held}
+  - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - Ctl+C
   - Alt+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Alt+Ctl+$$mdi:arrow-right-bold$$
+  - Alt+$$mdi:arrow-right-bold$$
   - +
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
-  - {t: '$$mdi:arrow-up-bold$$', type: held alternate}
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-option$$
   - {t: ., s: '>'}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
-  - {t: '9', s: (, type: held alternate}
+  - {t: '9', s: (}
   - Ctl+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Alt+$$mdi:arrow-down-bold$$
@@ -144,7 +95,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   sym:
@@ -164,7 +115,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - F10
   - F4
-  - {t: F5, type: held}
+  - F5
   - F6
   - {t: ;, s: ':'}
   - Alt+$$mdi:arrow-left-bold$$
@@ -172,13 +123,13 @@ layers:
   - Alt+$$mdi:arrow-right-bold$$
   - '!'
   - '*'
-  - {t: '#', type: held alternate}
+  - '#'
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - F12
-  - {t: F7, type: held alternate}
+  - F7
   - F8
   - F9
   - $
@@ -192,10 +143,10 @@ layers:
   - fn
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   fn:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -212,8 +163,8 @@ layers:
   - '&yBtClear'
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - RGB HUD
@@ -221,15 +172,15 @@ layers:
   - RGB HUI
   - '&yBacklight'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '&bl BL_INC', type: held alternate}
-  - {t: '&bl BL_DEC', type: held alternate}
+  - '&bl BL_INC'
+  - '&bl BL_DEC'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: cole, h: toggle}
+  - {t: qwerty, h: toggle}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&yOutput'
   - RGB TOG
   - RGB SAD
@@ -244,7 +195,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: cole, h: toggle, type: held alternate}
+  - {t: qwerty, h: toggle}
   LAYER_QL:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+A
@@ -297,82 +248,82 @@ layers:
 combos:
 - p: [8, 9]
   k: (
-  l: [num, cole]
+  l: [num]
 - p: [9, 10]
   k: )
-  l: [num, cole]
+  l: [num]
 - p: [10, 8]
   k: '"'
-  l: [num, cole]
+  l: [num]
 - p: [23, 24]
   k: '{'
-  l: [num, cole]
+  l: [num]
 - p: [24, 25]
   k: '}'
-  l: [num, cole]
+  l: [num]
 - p: [32, 31]
   k: {t: '=', s: +}
-  l: [num, cole]
+  l: [num]
 - p: [37, 39]
   k: '@'
-  l: [num, cole]
+  l: [num]
 - p: [7, 8]
   k: $$mdi:apple-keyboard-command$$
-  l: [num, cole]
+  l: [num]
 - p: [5, 4]
   k: $$mdi:apple-keyboard-command$$
-  l: [num, cole]
+  l: [num]
 - p: [23, 25, 24]
   k: '#'
-  l: [num, cole]
+  l: [num]
 - p: [37, 39, 38]
   k: '%'
-  l: [num, cole]
+  l: [num]
 - p: [23, 25]
   k: $
-  l: [num, cole]
+  l: [num]
 - p: [17, 15]
   k: '*'
-  l: [num, cole]
+  l: [num]
 - p: [2, 4]
   k: +
-  l: [num, cole]
+  l: [num]
 - p: [30, 32]
   k: {t: '-', s: _}
-  l: [num, cole]
+  l: [num]
 - p: [30, 31]
   k: {t: /, s: '?'}
-  l: [num, cole]
+  l: [num]
 - p: [3, 4]
   k: '>'
-  l: [num, cole]
+  l: [num]
 - p: [3, 2]
   k: <
-  l: [num, cole]
+  l: [num]
 - p: [17, 16]
   k: {t: ']', s: '}'}
-  l: [num, cole]
+  l: [num]
 - p: [16, 15]
   k: {t: '[', s: '{'}
-  l: [num, cole]
+  l: [num]
 - p: [26, 25]
   k: '&'
-  l: [num, cole]
+  l: [num]
 - p: [1, 2]
   k: ^
-  l: [num, cole]
+  l: [num]
 - p: [14, 15]
   k: '~'
-  l: [num, cole]
+  l: [num]
 - p: [22, 23]
   k: $$mdi:apple-keyboard-shift$$
-  l: [num, cole]
+  l: [num]
 - p: [18, 17]
   k: $$mdi:apple-keyboard-shift$$
-  l: [num, cole]
+  l: [num]
 - p: [36, 37]
   k: $$mdi:apple-keyboard-option$$
-  l: [num, cole]
+  l: [num]
 - p: [33, 32]
   k: $$mdi:apple-keyboard-option$$
-  l: [num, cole]
+  l: [num]
