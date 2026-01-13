@@ -526,14 +526,14 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&mo 12>,
+                <&mo 0>,
                 <&macro_press>,
                 <&kp LEFT_GUI>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&kp LEFT_GUI>,
                 <&macro_release>,
-                <&mo 12>;
+                <&mo 0>;
 
             label = "GUI_MODLAYER";
         };
@@ -628,10 +628,10 @@
         layer_fn {
             display-name = "fn";
             bindings = <
-&bt BT_SEL 0  &to 8   &to 0  &to 1  &to 2  &bt BT_SEL 3                                      &rgb_ug RGB_SAI                   &yPower          &yOff            &none            &none            &none            &yBtClear
-&bt BT_SEL 1  &to 0   &to 0  &to 3  &to 4  &bt BT_SEL 4                     &rgb_ug RGB_HUD  &yColour         &rgb_ug RGB_HUI  &yBacklight      &none            &bl BL_INC       &bl BL_DEC       &none            &to 13
-&bt BT_SEL 2  &to 13  &to 5  &to 6  &to 7  &yOutput      &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                   &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &mo 7
-                             &none  &none  &none                                                                               &none            &none            &to 0
+&bt BT_SEL 0  &to 8  &to 0  &to 1  &to 2  &bt BT_SEL 3                                      &rgb_ug RGB_SAI                   &yPower          &yOff            &none            &none            &none            &yBtClear
+&bt BT_SEL 1  &to 0  &to 0  &to 3  &to 4  &bt BT_SEL 4                     &rgb_ug RGB_HUD  &yColour         &rgb_ug RGB_HUI  &yBacklight      &none            &bl BL_INC       &bl BL_DEC       &none            &to 0
+&bt BT_SEL 2  &to 0  &to 5  &to 6  &to 7  &yOutput      &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                   &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &mo 7
+                            &none  &none  &none                                                                               &none            &none            &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
@@ -680,26 +680,13 @@
             >;
         };
 
-        layer_gui {
-            label = "gui";
+        layer_12 {
             bindings = <
-&kp ESCAPE      &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &kp E      &kp Q                      &none         &none      &kp HOME        &kp PG_UP  &kp PG_DN  &kp END     &kp PRINTSCREEN
-&kp LA(PERIOD)  &kp LS(TAB)       &kp LS(S)       &none    &kp TAB    &kp W               &none  &none  &none  &kp PLUS   &kp LEFT        &kp DOWN   &kp UP     &kp RIGHT   &kp PAUSE_BREAK
-&kp X           &kp P             &kp LC(D)       &kp M    &kp D      &kp L      &none           &none         &kp MINUS  &kp R           &kp V      &none      &kp LC(F4)  &mo 7
-                                                  &kp ESC  &kp SPACE  &kp ENTER                                &kp RET    &kp LEFT_SHIFT  &none
+&none  &kp LC(A)  &kp LC(X)  &kp LC(V)    &kp LC(C)                    &none                  &none         &none  &none     &none     &none      &none      &none
+&none  &kp LCTRL  &kp LSHFT  &kp LALT     &kp LGUI                     &none           &none  &none  &none  &none  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &none
+&none  &kp LC(Z)  &kp LC(R)  &kp LS(TAB)  &kp TAB                      &none  &none           &none         &none  &none     &none     &none      &none      &none
+                             &kp LSHFT    &zFast_Mod LEFT_SHIFT ENTER  &none                                &none  &none     &none
             >;
-        };
-
-        layer_media {
-            label = "media";
-            bindings = <
-&kp C_QUIT  &kp C_RED_BUTTON  &kp C_BLUE_BUTTON  &kp C_GREEN  &kp C_YELLOW_BUTTON  &kp C_MUTE                               &kp UP                &none             &kp P      &kp N     &none   &none      &none
-&to 0       &kp C_REWIND      &kp C_PREVIOUS     &kp C_NEXT   &kp C_FAST_FORWARD   &kp C_SUBTITLES                &kp LEFT  &kp ENTER  &kp RIGHT  &none             &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT  &none
-&none       &kp LEFT          &kp UP             &kp DOWN     &kp RIGHT            &kp C_STOP       &kp C_MUTE              &kp DOWN              &none             &none      &none     &none   &none      &mo 7
-                                                 &kp LCTRL    &kp C_PLAY_PAUSE     &kp SPACE                                                      &kp LEFT_CONTROL  &kp SPACE  &to 0
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
     };
 };
