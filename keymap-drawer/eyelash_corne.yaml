@@ -202,7 +202,7 @@ layers:
   - F1
   - F2
   - F3
-  - +
+  - {t: '`', s: '~'}
   - {t: cole, h: toggle}
   - '&'
   - (
@@ -210,31 +210,31 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
-  - '"'
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - F10
   - F4
   - {t: F5, type: held}
   - F6
-  - '@'
+  - {t: ;, s: ':'}
   - {t: num, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: cole, h: toggle}
-  - Sft+!
-  - Sft+*
-  - {t: Sft+#, type: held alternate}
+  - '!'
+  - '*'
+  - {t: '#', type: held alternate}
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '''', s: '"'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
   - F12
   - {t: F7, type: held alternate}
   - F8
   - F9
-  - {t: '`', s: '~'}
+  - $
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: sym, h: toggle}
+  - '@'
   - '%'
-  - {t: /, s: '?'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
