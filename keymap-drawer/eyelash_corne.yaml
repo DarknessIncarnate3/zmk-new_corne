@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   cole:
-  - $$mdi:keyboard-tab$$
+  - A
   - {t: Q, h: '&alt_modlayer'}
   - {t: W, h: '&ctrl_modlayer'}
   - {t: F, h: '&gui_modlayer'}
