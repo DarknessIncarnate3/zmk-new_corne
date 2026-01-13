@@ -490,14 +490,14 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&mo 6>,
+                <&mo 0>,
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&kp LALT>,
                 <&macro_release>,
-                <&mo 6>;
+                <&mo 0>;
         };
 
         ctrl_modlayer: ctrl_modlayer {
@@ -545,8 +545,8 @@
         default_layer {
             display-name = "cole";
             bindings = <
-&kp TAB                              &zHome_alt 0 Q            &zHome_ctrl 0 W  &zHome_gui 0 F             &zHomeLayer 5 P       &kp G                                           &to 0         &kp J                &kp L                        &kp U             &kp Y            &zHomeLayer 0 SEMICOLON   &kp BSPC
-&zHomeMod LSHIFT MINUS               &zHomeMod LEFT_CONTROL A  &zHomeLayer 2 R  &zHomeLayer 3 S            &zHomeMod LEFT_GUI T  &kp D                                    &to 2  &none  &to 0  &kp H                &zHomeMod LEFT_GUI N         &zHomeLayer 3 E   &zHomeLayer 2 I  &zHomeMod LEFT_CONTROL O  &lt 5 SQT
+&kp TAB                              &zHome_alt 0 Q            &zHome_ctrl 0 W  &zHome_gui 0 F             &zHomeLayer 0 P       &kp G                                           &to 0         &kp J                &kp L                        &kp U             &kp Y            &zHomeLayer 0 SEMICOLON   &kp BSPC
+&zHomeMod LSHIFT MINUS               &zHomeMod LEFT_CONTROL A  &zHomeLayer 2 R  &zHomeLayer 3 S            &zHomeMod LEFT_GUI T  &kp D                                    &to 2  &none  &to 0  &kp H                &zHomeMod LEFT_GUI N         &zHomeLayer 3 E   &zHomeLayer 2 I  &zHomeMod LEFT_CONTROL O  &lt 0 SQT
 &zHomeMod LEFT_ALT NON_US_BACKSLASH  &zHomeLayer 0 Z           &zHomeLayer 3 X  &kp C                      &zHomeLayer 2 V       &kp B                           &to 0           &to 3         &kp K                &kp M                        &kp COMMA         &kp DOT          &zHomeLayer 0 SLASH       &lt 4 GRAVE
                                                                                 &zFast_Mod LEFT_SHIFT F13  &kp SPACE             &zFast_Mod LEFT_CONTROL ESCAPE                                &zFastLayer 2 ENTER  &zFast_Mod LEFT_SHIFT SPACE  &stickylayer 3 3
             >;
@@ -560,7 +560,7 @@
 &kp TAB                  &kp Q  &kp W  &kp E                 &kp R                        &kp T                                          &kp LA(UP)                   &kp Y                &kp U      &kp I                    &kp O    &kp P     &kp BSPC
 &zFast_Mod LCTRL ESCAPE  &kp A  &kp S  &kp D                 &kp F                        &kp G                            &kp LA(LEFT)  &none         &kp LA(RIGHT)  &kp H                &kp J      &kp K                    &kp L    &kp SEMI  &kp SQT
 &kp LEFT_ALT             &kp Z  &kp X  &kp C                 &kp V                        &kp B              &kp C_MUTE                  &kp LA(DOWN)                 &kp N                &kp M      &kp COMMA                &kp DOT  &kp FSLH  &mo 4
-                                       &zFastLayer 7 ESCAPE  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 3 ESC                                                           &zFastLayer 2 ENTER  &kp SPACE  &zFastLayer 7 BACKSPACE
+                                       &zFastLayer 5 ESCAPE  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 3 ESC                                                           &zFastLayer 2 ENTER  &kp SPACE  &zFastLayer 5 BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -594,36 +594,13 @@
         layer_fn {
             display-name = "fn";
             bindings = <
-&bt BT_SEL 0  &to 5  &to 0  &to 1  &to 0  &bt BT_SEL 3                                      &rgb_ug RGB_SAI                   &yPower          &yOff            &none            &none            &none            &yBtClear
-&bt BT_SEL 1  &to 0  &to 0  &to 2  &to 3  &bt BT_SEL 4                     &rgb_ug RGB_HUD  &yColour         &rgb_ug RGB_HUI  &yBacklight      &none            &bl BL_INC       &bl BL_DEC       &none            &to 0
-&bt BT_SEL 2  &to 0  &to 0  &to 0  &to 4  &yOutput      &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                   &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &mo 4
+&bt BT_SEL 0  &none  &none  &none  &none  &bt BT_SEL 3                                      &rgb_ug RGB_SAI                   &yPower          &yOff            &none            &none            &none            &yBtClear
+&bt BT_SEL 1  &none  &none  &none  &none  &bt BT_SEL 4                     &rgb_ug RGB_HUD  &yColour         &rgb_ug RGB_HUI  &yBacklight      &none            &bl BL_INC       &bl BL_DEC       &none            &to 0
+&bt BT_SEL 2  &none  &none  &none  &none  &yOutput      &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                   &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &mo 4
                             &none  &none  &none                                                                               &none            &none            &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
-        };
-
-        layer_f1 {
-            display-name = "f1";
-            bindings = <
-&caps_word  &kp F11  &kp F1  &kp F2   &kp F3     &kp F3                     &to 0         &none  &none      &none      &none     &none     &none
-&none       &kp F10  &kp F4  &kp F5   &kp F6     &kp F5              &to 2  &none  &to 0  &none  &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI  &none
-&none       &kp F12  &kp F7  &kp F8   &kp F9     &kp F15    &none           &to 3         &none  &none      &none      &none     &none     &mo 4
-                             &kp ESC  &kp SPACE  &kp ENTER                                &to 0  &none      &to 5
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-        };
-
-        layer_alt {
-            bindings = <
-&none  &none  &kp LEFT_CONTROL  &none        &kp D      &kp F4                     &none         &kp P    &kp HOME  &kp PG_UP  &kp PG_DN  &kp END    &none
-&none  &none  &kp LEFT_SHIFT    &kp LS(TAB)  &kp TAB    &none               &none  &none  &none  &none    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none
-&none  &none  &none             &none        &none      &none      &none           &none         &none    &none     &none      &none      &kp A      &mo 4
-                                &kp ESC      &kp SPACE  &kp ENTER                                &kp RET  &none     &none
-            >;
-
-            label = "alt";
         };
 
         LAYER_QL {
