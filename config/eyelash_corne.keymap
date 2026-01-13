@@ -582,10 +582,10 @@
         layer_num {
             display-name = "num";
             bindings = <
-&kp TAB         &kp COMMA  &kp N1  &kp N2                          &kp N3                       &kp LC(X)                                   &kp LA(UP_ARROW)                     &kp ASTERISK  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &zHomeLayer 2 END  &kp DELETE
-&kp LEFT_SHIFT  &kp N0     &kp N4  &kp N5                          &kp N6                       &kp LC(C)                     &kp LA(LEFT)  &none             &kp LA(LC(RIGHT))  &kp PLUS      &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT          &kp SLASH
-&kp LEFT_ALT    &kp DOT    &kp N7  &kp N8                          &kp N9                       &kp LC(V)            &none                  &kp LA(DOWN)                         &kp MINUS     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT    &zFastLayer 7 LC(A)
-                                   &zFast_Mod LEFT_CONTROL ESCAPE  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 5 ENTER                                                              &none         &none           &none
+&kp TAB         &kp COMMA  &kp N1  &kp N2  &kp N3                       &kp LC(X)                         &kp LA(UP_ARROW)                     &kp ASTERISK  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &zHomeLayer 2 END  &kp DELETE
+&kp LEFT_SHIFT  &kp N0     &kp N4  &kp N5  &kp N6                       &kp LC(C)           &kp LA(LEFT)  &none             &kp LA(LC(RIGHT))  &kp PLUS      &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT          &kp SLASH
+&kp LEFT_ALT    &kp DOT    &kp N7  &kp N8  &kp N9                       &kp LC(V)  &none                  &kp LA(DOWN)                         &kp MINUS     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT    &zFastLayer 7 LC(A)
+                                   &none   &zFast_Mod LEFT_SHIFT ENTER  &none                                                                  &none         &none           &none
             >;
 
             label = "num";
