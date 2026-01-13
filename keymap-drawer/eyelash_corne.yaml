@@ -95,7 +95,7 @@ layers:
   - {t: '''', h: f1, s: '"'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-esc$$', h: num}
-  - {t: '$$mdi:keyboard-return$$', h: cole}
+  - {t: '$$mdi:keyboard-return$$', h: num}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', h: sym}
   entry:
@@ -194,8 +194,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: mouse, type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - LEFT META
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   sym:
   - $$mdi:keyboard-tab$$
   - '%'
