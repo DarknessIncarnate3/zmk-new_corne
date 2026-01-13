@@ -595,10 +595,10 @@
         layer_sym {
             display-name = "sym";
             bindings = <
-&kp TAB            &kp F11  &kp F1  &kp F2                          &kp F3                       &kp PLUS                     &to 0         &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LBKT   &kp RBKT   &kp BACKSLASH
-&kp DOUBLE_QUOTES  &kp F10  &kp F4  &kp F5                          &kp F6                       &kp AT_SIGN           &to 3  &none  &to 0  &kp LS(EXCL)   &kp LS(STAR)          &kp LS(POUND)          &kp MINUS  &kp EQUAL  &kp SINGLE_QUOTE
-&none              &kp F12  &kp F7  &kp F8                          &kp F9                       &kp GRAVE    &none           &to 4         &kp PERCENT    &kp SLASH             &kp COMMA              &kp DOT    &kp FSLH   &mo 7
-                                    &zFast_Mod LEFT_CONTROL ESCAPE  &zFast_Mod LEFT_SHIFT SPACE  &key_repeat                                &kp ENTER      &kp LEFT_SHIFT        &to 0
+&kp TAB                         &kp F11  &kp F1  &kp F2                          &kp F3                       &kp GRAVE                      &to 0         &kp AMPERSAND    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LBKT   &kp RBKT   &kp BACKSLASH
+&zFast_Mod LEFT_CONTROL ESCAPE  &kp F10  &kp F4  &kp F5                          &kp F6                       &kp SEMICOLON           &to 3  &none  &to 0  &kp EXCLAMATION  &kp ASTERISK          &kp POUND              &kp MINUS  &kp EQUAL  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT                  &kp F12  &kp F7  &kp F8                          &kp F9                       &kp DOLLAR     &none           &to 4         &kp AT_SIGN      &kp PERCENT           &kp COMMA              &kp DOT    &kp FSLH   &mo 7
+                                                 &zFast_Mod LEFT_CONTROL ESCAPE  &zFast_Mod LEFT_SHIFT SPACE  &key_repeat                                  &kp ENTER        &kp LEFT_SHIFT        &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
