@@ -203,7 +203,7 @@ layers:
   - F2
   - F3
   - {t: '`', s: '~'}
-  - {t: cole, h: toggle}
+  - $$mdi:arrow-up-bold$$
   - '&'
   - (
   - )
@@ -216,9 +216,9 @@ layers:
   - {t: F5, type: held}
   - F6
   - {t: ;, s: ':'}
-  - {t: num, h: toggle}
+  - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: cole, h: toggle}
+  - $$mdi:arrow-right-bold$$
   - '!'
   - '*'
   - {t: '#', type: held alternate}
@@ -232,7 +232,7 @@ layers:
   - F9
   - $
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: sym, h: toggle}
+  - $$mdi:arrow-down-bold$$
   - '@'
   - '%'
   - {t: ',', s: <}
