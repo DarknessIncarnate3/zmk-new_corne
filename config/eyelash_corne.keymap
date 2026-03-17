@@ -187,10 +187,10 @@
         layer_fn {
             display-name = "fn";
             bindings = <
-&bt BT_SEL 0  &none  &none  &none  &none  &bt BT_SEL 3                                      &rgb_ug RGB_SAI                   &none            &none            &none            &none            &none            &yBtClear
-&bt BT_SEL 1  &to 0  &none  &none  &none  &bt BT_SEL 4                     &rgb_ug RGB_HUD  &yColour         &rgb_ug RGB_HUI  &yBacklight      &none            &bl BL_INC       &bl BL_DEC       &none            &none
-&bt BT_SEL 2  &none  &none  &none  &none  &yOutput      &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                   &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &mo 4
-                            &none  &none  &none                                                                               &none            &none            &none
+&bt BT_SEL 0  &kp LS(Q)  &none  &none  &none  &bt BT_SEL 3                                      &rgb_ug RGB_SAI                   &none            &none            &none            &none            &none            &yBtClear
+&bt BT_SEL 1  &to 0      &none  &none  &none  &bt BT_SEL 4                     &rgb_ug RGB_HUD  &yColour         &rgb_ug RGB_HUI  &yBacklight      &none            &bl BL_INC       &bl BL_DEC       &none            &none
+&bt BT_SEL 2  &none      &none  &none  &none  &yOutput      &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                   &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &mo 4
+                                &none  &none  &none                                                                               &none            &none            &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
