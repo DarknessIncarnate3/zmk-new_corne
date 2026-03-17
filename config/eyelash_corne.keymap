@@ -141,10 +141,10 @@
         qwerty {
             display-name = "qwerty";
             bindings = <
-&kp TAB                  &kp Q  &kp W  &kp E                 &kp R                        &kp T                                          &kp LA(UP)                   &kp Y                &kp U      &kp I                    &kp O    &kp P     &kp BSPC
-&zFast_Mod LCTRL ESCAPE  &kp A  &kp S  &kp D                 &kp F                        &kp G                            &kp LA(LEFT)  &none         &kp LA(RIGHT)  &kp H                &kp J      &kp K                    &kp L    &kp SEMI  &kp SQT
-&kp LEFT_ALT             &kp Z  &kp X  &kp C                 &kp V                        &kp B              &kp C_PLAY                  &kp LA(DOWN)                 &kp N                &kp M      &kp COMMA                &kp DOT  &kp FSLH  &mo 4
-                                       &zFastLayer 3 ESCAPE  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 2 ESC                                                           &zFastLayer 1 ENTER  &kp SPACE  &zFastLayer 3 BACKSPACE
+&kp TAB                  &kp Q  &kp W  &kp F                 &kp P      &kp G                                          &kp LA(UP)                   &kp J                &kp L                        &kp U                    &kp Y    &kp SEMI  &kp BSPC
+&zFast_Mod LCTRL ESCAPE  &kp A  &kp R  &kp S                 &kp T      &kp D                            &kp LA(LEFT)  &none         &kp LA(RIGHT)  &kp H                &kp N                        &kp E                    &kp I    &kp O     &kp SQT
+&kp LEFT_ALT             &kp Z  &kp X  &kp C                 &kp V      &kp B              &kp C_PLAY                  &kp LA(DOWN)                 &kp K                &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &mo 4
+                                       &zFastLayer 3 ESCAPE  &kp SPACE  &zFastLayer 2 ESC                                                           &zFastLayer 1 ENTER  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 3 BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -166,10 +166,10 @@
         layer_sym {
             display-name = "sym";
             bindings = <
-&kp TAB                         &kp F11  &kp F1  &kp F2  &kp F3                       &kp GRAVE                             &kp LA(UP)                   &kp AMPERSAND    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LBKT   &kp RBKT   &kp BACKSLASH
-&zFast_Mod LEFT_CONTROL ESCAPE  &kp F10  &kp F4  &kp F5  &kp F6                       &kp SEMICOLON           &kp LA(LEFT)  &none         &kp LA(RIGHT)  &kp EXCLAMATION  &kp ASTERISK          &kp POUND              &kp MINUS  &kp EQUAL  &kp SINGLE_QUOTE
-&kp LEFT_SHIFT                  &kp F12  &kp F7  &kp F8  &kp F9                       &kp DOLLAR     &none                  &kp LA(DOWN)                 &kp AT_SIGN      &kp PERCENT           &kp COMMA              &kp DOT    &kp FSLH   &mo 4
-                                                 &none   &zFast_Mod LEFT_SHIFT ENTER  &none                                                              &none            &none                 &none
+&kp TAB                         &kp F11  &kp F1  &kp F2  &kp F3                       &kp GRAVE                             &kp LA(UP)                   &kp AMPERSAND    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp HASH   &kp BACKSLASH
+&zFast_Mod LEFT_CONTROL ESCAPE  &kp F10  &kp F4  &kp F5  &kp F6                       &kp SEMICOLON           &kp LA(LEFT)  &none         &kp LA(RIGHT)  &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS     &kp EQUAL  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT                  &kp F12  &kp F7  &kp F8  &kp F9                       &kp DOLLAR     &none                  &kp LA(DOWN)                 &kp AT_SIGN      &kp PERCENT           &kp COMMA              &kp DOT       &kp FSLH   &mo 4
+                                                 &none   &zFast_Mod LEFT_SHIFT ENTER  &kp SPACE                                                          &none            &none                 &none
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
